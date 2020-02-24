@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Rpg_Decks;
 
 namespace Rpg_Decks.UserControls
 {
@@ -15,6 +16,13 @@ namespace Rpg_Decks.UserControls
         public NewControl()
         {
             InitializeComponent();
+        }
+
+        private void NewProfileBtn_Click(object sender, EventArgs e)
+        {
+            
+
+            
         }
     }
 }

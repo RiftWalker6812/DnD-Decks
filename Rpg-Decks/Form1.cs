@@ -19,7 +19,7 @@ namespace Rpg_Decks
         }
 
         //Profile instance structer
-        struct Profile
+        public struct Profile
         {
             public string Name;
 
@@ -39,7 +39,7 @@ namespace Rpg_Decks
             //calls Spawner
             ProSpawn();
 
-
+            
         }
 
         //load all Profiles from List

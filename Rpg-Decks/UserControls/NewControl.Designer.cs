@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
+            this.NewProfileBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -42,11 +43,22 @@
             this.label1.Text = "New Profile";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // NewProfileBtn
+            // 
+            this.NewProfileBtn.Location = new System.Drawing.Point(37, 132);
+            this.NewProfileBtn.Name = "NewProfileBtn";
+            this.NewProfileBtn.Size = new System.Drawing.Size(75, 23);
+            this.NewProfileBtn.TabIndex = 1;
+            this.NewProfileBtn.Text = "Add";
+            this.NewProfileBtn.UseVisualStyleBackColor = true;
+            this.NewProfileBtn.Click += new System.EventHandler(this.NewProfileBtn_Click);
+            // 
             // NewControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.NewProfileBtn);
             this.Controls.Add(this.label1);
             this.Name = "NewControl";
             this.Size = new System.Drawing.Size(148, 198);
@@ -57,5 +69,6 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button NewProfileBtn;
     }
 }
