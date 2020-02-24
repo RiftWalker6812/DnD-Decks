@@ -36,11 +36,13 @@
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.TabControl = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.FlowLayout = new System.Windows.Forms.FlowLayoutPanel();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.profileControl1 = new Rpg_Decks.UserControls.ProfileControl();
             this.menuStrip1.SuspendLayout();
             this.TabControl.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -116,16 +118,6 @@
             this.tabPage1.Text = "Selection Tab";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
-            // 
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(775, 398);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Profile Tab";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
             // FlowLayout
             // 
             this.FlowLayout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -136,6 +128,27 @@
             this.FlowLayout.Name = "FlowLayout";
             this.FlowLayout.Size = new System.Drawing.Size(769, 392);
             this.FlowLayout.TabIndex = 0;
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.profileControl1);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(775, 398);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Profile Tab";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // profileControl1
+            // 
+            this.profileControl1.AutoScroll = true;
+            this.profileControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.profileControl1.Location = new System.Drawing.Point(0, 6);
+            this.profileControl1.Name = "profileControl1";
+            this.profileControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.profileControl1.Size = new System.Drawing.Size(775, 388);
+            this.profileControl1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -153,6 +166,7 @@
             this.menuStrip1.PerformLayout();
             this.TabControl.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -169,6 +183,7 @@
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.FlowLayoutPanel FlowLayout;
+        private UserControls.ProfileControl profileControl1;
     }
 }
 

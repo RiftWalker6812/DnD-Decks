@@ -16,5 +16,14 @@ namespace Rpg_Decks.UserControls
         {
             InitializeComponent();
         }
+
+        private void TraitRadio_CheckedChanged(object sender, EventArgs e)
+        {
+           
+            if(ScoreRadio.Checked == true) { AblityScoresGroupBox.Visible = true; SkillsBox.Visible = false; TraitsBox.Visible = false; }
+            else if(SkillRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = true; TraitsBox.Visible = false; }
+            else if(TraitRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = false; TraitsBox.Visible = true; }
+            
+        }
     }
 }
