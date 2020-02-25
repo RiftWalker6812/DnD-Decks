@@ -30,6 +30,7 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.SaveTool = new System.Windows.Forms.ToolStripMenuItem();
             this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -64,9 +65,18 @@
             // 
             // fileToolStripMenuItem
             // 
+            this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.SaveTool});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
+            // 
+            // SaveTool
+            // 
+            this.SaveTool.Name = "SaveTool";
+            this.SaveTool.Size = new System.Drawing.Size(180, 22);
+            this.SaveTool.Text = "Save";
+            this.SaveTool.Click += new System.EventHandler(this.SaveTool_Click);
             // 
             // configToolStripMenuItem
             // 
@@ -184,6 +194,7 @@
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.FlowLayoutPanel FlowLayout;
         private UserControls.ProfileControl profileControl1;
+        private System.Windows.Forms.ToolStripMenuItem SaveTool;
     }
 }
 

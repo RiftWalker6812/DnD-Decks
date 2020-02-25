@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Rpg_Decks.UserControls;
 
+
 namespace Rpg_Decks
 {
     public partial class Form1 : Form
@@ -21,8 +22,15 @@ namespace Rpg_Decks
         //Profile instance structer
         public struct Profile
         {
-            public string Name;
-
+            public string ProfileName { get; set; }
+            public string HitDie { get; set; }
+            public string RpgClass { get; set; }
+            public int Level { get; set; }
+            public float XpValue { get; set; }
+            public int HpValue { get; set; }
+            public int Proficiency { get; set; }
+            public int AC { get; set; }
+            public List<string> Skills;
         }
 
         //List of Profile Instances
@@ -33,8 +41,31 @@ namespace Rpg_Decks
         {
             //testing Instance
             Profile profile = new Profile();
-            profile.Name = "Rift";
+            profile.ProfileName = "Rift";
+
             profilesList.Add(profile);
+
+            //testing method          
+            var test = GetFiles.GetjsonData();
+
+            foreach(var pro in test.ProfileList)
+            {
+                Profile profile1 = new Profile
+                {
+                    ProfileName = pro.ProfileName,
+                    HitDie = pro.HitDie,
+                    RpgClass = pro.RpgClass,
+                    Level = pro.Level,
+                    XpValue = pro.XpValue,
+                    HpValue = pro.HpValue,
+                    Proficiency = pro.Proficiency,
+                    AC = pro.Ac,
+                    Skills = pro.Skills
+
+                };
+                profilesList.Add(profile1);
+            }
+
 
             //calls Spawner
             ProSpawn();
@@ -49,12 +80,19 @@ namespace Rpg_Decks
             int index = 0;
             foreach(Profile pro in profilesList)
             {
-                LoadControl lc = new LoadControl(pro.Name, index);
+                LoadControl lc = new LoadControl(pro.ProfileName, index);
                 FlowLayout.Controls.Add(lc);
                 index++;
             }
             NewControl nc = new NewControl();
             FlowLayout.Controls.Add(nc);
         }
+
+        private void SaveTool_Click(object sender, EventArgs e)
+        {
+
+        }
+        
     }
+    
 }
