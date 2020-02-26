@@ -7,8 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Globalization;
+using System.Collections;
 using Rpg_Decks.UserControls;
-
+using Rpg_Decks.JsonProfiling;
 
 namespace Rpg_Decks
 {
@@ -17,56 +19,25 @@ namespace Rpg_Decks
         public Form1()
         {
             InitializeComponent();
+
+            ProfilesList = new List<RootProfile>();
         }
 
-        //Profile instance structer
-        public struct Profile
-        {
-            public string ProfileName { get; set; }
-            public string HitDie { get; set; }
-            public string RpgClass { get; set; }
-            public int Level { get; set; }
-            public float XpValue { get; set; }
-            public int HpValue { get; set; }
-            public int Proficiency { get; set; }
-            public int AC { get; set; }
-            public List<string> Skills;
-        }
-
-        //List of Profile Instances
-        List<Profile> profilesList = new List<Profile>();
+           
+        //List of RootProfile Instances
+        public List<RootProfile> ProfilesList { get; set; }
+                   
+        
         //On Load
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
-            //testing Instance
-            Profile profile = new Profile();
-            profile.ProfileName = "Rift";
-
-            profilesList.Add(profile);
 
             //testing method          
-            var test = GetFiles.GetjsonData();
-
-            foreach(var pro in test.ProfileList)
-            {
-                Profile profile1 = new Profile
-                {
-                    ProfileName = pro.ProfileName,
-                    HitDie = pro.HitDie,
-                    RpgClass = pro.RpgClass,
-                    Level = pro.Level,
-                    XpValue = pro.XpValue,
-                    HpValue = pro.HpValue,
-                    Proficiency = pro.Proficiency,
-                    AC = pro.Ac,
-                    Skills = pro.Skills
-
-                };
-                profilesList.Add(profile1);
-            }
-
-
+            RootProfile proTest = new RootProfile(); 
+            proTest = GetFiles.GetjsonData();
+            ProfilesList.Add(proTest);
+            
             //calls Spawner
             ProSpawn();
 
@@ -78,7 +49,7 @@ namespace Rpg_Decks
         private void ProSpawn()
         {
             int index = 0;
-            foreach(Profile pro in profilesList)
+            foreach(RootProfile pro in ProfilesList)
             {
                 LoadControl lc = new LoadControl(pro.ProfileName, index);
                 FlowLayout.Controls.Add(lc);

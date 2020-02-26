@@ -4,9 +4,9 @@
 //
 //    using QuickType;
 //
-//    var profile = Profile.FromJson(jsonString);
+//    var jProfile = JProfile.FromJson(jsonString);
 
-namespace QuickType //basically an extension!
+namespace QuickType
 {
     using System;
     using System.Collections.Generic;
@@ -14,14 +14,15 @@ namespace QuickType //basically an extension!
     using System.Globalization;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Converters;
+    using Rpg_Decks.JsonProfiling;
 
-    public partial class Profile
+    public partial class JProfile
     {
-        [JsonProperty("Profile")]
-        public List<ProfileElement> ProfileList { get; set; }
+        [JsonProperty("ProType")]
+        public RootProfile ProType { get; set; }
     }
 
-    public partial class ProfileElement
+    public partial class ProType
     {
         [JsonProperty("ProfileName")]
         public string ProfileName { get; set; }
@@ -49,16 +50,47 @@ namespace QuickType //basically an extension!
 
         [JsonProperty("Skills")]
         public List<string> Skills { get; set; }
+
+        [JsonProperty("Strength")]
+        public Ability Strength { get; set; }
+
+        [JsonProperty("Dexterety")]
+        public Ability Dexterety { get; set; }
+
+        [JsonProperty("Constitution")]
+        public Ability Constitution { get; set; }
+
+        [JsonProperty("Intelligince")]
+        public Ability Intelligince { get; set; }
+
+        [JsonProperty("Wisdom")]
+        public Ability Wisdom { get; set; }
+
+        [JsonProperty("Charisma")]
+        public Ability Charisma { get; set; }
+
     }
 
-    public partial class Profile  //extract
+    public partial class Ability
     {
-        public static Profile FromJson(string json) => JsonConvert.DeserializeObject<Profile>(json, QuickType.Converter.Settings);
+        [JsonProperty("Score")]
+        public int Score { get; set; }
+
+        [JsonProperty("Bonus")]
+        public int Bonus { get; set; }
+
+        [JsonProperty("Saving")]
+        public int Saving { get; set; }
     }
 
-    public static class Serialize  //input
+    public partial class JProfile
     {
-        public static string ToJson(this Profile self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
+        public static JProfile FromJson(string json) => JsonConvert.DeserializeObject<JProfile>(json, QuickType.Converter.Settings);
+    }
+
+    public static class Serialize
+    {
+        public static string ToJson(this JProfile self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
     }
 
     internal static class Converter
