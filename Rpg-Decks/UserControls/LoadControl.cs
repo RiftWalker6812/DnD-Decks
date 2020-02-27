@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Rpg_Decks;
+using System.Globalization;
 
 namespace Rpg_Decks.UserControls
 {
@@ -25,5 +27,17 @@ namespace Rpg_Decks.UserControls
         }
         public string name { get; set; }
         public int Id { get; set; }
+
+        Form1 fr; //Required for some weird reason??? probably since its deffierent file
+
+        private void LBtn_MouseClick(object sender, MouseEventArgs e)
+        {
+            fr.TabConMain.SelectedTab = fr.tabPage2;
+            fr.ChangeTabPage(tabPage2);
+
+            //tabControl1.SelectedTab = tabPage2;
+        }
+
+       
     }
 }

@@ -29,5 +29,11 @@ namespace Rpg_Decks
         {
             return "test";
         }
+        
+        public static void SaveData()
+        {
+
+        }
+
     }
 }

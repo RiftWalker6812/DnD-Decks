@@ -58,12 +58,42 @@ namespace Rpg_Decks
             NewControl nc = new NewControl();
             FlowLayout.Controls.Add(nc);
         }
+        public void pubTabSwitch()
+        {
+            TabConMain.SelectedTab = tabPage2;
+        }
+
 
         private void SaveTool_Click(object sender, EventArgs e)
         {
-
+            //check if user is saving in selectedTab
+            if (TabConMain.SelectedTab == tabPage2) 
+            {
+                GetFiles.SaveData();
+            }
         }
-        
+
+        private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            //Clears the flow of profiles so it doesnt keep stacking and makes my life easier with programming 
+            //also by stacking i mean for everytime i add a new profile to the list
+            if(TabConMain.SelectedTab == tabPage1)
+            {
+                FlowLayout.Controls.Clear();
+                ProSpawn();
+            }
+            else if(TabConMain.SelectedTab == tabPage2)
+            {
+                
+            }
+        }
+
+        public void ChangeTabPage(TabPage tab)
+        {
+            TabConMain.SelectedTab = tab;
+        }
+
+
     }
     
 }

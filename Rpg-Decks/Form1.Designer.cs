@@ -35,13 +35,13 @@
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.TabControl = new System.Windows.Forms.TabControl();
+            this.TabConMain = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.FlowLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.profileControl1 = new Rpg_Decks.UserControls.ProfileControl();
+            this.ProControlU = new Rpg_Decks.UserControls.ProfileControl();
             this.menuStrip1.SuspendLayout();
-            this.TabControl.SuspendLayout();
+            this.TabConMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.SuspendLayout();
@@ -74,7 +74,7 @@
             // SaveTool
             // 
             this.SaveTool.Name = "SaveTool";
-            this.SaveTool.Size = new System.Drawing.Size(180, 22);
+            this.SaveTool.Size = new System.Drawing.Size(98, 22);
             this.SaveTool.Text = "Save";
             this.SaveTool.Click += new System.EventHandler(this.SaveTool_Click);
             // 
@@ -105,17 +105,18 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem2.Text = "toolStripMenuItem2";
             // 
-            // TabControl
+            // TabConMain
             // 
-            this.TabControl.Controls.Add(this.tabPage1);
-            this.TabControl.Controls.Add(this.tabPage2);
-            this.TabControl.Location = new System.Drawing.Point(5, 14);
-            this.TabControl.Name = "TabControl";
-            this.TabControl.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
-            this.TabControl.RightToLeftLayout = true;
-            this.TabControl.SelectedIndex = 0;
-            this.TabControl.Size = new System.Drawing.Size(783, 424);
-            this.TabControl.TabIndex = 1;
+            this.TabConMain.Controls.Add(this.tabPage1);
+            this.TabConMain.Controls.Add(this.tabPage2);
+            this.TabConMain.Location = new System.Drawing.Point(5, 14);
+            this.TabConMain.Name = "TabConMain";
+            this.TabConMain.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
+            this.TabConMain.RightToLeftLayout = true;
+            this.TabConMain.SelectedIndex = 0;
+            this.TabConMain.Size = new System.Drawing.Size(783, 424);
+            this.TabConMain.TabIndex = 1;
+            this.TabConMain.SelectedIndexChanged += new System.EventHandler(this.TabControl_SelectedIndexChanged);
             // 
             // tabPage1
             // 
@@ -130,9 +131,8 @@
             // 
             // FlowLayout
             // 
-            this.FlowLayout.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
             this.FlowLayout.AutoScroll = true;
+            this.FlowLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayout.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
@@ -141,7 +141,7 @@
             // 
             // tabPage2
             // 
-            this.tabPage2.Controls.Add(this.profileControl1);
+            this.tabPage2.Controls.Add(this.ProControlU);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -150,15 +150,15 @@
             this.tabPage2.Text = "Profile Tab";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
-            // profileControl1
+            // ProControlU
             // 
-            this.profileControl1.AutoScroll = true;
-            this.profileControl1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.profileControl1.Location = new System.Drawing.Point(0, 6);
-            this.profileControl1.Name = "profileControl1";
-            this.profileControl1.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.profileControl1.Size = new System.Drawing.Size(775, 388);
-            this.profileControl1.TabIndex = 0;
+            this.ProControlU.AutoScroll = true;
+            this.ProControlU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProControlU.Location = new System.Drawing.Point(0, 6);
+            this.ProControlU.Name = "ProControlU";
+            this.ProControlU.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.ProControlU.Size = new System.Drawing.Size(775, 388);
+            this.ProControlU.TabIndex = 0;
             // 
             // Form1
             // 
@@ -166,7 +166,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.TabControl);
+            this.Controls.Add(this.TabConMain);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.RightToLeftLayout = true;
@@ -174,7 +174,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.TabControl.ResumeLayout(false);
+            this.TabConMain.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -189,12 +189,12 @@
         private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
-        private System.Windows.Forms.TabControl TabControl;
         private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.FlowLayoutPanel FlowLayout;
-        private UserControls.ProfileControl profileControl1;
+        private UserControls.ProfileControl ProControlU;
         private System.Windows.Forms.ToolStripMenuItem SaveTool;
+        public System.Windows.Forms.TabControl TabConMain;
+        public System.Windows.Forms.TabPage tabPage2;
     }
 }
 

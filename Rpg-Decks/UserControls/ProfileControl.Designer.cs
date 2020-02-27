@@ -50,71 +50,71 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.AblityScoresGroupBox = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label10 = new System.Windows.Forms.Label();
-            this.classComboBox = new System.Windows.Forms.ComboBox();
-            this.StrScore = new System.Windows.Forms.NumericUpDown();
-            this.label11 = new System.Windows.Forms.Label();
-            this.StrBonus = new System.Windows.Forms.NumericUpDown();
-            this.StrSaving = new System.Windows.Forms.NumericUpDown();
-            this.DecSaving = new System.Windows.Forms.NumericUpDown();
-            this.DexBonus = new System.Windows.Forms.NumericUpDown();
-            this.DexScore = new System.Windows.Forms.NumericUpDown();
-            this.IntSaving = new System.Windows.Forms.NumericUpDown();
-            this.IntBonus = new System.Windows.Forms.NumericUpDown();
-            this.IntScore = new System.Windows.Forms.NumericUpDown();
-            this.ConSaving = new System.Windows.Forms.NumericUpDown();
-            this.ConBonus = new System.Windows.Forms.NumericUpDown();
-            this.ConScore = new System.Windows.Forms.NumericUpDown();
+            this.label17 = new System.Windows.Forms.Label();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label15 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
             this.ChaSaving = new System.Windows.Forms.NumericUpDown();
             this.ChaBonus = new System.Windows.Forms.NumericUpDown();
             this.ChaScore = new System.Windows.Forms.NumericUpDown();
             this.WisSaving = new System.Windows.Forms.NumericUpDown();
             this.WisBonus = new System.Windows.Forms.NumericUpDown();
             this.WisScore = new System.Windows.Forms.NumericUpDown();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.ScoreRadio = new System.Windows.Forms.RadioButton();
-            this.SkillRadio = new System.Windows.Forms.RadioButton();
+            this.IntSaving = new System.Windows.Forms.NumericUpDown();
+            this.IntBonus = new System.Windows.Forms.NumericUpDown();
+            this.IntScore = new System.Windows.Forms.NumericUpDown();
+            this.ConSaving = new System.Windows.Forms.NumericUpDown();
+            this.ConBonus = new System.Windows.Forms.NumericUpDown();
+            this.ConScore = new System.Windows.Forms.NumericUpDown();
+            this.DecSaving = new System.Windows.Forms.NumericUpDown();
+            this.DexBonus = new System.Windows.Forms.NumericUpDown();
+            this.DexScore = new System.Windows.Forms.NumericUpDown();
+            this.StrSaving = new System.Windows.Forms.NumericUpDown();
+            this.StrBonus = new System.Windows.Forms.NumericUpDown();
+            this.label11 = new System.Windows.Forms.Label();
+            this.StrScore = new System.Windows.Forms.NumericUpDown();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.TraitRadio = new System.Windows.Forms.RadioButton();
+            this.SkillRadio = new System.Windows.Forms.RadioButton();
+            this.ScoreRadio = new System.Windows.Forms.RadioButton();
+            this.label10 = new System.Windows.Forms.Label();
+            this.classComboBox = new System.Windows.Forms.ComboBox();
             this.SkillsBox = new System.Windows.Forms.GroupBox();
-            this.ProName = new System.Windows.Forms.TextBox();
-            this.skillListBox = new System.Windows.Forms.ListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.skillAdd = new System.Windows.Forms.Button();
-            this.labelmod = new System.Windows.Forms.Label();
             this.skillModUpDown = new System.Windows.Forms.NumericUpDown();
+            this.labelmod = new System.Windows.Forms.Label();
+            this.skillAdd = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.skillListBox = new System.Windows.Forms.ListBox();
+            this.ProName = new System.Windows.Forms.TextBox();
             this.TraitsBox = new System.Windows.Forms.GroupBox();
-            this.TraitsListBox = new System.Windows.Forms.ListBox();
-            this.TraitName = new System.Windows.Forms.TextBox();
-            this.TraitRichText = new System.Windows.Forms.RichTextBox();
-            this.TraitAdd = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
+            this.TraitAdd = new System.Windows.Forms.Button();
+            this.TraitRichText = new System.Windows.Forms.RichTextBox();
+            this.TraitName = new System.Windows.Forms.TextBox();
+            this.TraitsListBox = new System.Windows.Forms.ListBox();
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).BeginInit();
             this.AblityScoresGroupBox.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.StrScore)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StrBonus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StrSaving)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DecSaving)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DexBonus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DexScore)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IntSaving)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IntBonus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IntScore)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ConSaving)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ConBonus)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ConScore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChaBonus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChaScore)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WisSaving)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WisBonus)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.WisScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IntSaving)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IntBonus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IntScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConSaving)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConBonus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DecSaving)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DexBonus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DexScore)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StrSaving)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StrBonus)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StrScore)).BeginInit();
+            this.groupBox2.SuspendLayout();
             this.SkillsBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.skillModUpDown)).BeginInit();
             this.TraitsBox.SuspendLayout();
@@ -254,6 +254,7 @@
             this.SaveBtn.TabIndex = 15;
             this.SaveBtn.Text = "Save";
             this.SaveBtn.UseVisualStyleBackColor = true;
+            this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
             // SpellFlow
             // 
@@ -353,255 +354,59 @@
             this.AblityScoresGroupBox.TabStop = false;
             this.AblityScoresGroupBox.Text = "AbilityScores";
             // 
-            // groupBox2
+            // label17
             // 
-            this.groupBox2.Controls.Add(this.TraitRadio);
-            this.groupBox2.Controls.Add(this.SkillRadio);
-            this.groupBox2.Controls.Add(this.ScoreRadio);
-            this.groupBox2.Location = new System.Drawing.Point(4, 129);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(194, 65);
-            this.groupBox2.TabIndex = 23;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "SwitchControl";
+            this.label17.AutoSize = true;
+            this.label17.Location = new System.Drawing.Point(4, 164);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(50, 13);
+            this.label17.TabIndex = 31;
+            this.label17.Text = "Charisma";
             // 
-            // label10
+            // label16
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(481, 23);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(51, 16);
-            this.label10.TabIndex = 24;
-            this.label10.Text = "Class:";
+            this.label16.AutoSize = true;
+            this.label16.Location = new System.Drawing.Point(4, 138);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(45, 13);
+            this.label16.TabIndex = 30;
+            this.label16.Text = "Wisdom";
             // 
-            // classComboBox
+            // label15
             // 
-            this.classComboBox.FormattingEnabled = true;
-            this.classComboBox.Items.AddRange(new object[] {
-            "[PH] JSON",
-            "Wizard",
-            "Sorcerer",
-            "Ranger",
-            "Druid",
-            "Paladin"});
-            this.classComboBox.Location = new System.Drawing.Point(537, 23);
-            this.classComboBox.Name = "classComboBox";
-            this.classComboBox.Size = new System.Drawing.Size(142, 21);
-            this.classComboBox.TabIndex = 25;
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(4, 112);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(61, 13);
+            this.label15.TabIndex = 29;
+            this.label15.Text = "Intelligence";
             // 
-            // StrScore
+            // label14
             // 
-            this.StrScore.Location = new System.Drawing.Point(68, 32);
-            this.StrScore.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.StrScore.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.StrScore.Name = "StrScore";
-            this.StrScore.Size = new System.Drawing.Size(35, 20);
-            this.StrScore.TabIndex = 7;
+            this.label14.AutoSize = true;
+            this.label14.Location = new System.Drawing.Point(4, 86);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(62, 13);
+            this.label14.TabIndex = 28;
+            this.label14.Text = "Constitution";
             // 
-            // label11
+            // label13
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(39, 16);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(149, 13);
-            this.label11.TabIndex = 8;
-            this.label11.Text = "Score    Bonus   SavingThrow";
+            this.label13.AutoSize = true;
+            this.label13.Location = new System.Drawing.Point(4, 60);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(48, 13);
+            this.label13.TabIndex = 27;
+            this.label13.Text = "Dexterity";
             // 
-            // StrBonus
+            // label12
             // 
-            this.StrBonus.Location = new System.Drawing.Point(109, 32);
-            this.StrBonus.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.StrBonus.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.StrBonus.Name = "StrBonus";
-            this.StrBonus.Size = new System.Drawing.Size(35, 20);
-            this.StrBonus.TabIndex = 9;
-            // 
-            // StrSaving
-            // 
-            this.StrSaving.Location = new System.Drawing.Point(150, 32);
-            this.StrSaving.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.StrSaving.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.StrSaving.Name = "StrSaving";
-            this.StrSaving.Size = new System.Drawing.Size(35, 20);
-            this.StrSaving.TabIndex = 10;
-            // 
-            // DecSaving
-            // 
-            this.DecSaving.Location = new System.Drawing.Point(150, 58);
-            this.DecSaving.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.DecSaving.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.DecSaving.Name = "DecSaving";
-            this.DecSaving.Size = new System.Drawing.Size(35, 20);
-            this.DecSaving.TabIndex = 13;
-            // 
-            // DexBonus
-            // 
-            this.DexBonus.Location = new System.Drawing.Point(109, 58);
-            this.DexBonus.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.DexBonus.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.DexBonus.Name = "DexBonus";
-            this.DexBonus.Size = new System.Drawing.Size(35, 20);
-            this.DexBonus.TabIndex = 12;
-            // 
-            // DexScore
-            // 
-            this.DexScore.Location = new System.Drawing.Point(68, 58);
-            this.DexScore.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.DexScore.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.DexScore.Name = "DexScore";
-            this.DexScore.Size = new System.Drawing.Size(35, 20);
-            this.DexScore.TabIndex = 11;
-            // 
-            // IntSaving
-            // 
-            this.IntSaving.Location = new System.Drawing.Point(150, 110);
-            this.IntSaving.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.IntSaving.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.IntSaving.Name = "IntSaving";
-            this.IntSaving.Size = new System.Drawing.Size(35, 20);
-            this.IntSaving.TabIndex = 19;
-            // 
-            // IntBonus
-            // 
-            this.IntBonus.Location = new System.Drawing.Point(109, 110);
-            this.IntBonus.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.IntBonus.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.IntBonus.Name = "IntBonus";
-            this.IntBonus.Size = new System.Drawing.Size(35, 20);
-            this.IntBonus.TabIndex = 18;
-            // 
-            // IntScore
-            // 
-            this.IntScore.Location = new System.Drawing.Point(68, 110);
-            this.IntScore.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.IntScore.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.IntScore.Name = "IntScore";
-            this.IntScore.Size = new System.Drawing.Size(35, 20);
-            this.IntScore.TabIndex = 17;
-            // 
-            // ConSaving
-            // 
-            this.ConSaving.Location = new System.Drawing.Point(150, 84);
-            this.ConSaving.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.ConSaving.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.ConSaving.Name = "ConSaving";
-            this.ConSaving.Size = new System.Drawing.Size(35, 20);
-            this.ConSaving.TabIndex = 16;
-            // 
-            // ConBonus
-            // 
-            this.ConBonus.Location = new System.Drawing.Point(109, 84);
-            this.ConBonus.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.ConBonus.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.ConBonus.Name = "ConBonus";
-            this.ConBonus.Size = new System.Drawing.Size(35, 20);
-            this.ConBonus.TabIndex = 15;
-            // 
-            // ConScore
-            // 
-            this.ConScore.Location = new System.Drawing.Point(68, 84);
-            this.ConScore.Maximum = new decimal(new int[] {
-            25,
-            0,
-            0,
-            0});
-            this.ConScore.Minimum = new decimal(new int[] {
-            20,
-            0,
-            0,
-            -2147483648});
-            this.ConScore.Name = "ConScore";
-            this.ConScore.Size = new System.Drawing.Size(35, 20);
-            this.ConScore.TabIndex = 14;
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(4, 34);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(47, 13);
+            this.label12.TabIndex = 26;
+            this.label12.Text = "Strength";
             // 
             // ChaSaving
             // 
@@ -705,59 +510,252 @@
             this.WisScore.Size = new System.Drawing.Size(35, 20);
             this.WisScore.TabIndex = 20;
             // 
-            // label12
+            // IntSaving
             // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(4, 34);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(47, 13);
-            this.label12.TabIndex = 26;
-            this.label12.Text = "Strength";
+            this.IntSaving.Location = new System.Drawing.Point(150, 110);
+            this.IntSaving.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.IntSaving.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.IntSaving.Name = "IntSaving";
+            this.IntSaving.Size = new System.Drawing.Size(35, 20);
+            this.IntSaving.TabIndex = 19;
             // 
-            // label13
+            // IntBonus
             // 
-            this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(4, 60);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(48, 13);
-            this.label13.TabIndex = 27;
-            this.label13.Text = "Dexterity";
+            this.IntBonus.Location = new System.Drawing.Point(109, 110);
+            this.IntBonus.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.IntBonus.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.IntBonus.Name = "IntBonus";
+            this.IntBonus.Size = new System.Drawing.Size(35, 20);
+            this.IntBonus.TabIndex = 18;
             // 
-            // label14
+            // IntScore
             // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(4, 86);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(62, 13);
-            this.label14.TabIndex = 28;
-            this.label14.Text = "Constitution";
+            this.IntScore.Location = new System.Drawing.Point(68, 110);
+            this.IntScore.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.IntScore.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.IntScore.Name = "IntScore";
+            this.IntScore.Size = new System.Drawing.Size(35, 20);
+            this.IntScore.TabIndex = 17;
             // 
-            // label15
+            // ConSaving
             // 
-            this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(4, 112);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(61, 13);
-            this.label15.TabIndex = 29;
-            this.label15.Text = "Intelligence";
+            this.ConSaving.Location = new System.Drawing.Point(150, 84);
+            this.ConSaving.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.ConSaving.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.ConSaving.Name = "ConSaving";
+            this.ConSaving.Size = new System.Drawing.Size(35, 20);
+            this.ConSaving.TabIndex = 16;
             // 
-            // label16
+            // ConBonus
             // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(4, 138);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(45, 13);
-            this.label16.TabIndex = 30;
-            this.label16.Text = "Wisdom";
+            this.ConBonus.Location = new System.Drawing.Point(109, 84);
+            this.ConBonus.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.ConBonus.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.ConBonus.Name = "ConBonus";
+            this.ConBonus.Size = new System.Drawing.Size(35, 20);
+            this.ConBonus.TabIndex = 15;
             // 
-            // label17
+            // ConScore
             // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(4, 164);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(50, 13);
-            this.label17.TabIndex = 31;
-            this.label17.Text = "Charisma";
+            this.ConScore.Location = new System.Drawing.Point(68, 84);
+            this.ConScore.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.ConScore.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.ConScore.Name = "ConScore";
+            this.ConScore.Size = new System.Drawing.Size(35, 20);
+            this.ConScore.TabIndex = 14;
+            // 
+            // DecSaving
+            // 
+            this.DecSaving.Location = new System.Drawing.Point(150, 58);
+            this.DecSaving.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.DecSaving.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.DecSaving.Name = "DecSaving";
+            this.DecSaving.Size = new System.Drawing.Size(35, 20);
+            this.DecSaving.TabIndex = 13;
+            // 
+            // DexBonus
+            // 
+            this.DexBonus.Location = new System.Drawing.Point(109, 58);
+            this.DexBonus.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.DexBonus.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.DexBonus.Name = "DexBonus";
+            this.DexBonus.Size = new System.Drawing.Size(35, 20);
+            this.DexBonus.TabIndex = 12;
+            // 
+            // DexScore
+            // 
+            this.DexScore.Location = new System.Drawing.Point(68, 58);
+            this.DexScore.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.DexScore.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.DexScore.Name = "DexScore";
+            this.DexScore.Size = new System.Drawing.Size(35, 20);
+            this.DexScore.TabIndex = 11;
+            // 
+            // StrSaving
+            // 
+            this.StrSaving.Location = new System.Drawing.Point(150, 32);
+            this.StrSaving.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.StrSaving.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.StrSaving.Name = "StrSaving";
+            this.StrSaving.Size = new System.Drawing.Size(35, 20);
+            this.StrSaving.TabIndex = 10;
+            // 
+            // StrBonus
+            // 
+            this.StrBonus.Location = new System.Drawing.Point(109, 32);
+            this.StrBonus.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.StrBonus.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.StrBonus.Name = "StrBonus";
+            this.StrBonus.Size = new System.Drawing.Size(35, 20);
+            this.StrBonus.TabIndex = 9;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(39, 16);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(149, 13);
+            this.label11.TabIndex = 8;
+            this.label11.Text = "Score    Bonus   SavingThrow";
+            // 
+            // StrScore
+            // 
+            this.StrScore.Location = new System.Drawing.Point(68, 32);
+            this.StrScore.Maximum = new decimal(new int[] {
+            25,
+            0,
+            0,
+            0});
+            this.StrScore.Minimum = new decimal(new int[] {
+            20,
+            0,
+            0,
+            -2147483648});
+            this.StrScore.Name = "StrScore";
+            this.StrScore.Size = new System.Drawing.Size(35, 20);
+            this.StrScore.TabIndex = 7;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.TraitRadio);
+            this.groupBox2.Controls.Add(this.SkillRadio);
+            this.groupBox2.Controls.Add(this.ScoreRadio);
+            this.groupBox2.Location = new System.Drawing.Point(4, 129);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(194, 65);
+            this.groupBox2.TabIndex = 23;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "SwitchControl";
+            // 
+            // TraitRadio
+            // 
+            this.TraitRadio.AutoSize = true;
+            this.TraitRadio.Location = new System.Drawing.Point(65, 41);
+            this.TraitRadio.Name = "TraitRadio";
+            this.TraitRadio.Size = new System.Drawing.Size(51, 17);
+            this.TraitRadio.TabIndex = 2;
+            this.TraitRadio.Text = "Traits";
+            this.TraitRadio.UseVisualStyleBackColor = true;
+            this.TraitRadio.CheckedChanged += new System.EventHandler(this.TraitRadio_CheckedChanged);
+            // 
+            // SkillRadio
+            // 
+            this.SkillRadio.AutoSize = true;
+            this.SkillRadio.Location = new System.Drawing.Point(7, 41);
+            this.SkillRadio.Name = "SkillRadio";
+            this.SkillRadio.Size = new System.Drawing.Size(49, 17);
+            this.SkillRadio.TabIndex = 1;
+            this.SkillRadio.Text = "Skills";
+            this.SkillRadio.UseVisualStyleBackColor = true;
+            this.SkillRadio.CheckedChanged += new System.EventHandler(this.TraitRadio_CheckedChanged);
             // 
             // ScoreRadio
             // 
@@ -772,27 +770,30 @@
             this.ScoreRadio.UseVisualStyleBackColor = true;
             this.ScoreRadio.CheckedChanged += new System.EventHandler(this.TraitRadio_CheckedChanged);
             // 
-            // SkillRadio
+            // label10
             // 
-            this.SkillRadio.AutoSize = true;
-            this.SkillRadio.Location = new System.Drawing.Point(7, 41);
-            this.SkillRadio.Name = "SkillRadio";
-            this.SkillRadio.Size = new System.Drawing.Size(49, 17);
-            this.SkillRadio.TabIndex = 1;
-            this.SkillRadio.Text = "Skills";
-            this.SkillRadio.UseVisualStyleBackColor = true;
-            this.SkillRadio.CheckedChanged += new System.EventHandler(this.TraitRadio_CheckedChanged);
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(481, 23);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(51, 16);
+            this.label10.TabIndex = 24;
+            this.label10.Text = "Class:";
             // 
-            // TraitRadio
+            // classComboBox
             // 
-            this.TraitRadio.AutoSize = true;
-            this.TraitRadio.Location = new System.Drawing.Point(65, 41);
-            this.TraitRadio.Name = "TraitRadio";
-            this.TraitRadio.Size = new System.Drawing.Size(51, 17);
-            this.TraitRadio.TabIndex = 2;
-            this.TraitRadio.Text = "Traits";
-            this.TraitRadio.UseVisualStyleBackColor = true;
-            this.TraitRadio.CheckedChanged += new System.EventHandler(this.TraitRadio_CheckedChanged);
+            this.classComboBox.FormattingEnabled = true;
+            this.classComboBox.Items.AddRange(new object[] {
+            "[PH] JSON",
+            "Wizard",
+            "Sorcerer",
+            "Ranger",
+            "Druid",
+            "Paladin"});
+            this.classComboBox.Location = new System.Drawing.Point(537, 23);
+            this.classComboBox.Name = "classComboBox";
+            this.classComboBox.Size = new System.Drawing.Size(142, 21);
+            this.classComboBox.TabIndex = 25;
             // 
             // SkillsBox
             // 
@@ -809,23 +810,31 @@
             this.SkillsBox.Text = "Skills";
             this.SkillsBox.Visible = false;
             // 
-            // ProName
+            // skillModUpDown
             // 
-            this.ProName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.ProName.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProName.Location = new System.Drawing.Point(29, 23);
-            this.ProName.Name = "ProName";
-            this.ProName.Size = new System.Drawing.Size(375, 47);
-            this.ProName.TabIndex = 26;
-            this.ProName.Text = "Profile Name";
+            this.skillModUpDown.Location = new System.Drawing.Point(65, 165);
+            this.skillModUpDown.Name = "skillModUpDown";
+            this.skillModUpDown.Size = new System.Drawing.Size(51, 20);
+            this.skillModUpDown.TabIndex = 22;
             // 
-            // skillListBox
+            // labelmod
             // 
-            this.skillListBox.FormattingEnabled = true;
-            this.skillListBox.Location = new System.Drawing.Point(4, 13);
-            this.skillListBox.Name = "skillListBox";
-            this.skillListBox.Size = new System.Drawing.Size(184, 121);
-            this.skillListBox.TabIndex = 0;
+            this.labelmod.AutoSize = true;
+            this.labelmod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelmod.Location = new System.Drawing.Point(6, 166);
+            this.labelmod.Name = "labelmod";
+            this.labelmod.Size = new System.Drawing.Size(55, 15);
+            this.labelmod.TabIndex = 21;
+            this.labelmod.Text = "Modifier:";
+            // 
+            // skillAdd
+            // 
+            this.skillAdd.Location = new System.Drawing.Point(122, 144);
+            this.skillAdd.Name = "skillAdd";
+            this.skillAdd.Size = new System.Drawing.Size(66, 37);
+            this.skillAdd.TabIndex = 20;
+            this.skillAdd.Text = "Add";
+            this.skillAdd.UseVisualStyleBackColor = true;
             // 
             // comboBox1
             // 
@@ -854,31 +863,23 @@
             this.comboBox1.Size = new System.Drawing.Size(112, 21);
             this.comboBox1.TabIndex = 1;
             // 
-            // skillAdd
+            // skillListBox
             // 
-            this.skillAdd.Location = new System.Drawing.Point(122, 144);
-            this.skillAdd.Name = "skillAdd";
-            this.skillAdd.Size = new System.Drawing.Size(66, 37);
-            this.skillAdd.TabIndex = 20;
-            this.skillAdd.Text = "Add";
-            this.skillAdd.UseVisualStyleBackColor = true;
+            this.skillListBox.FormattingEnabled = true;
+            this.skillListBox.Location = new System.Drawing.Point(4, 13);
+            this.skillListBox.Name = "skillListBox";
+            this.skillListBox.Size = new System.Drawing.Size(184, 121);
+            this.skillListBox.TabIndex = 0;
             // 
-            // labelmod
+            // ProName
             // 
-            this.labelmod.AutoSize = true;
-            this.labelmod.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelmod.Location = new System.Drawing.Point(6, 166);
-            this.labelmod.Name = "labelmod";
-            this.labelmod.Size = new System.Drawing.Size(55, 15);
-            this.labelmod.TabIndex = 21;
-            this.labelmod.Text = "Modifier:";
-            // 
-            // skillModUpDown
-            // 
-            this.skillModUpDown.Location = new System.Drawing.Point(65, 165);
-            this.skillModUpDown.Name = "skillModUpDown";
-            this.skillModUpDown.Size = new System.Drawing.Size(51, 20);
-            this.skillModUpDown.TabIndex = 22;
+            this.ProName.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ProName.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ProName.Location = new System.Drawing.Point(29, 23);
+            this.ProName.Name = "ProName";
+            this.ProName.Size = new System.Drawing.Size(375, 47);
+            this.ProName.TabIndex = 26;
+            this.ProName.Text = "Profile Name";
             // 
             // TraitsBox
             // 
@@ -895,29 +896,15 @@
             this.TraitsBox.Text = "Traits";
             this.TraitsBox.Visible = false;
             // 
-            // TraitsListBox
+            // label6
             // 
-            this.TraitsListBox.FormattingEnabled = true;
-            this.TraitsListBox.Location = new System.Drawing.Point(4, 13);
-            this.TraitsListBox.Name = "TraitsListBox";
-            this.TraitsListBox.Size = new System.Drawing.Size(184, 108);
-            this.TraitsListBox.TabIndex = 0;
-            // 
-            // TraitName
-            // 
-            this.TraitName.Location = new System.Drawing.Point(52, 127);
-            this.TraitName.Name = "TraitName";
-            this.TraitName.Size = new System.Drawing.Size(136, 20);
-            this.TraitName.TabIndex = 1;
-            // 
-            // TraitRichText
-            // 
-            this.TraitRichText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TraitRichText.Location = new System.Drawing.Point(4, 149);
-            this.TraitRichText.Name = "TraitRichText";
-            this.TraitRichText.Size = new System.Drawing.Size(137, 39);
-            this.TraitRichText.TabIndex = 2;
-            this.TraitRichText.Text = "";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(7, 130);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(38, 16);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Trait:";
             // 
             // TraitAdd
             // 
@@ -928,15 +915,29 @@
             this.TraitAdd.Text = "Add";
             this.TraitAdd.UseVisualStyleBackColor = true;
             // 
-            // label6
+            // TraitRichText
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(7, 130);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(38, 16);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Trait:";
+            this.TraitRichText.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.TraitRichText.Location = new System.Drawing.Point(4, 149);
+            this.TraitRichText.Name = "TraitRichText";
+            this.TraitRichText.Size = new System.Drawing.Size(137, 39);
+            this.TraitRichText.TabIndex = 2;
+            this.TraitRichText.Text = "";
+            // 
+            // TraitName
+            // 
+            this.TraitName.Location = new System.Drawing.Point(52, 127);
+            this.TraitName.Name = "TraitName";
+            this.TraitName.Size = new System.Drawing.Size(136, 20);
+            this.TraitName.TabIndex = 1;
+            // 
+            // TraitsListBox
+            // 
+            this.TraitsListBox.FormattingEnabled = true;
+            this.TraitsListBox.Location = new System.Drawing.Point(4, 13);
+            this.TraitsListBox.Name = "TraitsListBox";
+            this.TraitsListBox.Size = new System.Drawing.Size(184, 108);
+            this.TraitsListBox.TabIndex = 0;
             // 
             // ProfileControl
             // 
@@ -977,26 +978,26 @@
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).EndInit();
             this.AblityScoresGroupBox.ResumeLayout(false);
             this.AblityScoresGroupBox.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.StrScore)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StrBonus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.StrSaving)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DecSaving)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DexBonus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.DexScore)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IntSaving)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IntBonus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.IntScore)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ConSaving)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ConBonus)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ConScore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChaBonus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ChaScore)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WisSaving)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WisBonus)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.WisScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IntSaving)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IntBonus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.IntScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConSaving)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConBonus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ConScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DecSaving)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DexBonus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DexScore)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StrSaving)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StrBonus)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.StrScore)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.SkillsBox.ResumeLayout(false);
             this.SkillsBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.skillModUpDown)).EndInit();

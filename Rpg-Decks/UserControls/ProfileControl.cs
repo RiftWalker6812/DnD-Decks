@@ -25,40 +25,12 @@ namespace Rpg_Decks.UserControls
             else if (TraitRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = false; TraitsBox.Visible = true; }
 
         }
+       
 
-        public void SaveTemporarys()
+
+        private void SaveBtn_Click(object sender, EventArgs e)
         {
-
-            TempValues temporary = new TempValues
-            {
-                ProfileName = ProName.Text,
-                HitDie = hitdiceTextBox.Text,
-
-                RpgClass = classComboBox.SelectedItem.ToString(),
-                Level = (int)levelUpDown.Value,
-
-            };
-
-        }
-
-
-        public struct TempValues
-        {
-            public string ProfileName;
-            public string HitDie;
-
-            public string RpgClass;
-            public int Level;
-            public float XPvalue;
-
-            public int HPvalue;
-            public int proficiency;
-            public int AC;
-
-            //struct TemporaryScores
-            //{
-
-            //}
+            GetFiles.SaveData();
         }
     }
 }

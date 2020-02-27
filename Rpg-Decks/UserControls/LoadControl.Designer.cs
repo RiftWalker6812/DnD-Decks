@@ -50,6 +50,7 @@
             this.LBtn.TabIndex = 1;
             this.LBtn.Text = "Load";
             this.LBtn.UseVisualStyleBackColor = true;
+            this.LBtn.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LBtn_MouseClick);
             // 
             // LoadControl
             // 
@@ -67,6 +68,6 @@
         #endregion
 
         private System.Windows.Forms.Label nameL;
-        private System.Windows.Forms.Button LBtn;
+        public System.Windows.Forms.Button LBtn;
     }
 }
