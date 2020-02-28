@@ -122,7 +122,7 @@
             // 
             // hpTextBox
             // 
-            this.hpTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hpTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hpTextBox.Location = new System.Drawing.Point(29, 77);
             this.hpTextBox.Name = "hpTextBox";
             this.hpTextBox.Size = new System.Drawing.Size(64, 49);

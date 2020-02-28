@@ -14,6 +14,9 @@ namespace Rpg_Decks.UserControls
 {
     public partial class LoadControl : UserControl
     {
+        //Form ParentForm = Parent as Form;
+        public Form1 ParentForm { get; set; }
+
         public LoadControl()
         {
             InitializeComponent();
@@ -27,15 +30,16 @@ namespace Rpg_Decks.UserControls
         }
         public string name { get; set; }
         public int Id { get; set; }
-
-        Form1 fr; //Required for some weird reason??? probably since its deffierent file
+           
 
         private void LBtn_MouseClick(object sender, MouseEventArgs e)
         {
-            fr.TabConMain.SelectedTab = fr.tabPage2;
-            fr.ChangeTabPage(tabPage2);
+           if(ParentForm == null) { return; }
 
-            //tabControl1.SelectedTab = tabPage2;
+            TabControl tab = (ParentForm.Controls["TabConMain"] as TabControl);
+            tab.SelectedIndex = 1;
+
+            ParentForm.LoadFunction(Id);
         }
 
        

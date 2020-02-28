@@ -21,6 +21,8 @@ namespace Rpg_Decks
             InitializeComponent();
 
             ProfilesList = new List<RootProfile>();
+
+            
         }
 
            
@@ -52,6 +54,7 @@ namespace Rpg_Decks
             foreach(RootProfile pro in ProfilesList)
             {
                 LoadControl lc = new LoadControl(pro.ProfileName, index);
+                lc.ParentForm = this;
                 FlowLayout.Controls.Add(lc);
                 index++;
             }
@@ -87,12 +90,19 @@ namespace Rpg_Decks
                 
             }
         }
-
-        public void ChangeTabPage(TabPage tab)
+        public void LoadFunction(int id)
         {
-            TabConMain.SelectedTab = tab;
+            if (TabConMain.SelectedTab != tabPage2) { Console.WriteLine("HET"); }
+            else
+            {
+                //re-Initializing
+                ProControlU = new ProfileControl();
+                //get values from dictionary
+                RootProfile TempData = ProfilesList[id];
+                //add all values
+                ProControlU.DataLoader(TempData);
+            }
         }
-
 
     }
     
