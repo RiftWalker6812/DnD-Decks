@@ -159,6 +159,7 @@
             this.ProControlU.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ProControlU.Size = new System.Drawing.Size(775, 388);
             this.ProControlU.TabIndex = 0;
+        
             // 
             // Form1
             // 
@@ -191,10 +192,10 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.FlowLayoutPanel FlowLayout;
-        private UserControls.ProfileControl ProControlU;
         private System.Windows.Forms.ToolStripMenuItem SaveTool;
         public System.Windows.Forms.TabControl TabConMain;
         public System.Windows.Forms.TabPage tabPage2;
+        public UserControls.ProfileControl ProControlU;
     }
 }
 

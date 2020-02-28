@@ -94,6 +94,8 @@
             this.TraitRichText = new System.Windows.Forms.RichTextBox();
             this.TraitName = new System.Windows.Forms.TextBox();
             this.TraitsListBox = new System.Windows.Forms.ListBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.XPText = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).BeginInit();
             this.AblityScoresGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).BeginInit();
@@ -939,12 +941,28 @@
             this.TraitsListBox.Size = new System.Drawing.Size(184, 108);
             this.TraitsListBox.TabIndex = 0;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(637, 48);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 0;
+            // 
+            // XPText
+            // 
+            this.XPText.Location = new System.Drawing.Point(637, 48);
+            this.XPText.Name = "XPText";
+            this.XPText.Size = new System.Drawing.Size(100, 20);
+            this.XPText.TabIndex = 28;
+            // 
             // ProfileControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.XPText);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.SkillsBox);
             this.Controls.Add(this.TraitsBox);
             this.Controls.Add(this.ProName);
@@ -1063,7 +1081,6 @@
         private System.Windows.Forms.RadioButton SkillRadio;
         private System.Windows.Forms.RadioButton ScoreRadio;
         private System.Windows.Forms.GroupBox SkillsBox;
-        private System.Windows.Forms.TextBox ProName;
         private System.Windows.Forms.NumericUpDown skillModUpDown;
         private System.Windows.Forms.Label labelmod;
         private System.Windows.Forms.Button skillAdd;
@@ -1075,5 +1092,8 @@
         private System.Windows.Forms.TextBox TraitName;
         private System.Windows.Forms.ListBox TraitsListBox;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox XPText;
+        private System.Windows.Forms.TextBox ProName;
     }
 }

@@ -96,11 +96,13 @@ namespace Rpg_Decks
             else
             {
                 //re-Initializing
-                ProControlU = new ProfileControl();
+
                 //get values from dictionary
                 RootProfile TempData = ProfilesList[id];
                 //add all values
                 ProControlU.DataLoader(TempData);
+
+                ProControlU.Refresh();
             }
         }
 
