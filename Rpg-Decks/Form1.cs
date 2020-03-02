@@ -35,11 +35,17 @@ namespace Rpg_Decks
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            //testing method          
-            RootProfile proTest = new RootProfile(); 
-            proTest = GetFiles.GetjsonData();
-            ProfilesList.Add(proTest);
             
+
+            //calls GetPaths
+            List<string> str = GetFiles.GetPath();
+            foreach(string s in str)
+            {
+                RootProfile profile = new RootProfile();
+                profile = GetFiles.GetjsonData(s);
+                ProfilesList.Add(profile);
+            }
+
             //calls Spawner
             ProSpawn();
 
