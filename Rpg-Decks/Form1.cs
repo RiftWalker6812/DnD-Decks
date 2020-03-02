@@ -22,6 +22,7 @@ namespace Rpg_Decks
 
             ProfilesList = new List<RootProfile>();
 
+            //empty profile for clearing
             
         }
 
@@ -35,7 +36,9 @@ namespace Rpg_Decks
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
-         
+            //adding empty
+            emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");
+
             //calls GetPaths and make class instance
             List<string> FileStr = GetFiles.GetPath();
             foreach(string str in FileStr)
@@ -78,10 +81,10 @@ namespace Rpg_Decks
             //check if user is saving in selectedTab
             if (TabConMain.SelectedTab == tabPage2) 
             {
-                GetFiles.SaveData();
+                GetFiles.SaveData(ProControlU.GetProfileData());
             }
         }
-
+        public RootProfile emptyProfile = new RootProfile();
         private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
             //Clears the flow of profiles so it doesnt keep stacking and makes my life easier with programming 
@@ -89,6 +92,7 @@ namespace Rpg_Decks
             if(TabConMain.SelectedTab == tabPage1)
             {
                 FlowLayout.Controls.Clear();
+                
                 ProSpawn();
             }
             else if(TabConMain.SelectedTab == tabPage2)
@@ -102,7 +106,7 @@ namespace Rpg_Decks
             else
             {
                 //re-Initializing
-
+                ProControlU.DataLoader(emptyProfile);
                 //get values from list
                 RootProfile TempData = ProfilesList[id];
                 //add all values
@@ -111,6 +115,7 @@ namespace Rpg_Decks
                 ProControlU.Refresh();
             }
         }
+        
 
     }
     

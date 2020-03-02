@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Rpg_Decks.JsonProfiling;
+using Rpg_Decks;
 
 namespace Rpg_Decks.UserControls
 {
@@ -39,11 +40,14 @@ namespace Rpg_Decks.UserControls
             proficiencyTextBox.Text = TemporalData.Proficiency.ToString();
             acTextBox.Text = TemporalData.Ac.ToString();
 
-            foreach(string str in TemporalData.Skills)
+            if (TemporalData.Skills != null)
             {
-                skillListBox.Items.Add(str);
+                foreach (string str in TemporalData.Skills)
+                {
+                    skillListBox.Items.Add(str);
+                }
             }
-
+            else { skillListBox.Items.Clear(); }
             StrScore.Value = TemporalData.Strength.Score;
             StrBonus.Value = TemporalData.Strength.Bonus;
             StrSaving.Value = TemporalData.Strength.Saving;
@@ -71,7 +75,64 @@ namespace Rpg_Decks.UserControls
 
         private void SaveBtn_Click(object sender, EventArgs e)
         {
-            GetFiles.SaveData();
+
+            GetFiles.SaveData(GetProfileData());
+        }//Application.OpenForms["Form1"].Controls["ProControlU"] as ProfileControl
+        
+        public RootProfile GetProfileData()
+        {//added for saving
+            RootProfile TemporalProfile = new RootProfile();
+
+            TemporalProfile.ProfileName = ProName.Text;
+            TemporalProfile.HitDie = hitdiceTextBox.Text;
+
+            TemporalProfile.RpgClass = classComboBox.SelectedItem.ToString();
+            TemporalProfile.Level = (int)levelUpDown.Value;
+            TemporalProfile.XpValue = XPText.Text.ToFloat();
+            TemporalProfile.HpValue = (int)hpTextBox.Text.ToFloat();
+            TemporalProfile.Proficiency = (int)proficiencyTextBox.Text.ToFloat();
+            TemporalProfile.Ac = int.Parse(acTextBox.Text);
+
+            TemporalProfile.Skills = new List<string>();
+            foreach(string str in skillListBox.Items)
+            {
+                TemporalProfile.Skills.Add(str);
+            }
+
+            TemporalProfile.Strength = new Ability();
+            TemporalProfile.Dexterety = new Ability();
+            TemporalProfile.Constitution = new Ability();
+            TemporalProfile.Intelligince = new Ability();
+            TemporalProfile.Wisdom = new Ability();
+            TemporalProfile.Charisma = new Ability();
+
+
+
+            TemporalProfile.Strength.Score = (int)StrScore.Value;
+            TemporalProfile.Strength.Bonus = (int)StrBonus.Value;
+            TemporalProfile.Strength.Saving = (int)StrSaving.Value;
+
+            TemporalProfile.Dexterety.Score = (int)DexScore.Value;
+            TemporalProfile.Dexterety.Bonus = (int)DexBonus.Value;
+            TemporalProfile.Dexterety.Saving = (int)DecSaving.Value;
+
+            TemporalProfile.Constitution.Score = (int)ConScore.Value;
+            TemporalProfile.Constitution.Bonus = (int)ConBonus.Value;
+            TemporalProfile.Constitution.Saving = (int)ConSaving.Value;
+
+            TemporalProfile.Intelligince.Score = (int)IntScore.Value;
+            TemporalProfile.Intelligince.Bonus = (int)IntBonus.Value;
+            TemporalProfile.Intelligince.Saving = (int)IntSaving.Value;
+
+            TemporalProfile.Wisdom.Score = (int)WisScore.Value;
+            TemporalProfile.Wisdom.Bonus = (int)WisBonus.Value;
+            TemporalProfile.Wisdom.Saving = (int)WisSaving.Value;
+
+            TemporalProfile.Charisma.Score = (int)ChaScore.Value;
+            TemporalProfile.Charisma.Bonus = (int)ChaBonus.Value;
+            TemporalProfile.Charisma.Saving = (int)ChaSaving.Value;
+
+            return TemporalProfile;
         }
     }
 }

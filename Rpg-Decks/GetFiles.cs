@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using QuickType;
 using System.IO;
 using Rpg_Decks.JsonProfiling;
+using Rpg_Decks.UserControls;
+using QuickType;
 
 namespace Rpg_Decks
 {
@@ -49,8 +51,30 @@ namespace Rpg_Decks
             return FileEntries;     
         }
         
-        public static void SaveData()
+        public static void SaveData(RootProfile TemporalSave)
         {
+            JProfile JPro = new JProfile();
+            JPro.ProType = TemporalSave;
+            //JPro.ToJson();
+
+            string writePath = path + JPro.ProType.ProfileName + ".json";
+
+            StreamWriter writer = new StreamWriter(writePath);
+            writer.Write(JPro.ToJson());
+            writer.Close();
+            
+        }     
+
+
+
+        //made and extension method for effieciency
+        public static float ToFloat(this string str)
+        {
+            if (float.TryParse(str, out float converted))
+            {
+                return converted;
+            }
+            else { return 0; }
 
         }
 
