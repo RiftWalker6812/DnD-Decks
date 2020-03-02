@@ -99,7 +99,7 @@
     <EmbeddedResource Include="UserControls\ProfileControl.resx">
       <DependentUpon>ProfileControl.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="JsonProfiling\json1.json" />
+    <None Include="JsonProfiling\Rift.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

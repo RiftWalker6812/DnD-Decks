@@ -31,18 +31,17 @@ namespace Rpg_Decks
                    
         
         //On Load
+        //  - gets all paths
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
-
-            
-
-            //calls GetPaths
-            List<string> str = GetFiles.GetPath();
-            foreach(string s in str)
+         
+            //calls GetPaths and make class instance
+            List<string> FileStr = GetFiles.GetPath();
+            foreach(string str in FileStr)
             {
                 RootProfile profile = new RootProfile();
-                profile = GetFiles.GetjsonData(s);
+                profile = GetFiles.GetjsonData(str);
                 ProfilesList.Add(profile);
             }
 
@@ -59,6 +58,7 @@ namespace Rpg_Decks
             int index = 0;
             foreach(RootProfile pro in ProfilesList)
             {
+                //contructor
                 LoadControl lc = new LoadControl(pro.ProfileName, index);
                 lc.ParentForm = this;
                 FlowLayout.Controls.Add(lc);
@@ -103,7 +103,7 @@ namespace Rpg_Decks
             {
                 //re-Initializing
 
-                //get values from dictionary
+                //get values from list
                 RootProfile TempData = ProfilesList[id];
                 //add all values
                 ProControlU.DataLoader(TempData);

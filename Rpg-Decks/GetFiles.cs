@@ -39,19 +39,14 @@ namespace Rpg_Decks
         //gets all paths
         public static List<string> GetPath()
         {
-            
-                // StreamReader reader = new StreamReader(path);
-                //GetPath().Clear();                    //path
-                string[] FileEntries = Directory.GetFiles(path);
+            //list of file path strings from directory
+            List<string> FileEntries = new List<string>();
+            foreach(string filePath in Directory.EnumerateFiles(path))
+            {
+                FileEntries.Add(filePath);
+            }
 
-                foreach (string str in FileEntries)
-                {
-                    GetPath().Add(str);
-                }
-
-
-                return GetPath();
-            
+            return FileEntries;     
         }
         
         public static void SaveData()
