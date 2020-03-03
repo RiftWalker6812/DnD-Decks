@@ -21,13 +21,13 @@ namespace Rpg_Decks
             
             StreamReader stream;
             
-                stream = new StreamReader(tempPath);
-                string result = stream.ReadToEnd();
+            stream = new StreamReader(tempPath);
+            string result = stream.ReadToEnd();
 
-                JProfile profile = JProfile.FromJson(result);
-                RootProfile RP = new RootProfile();
-                RP = profile.ProType;
-                return RP; //returns it with the properties            
+            JProfile profile = JProfile.FromJson(result);
+            RootProfile RP = new RootProfile();
+            RP = profile.ProType;
+            return RP; //returns it with the properties            
             
         }
         //Look for the darn file    ??? Validation!
