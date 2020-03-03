@@ -13,6 +13,7 @@ namespace Rpg_Decks.UserControls
 {
     public partial class NewControl : UserControl
     {
+        public Form1 ParentForm { get; set; }
         public NewControl()
         {
             InitializeComponent();
@@ -20,9 +21,7 @@ namespace Rpg_Decks.UserControls
 
         private void NewProfileBtn_Click(object sender, EventArgs e)
         {
-            
-
-            
+            ParentForm.LoadFunction();
         }
     }
 }

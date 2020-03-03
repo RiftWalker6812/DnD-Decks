@@ -20,17 +20,13 @@ namespace Rpg_Decks
         {
             InitializeComponent();
 
-            ProfilesList = new List<RootProfile>();
+            GetFiles.ProfilesList = new List<RootProfile>();
 
+            GetFiles.IdPath = new Dictionary<int, string>();
             //empty profile for clearing
             
         }
-
-           
-        //List of RootProfile Instances
-        public List<RootProfile> ProfilesList { get; set; }
-                   
-        
+ 
         //On Load
         //  - gets all paths
         //  - call on Profile Spawner
@@ -45,13 +41,16 @@ namespace Rpg_Decks
             {
                 RootProfile profile = new RootProfile();
                 profile = GetFiles.GetjsonData(str);
-                ProfilesList.Add(profile);
+                GetFiles.ProfilesList.Add(profile);
             }
 
             //calls Spawner
             ProSpawn();
 
-            
+            ProControlU.SaveUpdateBtn.Enabled = false;
+            saveUpdateTool.Enabled = false;
+            ProControlU.Enabled = false;
+
         }
 
         //load all Profiles from List
@@ -59,7 +58,7 @@ namespace Rpg_Decks
         private void ProSpawn()
         {
             int index = 0;
-            foreach(RootProfile pro in ProfilesList)
+            foreach(RootProfile pro in GetFiles.ProfilesList)
             {
                 //contructor
                 LoadControl lc = new LoadControl(pro.ProfileName, index);
@@ -68,12 +67,10 @@ namespace Rpg_Decks
                 index++;
             }
             NewControl nc = new NewControl();
+            nc.ParentForm = this;
             FlowLayout.Controls.Add(nc);
         }
-        public void pubTabSwitch()
-        {
-            TabConMain.SelectedTab = tabPage2;
-        }
+      
 
 
         private void SaveTool_Click(object sender, EventArgs e)
@@ -83,6 +80,7 @@ namespace Rpg_Decks
             {
                 GetFiles.SaveData(ProControlU.GetProfileData());
             }
+            TabConMain.SelectedTab = tabPage1;
         }
         public RootProfile emptyProfile = new RootProfile();
         private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
@@ -92,7 +90,10 @@ namespace Rpg_Decks
             if(TabConMain.SelectedTab == tabPage1)
             {
                 FlowLayout.Controls.Clear();
-                
+                ProControlU.SaveUpdateBtn.Enabled = false;
+                saveUpdateTool.Enabled = false;
+                ProControlU.SaveBtn.Enabled = false;
+                ProControlU.Enabled = false;
                 ProSpawn();
             }
             else if(TabConMain.SelectedTab == tabPage2)
@@ -108,15 +109,32 @@ namespace Rpg_Decks
                 //re-Initializing
                 ProControlU.DataLoader(emptyProfile);
                 //get values from list
-                RootProfile TempData = ProfilesList[id];
+                RootProfile TempData = GetFiles.ProfilesList[id];
                 //add all values
                 ProControlU.DataLoader(TempData);
-
+                if(ProControlU.SaveUpdateBtn.Enabled != true) { ProControlU.SaveUpdateBtn.Enabled = true; }
+                if (saveUpdateTool.Enabled != true) { saveUpdateTool.Enabled = true; }
+                ProControlU.SaveBtn.Enabled = true;
                 ProControlU.Refresh();
+                ProControlU.Enabled = true;
             }
         }
-        
-
+        public void LoadFunction()
+        {           
+            //Initializing
+            ProControlU.DataLoader(emptyProfile);
+            //switch tab
+            TabConMain.SelectedTab = tabPage2;
+            //disables controls
+            ProControlU.SaveUpdateBtn.Enabled = false;
+            saveUpdateTool.Enabled = false;
+            ProControlU.SaveBtn.Enabled = true;
+            ProControlU.Enabled = true;
+        }
+        private void SaveUpdateTool_Click(object sender, EventArgs e)
+        {
+            GetFiles.SaveUpdateData(ProControlU.GetProfileData());
+        }
     }
     
 }

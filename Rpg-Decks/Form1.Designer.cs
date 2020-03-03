@@ -31,6 +31,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.SaveTool = new System.Windows.Forms.ToolStripMenuItem();
+            this.saveUpdateTool = new System.Windows.Forms.ToolStripMenuItem();
             this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
@@ -59,14 +60,15 @@
             this.windowsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(9, 9);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(209, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(219, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.SaveTool});
+            this.SaveTool,
+            this.saveUpdateTool});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -74,9 +76,16 @@
             // SaveTool
             // 
             this.SaveTool.Name = "SaveTool";
-            this.SaveTool.Size = new System.Drawing.Size(98, 22);
+            this.SaveTool.Size = new System.Drawing.Size(141, 22);
             this.SaveTool.Text = "Save";
             this.SaveTool.Click += new System.EventHandler(this.SaveTool_Click);
+            // 
+            // saveUpdateTool
+            // 
+            this.saveUpdateTool.Name = "saveUpdateTool";
+            this.saveUpdateTool.Size = new System.Drawing.Size(141, 22);
+            this.saveUpdateTool.Text = "Save-Update";
+            this.saveUpdateTool.Click += new System.EventHandler(this.SaveUpdateTool_Click);
             // 
             // configToolStripMenuItem
             // 
@@ -114,7 +123,7 @@
             this.TabConMain.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TabConMain.RightToLeftLayout = true;
             this.TabConMain.SelectedIndex = 0;
-            this.TabConMain.Size = new System.Drawing.Size(783, 424);
+            this.TabConMain.Size = new System.Drawing.Size(793, 424);
             this.TabConMain.TabIndex = 1;
             this.TabConMain.SelectedIndexChanged += new System.EventHandler(this.TabControl_SelectedIndexChanged);
             // 
@@ -124,7 +133,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(775, 398);
+            this.tabPage1.Size = new System.Drawing.Size(785, 398);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Selection Tab";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -133,10 +142,10 @@
             // 
             this.FlowLayout.AutoScroll = true;
             this.FlowLayout.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FlowLayout.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
-            this.FlowLayout.Size = new System.Drawing.Size(769, 392);
+            this.FlowLayout.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.FlowLayout.Size = new System.Drawing.Size(779, 392);
             this.FlowLayout.TabIndex = 0;
             // 
             // tabPage2
@@ -145,7 +154,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(775, 398);
+            this.tabPage2.Size = new System.Drawing.Size(785, 398);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Profile Tab";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -159,13 +168,12 @@
             this.ProControlU.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.ProControlU.Size = new System.Drawing.Size(775, 388);
             this.ProControlU.TabIndex = 0;
-        
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(810, 450);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.TabConMain);
             this.MainMenuStrip = this.menuStrip1;
@@ -196,6 +204,7 @@
         public System.Windows.Forms.TabControl TabConMain;
         public System.Windows.Forms.TabPage tabPage2;
         public UserControls.ProfileControl ProControlU;
+        private System.Windows.Forms.ToolStripMenuItem saveUpdateTool;
     }
 }
 

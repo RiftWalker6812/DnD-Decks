@@ -96,6 +96,7 @@
             this.TraitsListBox = new System.Windows.Forms.ListBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.XPText = new System.Windows.Forms.TextBox();
+            this.SaveUpdateBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).BeginInit();
             this.AblityScoresGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).BeginInit();
@@ -250,11 +251,12 @@
             // 
             // SaveBtn
             // 
-            this.SaveBtn.Location = new System.Drawing.Point(669, 352);
+            this.SaveBtn.Enabled = false;
+            this.SaveBtn.Location = new System.Drawing.Point(696, 352);
             this.SaveBtn.Name = "SaveBtn";
-            this.SaveBtn.Size = new System.Drawing.Size(100, 33);
+            this.SaveBtn.Size = new System.Drawing.Size(73, 33);
             this.SaveBtn.TabIndex = 15;
-            this.SaveBtn.Text = "Save";
+            this.SaveBtn.Text = "Save-New";
             this.SaveBtn.UseVisualStyleBackColor = true;
             this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
             // 
@@ -955,12 +957,23 @@
             this.XPText.Size = new System.Drawing.Size(100, 20);
             this.XPText.TabIndex = 28;
             // 
+            // SaveUpdateBtn
+            // 
+            this.SaveUpdateBtn.Location = new System.Drawing.Point(605, 352);
+            this.SaveUpdateBtn.Name = "SaveUpdateBtn";
+            this.SaveUpdateBtn.Size = new System.Drawing.Size(85, 33);
+            this.SaveUpdateBtn.TabIndex = 29;
+            this.SaveUpdateBtn.Text = "Save-Update";
+            this.SaveUpdateBtn.UseVisualStyleBackColor = true;
+            this.SaveUpdateBtn.Click += new System.EventHandler(this.SaveUpdateBtn_Click);
+            // 
             // ProfileControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.SaveUpdateBtn);
             this.Controls.Add(this.XPText);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.SkillsBox);
@@ -1041,7 +1054,6 @@
         private System.Windows.Forms.TextBox acTextBox;
         private System.Windows.Forms.Label xpDisplayLabel;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button SaveBtn;
         private System.Windows.Forms.FlowLayoutPanel SpellFlow;
         private System.Windows.Forms.FlowLayoutPanel InventoryFlow;
         private System.Windows.Forms.Button SpellBtn;
@@ -1095,5 +1107,7 @@
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox XPText;
         private System.Windows.Forms.TextBox ProName;
+        public System.Windows.Forms.Button SaveUpdateBtn;
+        public System.Windows.Forms.Button SaveBtn;
     }
 }

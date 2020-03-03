@@ -90,7 +90,7 @@ namespace QuickType
 
     public static class Serialize
     {
-        public static string ToJson(this JProfile self) => JsonConvert.SerializeObject(self, QuickType.Converter.Settings);
+        public static string ToJson(this JProfile self) => JsonConvert.SerializeObject(self, Formatting.Indented, QuickType.Converter.Settings);
     }
 
     internal static class Converter

@@ -27,9 +27,12 @@ namespace Rpg_Decks.UserControls
             else if (TraitRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = false; TraitsBox.Visible = true; }
             
         }
-        
+        public int temporalId;
         public void DataLoader(RootProfile TemporalData)
         {
+            //id for later
+            temporalId = TemporalData.TempId;
+
             ProName.Text = TemporalData.ProfileName;
             hitdiceTextBox.Text = TemporalData.HitDie;
 
@@ -77,11 +80,17 @@ namespace Rpg_Decks.UserControls
         {
 
             GetFiles.SaveData(GetProfileData());
+
+            TabControl tab = (ParentForm.Controls["TabConMain"] as TabControl);
+            tab.SelectedIndex = 0;
         }//Application.OpenForms["Form1"].Controls["ProControlU"] as ProfileControl
         
         public RootProfile GetProfileData()
         {//added for saving
+
             RootProfile TemporalProfile = new RootProfile();
+
+            TemporalProfile.TempId = temporalId;
 
             TemporalProfile.ProfileName = ProName.Text;
             TemporalProfile.HitDie = hitdiceTextBox.Text;
@@ -133,6 +142,11 @@ namespace Rpg_Decks.UserControls
             TemporalProfile.Charisma.Saving = (int)ChaSaving.Value;
 
             return TemporalProfile;
+        }
+
+        private void SaveUpdateBtn_Click(object sender, EventArgs e)
+        {
+            GetFiles.SaveUpdateData(GetProfileData());
         }
     }
 }

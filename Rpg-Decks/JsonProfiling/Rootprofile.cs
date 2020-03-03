@@ -8,6 +8,7 @@ namespace Rpg_Decks.JsonProfiling
 {
     public partial class RootProfile
     {
+        public int TempId { get; set; }
         public string ProfileName { get; set; }
         public string HitDie { get; set; }
         public string RpgClass { get; set; }
