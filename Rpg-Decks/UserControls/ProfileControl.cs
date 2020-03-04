@@ -189,15 +189,6 @@ namespace Rpg_Decks.UserControls
             skillListBox.Items.Add(combo);
         }
 
-       
-
-       
-
-        private void SkillListBox_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void SkillListBox_KeyDown(object sender, KeyEventArgs e)
         {
             if(skillListBox.SelectedIndex != -1)

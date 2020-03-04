@@ -896,7 +896,7 @@
             this.skillListBox.Name = "skillListBox";
             this.skillListBox.Size = new System.Drawing.Size(184, 121);
             this.skillListBox.TabIndex = 0;
-            this.skillListBox.SelectedIndexChanged += new System.EventHandler(this.SkillListBox_SelectedIndexChanged);
+      
             this.skillListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SkillListBox_KeyDown);
             // 
             // ProName
