@@ -24,7 +24,8 @@ namespace Rpg_Decks
 
             GetFiles.IdPath = new Dictionary<int, string>();
             //empty profile for clearing
-            
+            //adding empty
+            emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");
         }
  
         //On Load
@@ -32,18 +33,14 @@ namespace Rpg_Decks
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
-            //adding empty
-            emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");
-
-            //calls GetPaths and make class instance
-            List<string> FileStr = GetFiles.GetPath();
-            foreach(string str in FileStr)
-            {
-                RootProfile profile = new RootProfile();
-                profile = GetFiles.GetjsonData(str);
-                GetFiles.ProfilesList.Add(profile);
-            }
-
+            FormLoadingMethod();
+        }
+        private void FormLoadingMethod()
+        {
+            //clears Profiles list
+            GetFiles.ProfilesList.Clear();
+            //registers profiles into list
+            ProfileReg();
             //calls Spawner
             ProSpawn();
 
@@ -53,10 +50,24 @@ namespace Rpg_Decks
 
         }
 
+        private void ProfileReg()
+        {
+            //calls GetPaths and make class instance
+            List<string> FileStr = GetFiles.GetPath();
+            foreach (string str in FileStr)
+            {
+                RootProfile profile = new RootProfile();
+                profile = GetFiles.GetjsonData(str);
+                GetFiles.ProfilesList.Add(profile);
+            }
+        }
+
         //load all Profiles from List
         //onto FlowPanel as UserControls
         private void ProSpawn()
         {
+            //added clear because ummm couldnt use this method way to many times
+            FlowLayout.Controls.Clear();
             int index = 0;
             foreach(RootProfile pro in GetFiles.ProfilesList)
             {
@@ -71,18 +82,10 @@ namespace Rpg_Decks
             FlowLayout.Controls.Add(nc);
         }
       
+        
 
-
-        private void SaveTool_Click(object sender, EventArgs e)
-        {
-            //check if user is saving in selectedTab
-            if (TabConMain.SelectedTab == tabPage2) 
-            {
-                GetFiles.SaveData(ProControlU.GetProfileData());
-            }
-            TabConMain.SelectedTab = tabPage1;
-        }
         public RootProfile emptyProfile = new RootProfile();
+
         private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
         {
             //Clears the flow of profiles so it doesnt keep stacking and makes my life easier with programming 
@@ -94,7 +97,7 @@ namespace Rpg_Decks
                 saveUpdateTool.Enabled = false;
                 ProControlU.SaveBtn.Enabled = false;
                 ProControlU.Enabled = false;
-                ProSpawn();
+                ProSpawn(); //this is the one causing me the issues isnt it?!
             }
             else if(TabConMain.SelectedTab == tabPage2)
             {
@@ -131,10 +134,29 @@ namespace Rpg_Decks
             ProControlU.SaveBtn.Enabled = true;
             ProControlU.Enabled = true;
         }
+
+        private void switchTab(TabPage tab)
+        {
+            TabConMain.SelectedTab = tab;
+        }
+
         private void SaveUpdateTool_Click(object sender, EventArgs e)
         {
             GetFiles.SaveUpdateData(ProControlU.GetProfileData());
+            switchTab(tabPage1);
+            FormLoadingMethod();
+        }
+        private void SaveTool_Click(object sender, EventArgs e)
+        {
+            //check if user is saving in selectedTab
+            if (TabConMain.SelectedTab == tabPage2) 
+            {
+                GetFiles.SaveData(ProControlU.GetProfileData());
+            }
+            switchTab(tabPage1);
+            FormLoadingMethod();
         }
     }
+
     
 }

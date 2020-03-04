@@ -15,12 +15,21 @@ namespace Rpg_Decks
 {
     static class GetFiles
     {
+
+        //List of RootProfile Instances
+        public static List<RootProfile> ProfilesList { get; set; }
+
         public static string path = @"JSON\Profiles\";
+
+        public static Dictionary<int, string> IdPath;
+        private static int IdCounter = 0;
+
         public static RootProfile GetjsonData(string tempPath)
         {
             //Future Note: Add StringPath accessability so that class can be called with stringpath                      
             IdCounter++;
             StreamReader stream;
+
             
             stream = new StreamReader(tempPath);
             string result = stream.ReadToEnd();
@@ -33,8 +42,6 @@ namespace Rpg_Decks
             return RP; //returns it with the properties            
             
         }
-        public static Dictionary<int, string> IdPath;
-        private static int IdCounter = 0;
 
         //Look for the darn file    ??? Validation!
         public static bool FileFind(string path)
@@ -57,8 +64,8 @@ namespace Rpg_Decks
             return FileEntries;     
         }
         
-        //new save
-        public static void SaveData(RootProfile TemporalSave)
+        //new save  //saving bools for later implementation of validation
+        public static bool SaveData(RootProfile TemporalSave)
         {
             JProfile JPro = new JProfile();
             JPro.ProType = TemporalSave;
@@ -72,9 +79,10 @@ namespace Rpg_Decks
             writer.Close();
             Console.WriteLine("Saved Profile");
             MessageBox.Show("Profile has been saved");
-            UpdateProfileList();
-        }     
-        public static void SaveUpdateData(RootProfile TemporalSave)
+            return true;
+        } 
+        
+        public static bool SaveUpdateData(RootProfile TemporalSave)
         {
             JProfile JPro = new JProfile();
             JPro.ProType = TemporalSave;
@@ -84,16 +92,10 @@ namespace Rpg_Decks
             writer.Close();
             Console.WriteLine("Updated Profile");
             MessageBox.Show("Profile has been Updated");
-            UpdateProfileList();
+            return true;
 
         }
-        public static void UpdateProfileList()
-        {
-            Application.Restart();
-        }
-        //List of RootProfile Instances
-        public static List<RootProfile> ProfilesList { get; set; }
-
+        
         //made and extension method for effieciency
         public static float ToFloat(this string str)
         {
