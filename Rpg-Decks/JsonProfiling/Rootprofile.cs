@@ -15,6 +15,7 @@ namespace Rpg_Decks.JsonProfiling
         public int Level { get; set; }
         public float XpValue { get; set; }
         public int HpValue { get; set; }
+        public int HpMax { get; set; }
         public int Proficiency { get; set; }
         public int Ac { get; set; }
         public List<string> Skills { get; set; }

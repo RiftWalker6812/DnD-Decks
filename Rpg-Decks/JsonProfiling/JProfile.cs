@@ -69,6 +69,9 @@ namespace QuickType
         [JsonProperty("Charisma")]
         public Ability Charisma { get; set; }
 
+        [JsonProperty("HpMax")]
+        public int HpMax { get; set; }
+
     }
 
     public partial class Ability

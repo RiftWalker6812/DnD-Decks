@@ -42,6 +42,7 @@ namespace Rpg_Decks.UserControls
             levelUpDown.Value = TemporalData.Level;
             XPText.Text = TemporalData.XpValue.ToString("f");
             hpTextBox.Text = TemporalData.HpValue.ToString();
+            HpMaxValueBox.Value = TemporalData.HpMax;
             proficiencyTextBox.Text = TemporalData.Proficiency.ToString();
             acTextBox.Text = TemporalData.Ac.ToString();
 
@@ -77,7 +78,9 @@ namespace Rpg_Decks.UserControls
 
             ChaScore.Value = TemporalData.Charisma.Score;
             ChaBonus.Value = TemporalData.Charisma.Bonus;
-            ChaSaving.Value = TemporalData.Charisma.Saving;          
+            ChaSaving.Value = TemporalData.Charisma.Saving;
+
+            HpBarCalculation();
         }
 
         private void SaveBtn_Click(object sender, EventArgs e)
@@ -103,6 +106,7 @@ namespace Rpg_Decks.UserControls
             TemporalProfile.Level = (int)levelUpDown.Value;
             TemporalProfile.XpValue = XPText.Text.ToFloat();
             TemporalProfile.HpValue = (int)hpTextBox.Value;
+            TemporalProfile.HpMax = (int)HpMaxValueBox.Value;
             TemporalProfile.Proficiency = (int)proficiencyTextBox.Text.ToFloat();
             TemporalProfile.Ac = int.Parse(acTextBox.Text);
 
@@ -161,10 +165,7 @@ namespace Rpg_Decks.UserControls
             tool.SetToolTip(this.SaveBtn, "will overwrite or make a new file based on name");
         }
 
-        private void ProfileControl_Load(object sender, EventArgs e)
-        {
-            HpBarCalculation();
-        }
+
         private void HpBarCalculation()
         {
             int MaxHP = (int)HpMaxValueBox.Value;

@@ -752,6 +752,7 @@
             // TraitRadio
             // 
             this.TraitRadio.AutoSize = true;
+            this.TraitRadio.Enabled = false;
             this.TraitRadio.Location = new System.Drawing.Point(65, 41);
             this.TraitRadio.Name = "TraitRadio";
             this.TraitRadio.Size = new System.Drawing.Size(51, 17);
@@ -1057,7 +1058,7 @@
             this.Controls.Add(this.AblityScoresGroupBox);
             this.Name = "ProfileControl";
             this.Size = new System.Drawing.Size(771, 388);
-            this.Load += new System.EventHandler(this.ProfileControl_Load);
+          
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).EndInit();
             this.AblityScoresGroupBox.ResumeLayout(false);
             this.AblityScoresGroupBox.PerformLayout();
