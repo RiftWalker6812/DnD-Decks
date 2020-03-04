@@ -17,6 +17,8 @@ namespace Rpg_Decks.UserControls
         public ProfileControl()
         {
             InitializeComponent();
+
+            
         }
 
         private void TraitRadio_CheckedChanged(object sender, EventArgs e)
@@ -186,5 +188,29 @@ namespace Rpg_Decks.UserControls
             string combo = $"{mod} {skill}";
             skillListBox.Items.Add(combo);
         }
+
+       
+
+       
+
+        private void SkillListBox_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void SkillListBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if(skillListBox.SelectedIndex != -1)
+            {
+                if (e.KeyCode == Keys.Delete)
+                {
+                    skillListBox.Items.Remove(skillListBox.SelectedItem);
+                }
+            }
+        }
+    }
+    public static class ClassRpgData
+    {
+
     }
 }

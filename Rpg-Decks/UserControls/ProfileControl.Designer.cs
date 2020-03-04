@@ -896,6 +896,8 @@
             this.skillListBox.Name = "skillListBox";
             this.skillListBox.Size = new System.Drawing.Size(184, 121);
             this.skillListBox.TabIndex = 0;
+            this.skillListBox.SelectedIndexChanged += new System.EventHandler(this.SkillListBox_SelectedIndexChanged);
+            this.skillListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SkillListBox_KeyDown);
             // 
             // ProName
             // 
@@ -1058,7 +1060,6 @@
             this.Controls.Add(this.AblityScoresGroupBox);
             this.Name = "ProfileControl";
             this.Size = new System.Drawing.Size(771, 388);
-          
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).EndInit();
             this.AblityScoresGroupBox.ResumeLayout(false);
             this.AblityScoresGroupBox.PerformLayout();
@@ -1117,7 +1118,6 @@
         private System.Windows.Forms.GroupBox AblityScoresGroupBox;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.ComboBox classComboBox;
         private System.Windows.Forms.NumericUpDown StrScore;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label16;
@@ -1168,5 +1168,6 @@
         private System.Windows.Forms.NumericUpDown hpTextBox;
         private System.Windows.Forms.NumericUpDown HpMaxValueBox;
         private System.Windows.Forms.Label hpMaxLabel;
+        public System.Windows.Forms.ComboBox classComboBox;
     }
 }
