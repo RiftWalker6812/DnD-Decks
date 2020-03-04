@@ -827,6 +827,16 @@
             // skillModUpDown
             // 
             this.skillModUpDown.Location = new System.Drawing.Point(65, 165);
+            this.skillModUpDown.Maximum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            0});
+            this.skillModUpDown.Minimum = new decimal(new int[] {
+            10,
+            0,
+            0,
+            -2147483648});
             this.skillModUpDown.Name = "skillModUpDown";
             this.skillModUpDown.Size = new System.Drawing.Size(51, 20);
             this.skillModUpDown.TabIndex = 22;
@@ -849,6 +859,7 @@
             this.skillAdd.TabIndex = 20;
             this.skillAdd.Text = "Add";
             this.skillAdd.UseVisualStyleBackColor = true;
+            this.skillAdd.Click += new System.EventHandler(this.SkillAdd_Click);
             // 
             // comboBox1
             // 

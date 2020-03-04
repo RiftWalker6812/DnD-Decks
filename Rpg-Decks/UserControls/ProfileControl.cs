@@ -45,6 +45,7 @@ namespace Rpg_Decks.UserControls
             proficiencyTextBox.Text = TemporalData.Proficiency.ToString();
             acTextBox.Text = TemporalData.Ac.ToString();
 
+            skillListBox.Items.Clear();
             if (TemporalData.Skills != null)
             {
                 foreach (string str in TemporalData.Skills)
@@ -53,6 +54,7 @@ namespace Rpg_Decks.UserControls
                 }
             }
             else { skillListBox.Items.Clear(); }
+
             StrScore.Value = TemporalData.Strength.Score;
             StrBonus.Value = TemporalData.Strength.Bonus;
             StrSaving.Value = TemporalData.Strength.Saving;
@@ -149,6 +151,8 @@ namespace Rpg_Decks.UserControls
         private void SaveUpdateBtn_Click(object sender, EventArgs e)
         {
             GetFiles.SaveUpdateData(GetProfileData());
+            TabControl tab = (ParentForm.Controls["TabConMain"] as TabControl);
+            tab.SelectedIndex = 0;
         }
 
         private void SaveBtn_MouseHover(object sender, EventArgs e)
@@ -172,6 +176,14 @@ namespace Rpg_Decks.UserControls
         private void HpMaxValueBox_ValueChanged(object sender, EventArgs e)
         {
             HpBarCalculation();
+        }
+
+        private void SkillAdd_Click(object sender, EventArgs e)
+        {
+            string skill = comboBox1.Text;
+            int mod = (int)skillModUpDown.Value;
+            string combo = $"{mod} {skill}";
+            skillListBox.Items.Add(combo);
         }
     }
 }
