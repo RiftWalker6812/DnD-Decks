@@ -46,6 +46,7 @@ namespace Rpg_Decks
 
             ProControlU.SaveUpdateBtn.Enabled = false;
             saveUpdateTool.Enabled = false;
+            SaveTool.Enabled = false;
             ProControlU.Enabled = false;
 
         }
@@ -82,8 +83,6 @@ namespace Rpg_Decks
             FlowLayout.Controls.Add(nc);
         }
       
-        
-
         public RootProfile emptyProfile = new RootProfile();
 
         private void TabControl_SelectedIndexChanged(object sender, EventArgs e)
@@ -120,6 +119,7 @@ namespace Rpg_Decks
                 ProControlU.SaveBtn.Enabled = true;
                 ProControlU.Refresh();
                 ProControlU.Enabled = true;
+                SaveTool.Enabled = true;
             }
         }
         public void LoadFunction()

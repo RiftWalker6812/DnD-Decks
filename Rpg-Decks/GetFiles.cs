@@ -1,14 +1,8 @@
 ﻿using System;
-using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using QuickType;
 using System.IO;
 using Rpg_Decks.JsonProfiling;
-using Rpg_Decks.UserControls;
-using QuickType;
 using System.Windows.Forms;
 
 namespace Rpg_Decks

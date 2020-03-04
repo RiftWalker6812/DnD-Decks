@@ -22,10 +22,12 @@ namespace Rpg_Decks.UserControls
         private void TraitRadio_CheckedChanged(object sender, EventArgs e)
         {
 
-            if (ScoreRadio.Checked == true) { AblityScoresGroupBox.Visible = true; SkillsBox.Visible = false; TraitsBox.Visible = false; }
-            else if (SkillRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = true; TraitsBox.Visible = false; }
-            else if (TraitRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = false; TraitsBox.Visible = true; }
-            
+            if (ScoreRadio.Checked == true) { AblityScoresGroupBox.Visible = true; SkillsBox.Visible = false; TraitsBox.Visible = false; HpMaxValueBox.Visible = false; }
+            else if (SkillRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = true; TraitsBox.Visible = false; HpMaxValueBox.Visible = false; }
+            else if (TraitRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = false; TraitsBox.Visible = true; HpMaxValueBox.Visible = false; }
+            else if (MainRadio.Checked == true) { AblityScoresGroupBox.Visible = false; SkillsBox.Visible = false; TraitsBox.Visible = false; HpMaxValueBox.Visible = true; }
+            if(MainRadio.Checked == true) { hpMaxLabel.Visible = true; }
+            else { hpMaxLabel.Visible = false; }
         }
         public int temporalId;
         public void DataLoader(RootProfile TemporalData)
@@ -98,7 +100,7 @@ namespace Rpg_Decks.UserControls
             TemporalProfile.RpgClass = classComboBox.SelectedItem.ToString();
             TemporalProfile.Level = (int)levelUpDown.Value;
             TemporalProfile.XpValue = XPText.Text.ToFloat();
-            TemporalProfile.HpValue = (int)hpTextBox.Text.ToFloat();
+            TemporalProfile.HpValue = (int)hpTextBox.Value;
             TemporalProfile.Proficiency = (int)proficiencyTextBox.Text.ToFloat();
             TemporalProfile.Ac = int.Parse(acTextBox.Text);
 
@@ -147,6 +149,29 @@ namespace Rpg_Decks.UserControls
         private void SaveUpdateBtn_Click(object sender, EventArgs e)
         {
             GetFiles.SaveUpdateData(GetProfileData());
+        }
+
+        private void SaveBtn_MouseHover(object sender, EventArgs e)
+        {
+            ToolTip tool = new ToolTip();
+            tool.SetToolTip(this.SaveBtn, "will overwrite or make a new file based on name");
+        }
+
+        private void ProfileControl_Load(object sender, EventArgs e)
+        {
+            HpBarCalculation();
+        }
+        private void HpBarCalculation()
+        {
+            int MaxHP = (int)HpMaxValueBox.Value;
+            int HP = (int)hpTextBox.Value;
+            if (MaxHP >= HP) { hpBar.Maximum = MaxHP; hpBar.Value = HP; hpBar.Enabled = true; }
+            else { hpBar.Enabled = false; }
+        }
+
+        private void HpMaxValueBox_ValueChanged(object sender, EventArgs e)
+        {
+            HpBarCalculation();
         }
     }
 }

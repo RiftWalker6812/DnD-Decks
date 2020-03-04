@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.hpTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.hpBar = new System.Windows.Forms.ProgressBar();
             this.hitdiceTextBox = new System.Windows.Forms.TextBox();
@@ -76,6 +75,7 @@
             this.label11 = new System.Windows.Forms.Label();
             this.StrScore = new System.Windows.Forms.NumericUpDown();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.MainRadio = new System.Windows.Forms.RadioButton();
             this.TraitRadio = new System.Windows.Forms.RadioButton();
             this.SkillRadio = new System.Windows.Forms.RadioButton();
             this.ScoreRadio = new System.Windows.Forms.RadioButton();
@@ -97,6 +97,9 @@
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.XPText = new System.Windows.Forms.TextBox();
             this.SaveUpdateBtn = new System.Windows.Forms.Button();
+            this.hpTextBox = new System.Windows.Forms.NumericUpDown();
+            this.HpMaxValueBox = new System.Windows.Forms.NumericUpDown();
+            this.hpMaxLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).BeginInit();
             this.AblityScoresGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).BeginInit();
@@ -121,15 +124,9 @@
             this.SkillsBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.skillModUpDown)).BeginInit();
             this.TraitsBox.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hpTextBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HpMaxValueBox)).BeginInit();
             this.SuspendLayout();
-            // 
-            // hpTextBox
-            // 
-            this.hpTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.hpTextBox.Location = new System.Drawing.Point(29, 77);
-            this.hpTextBox.Name = "hpTextBox";
-            this.hpTextBox.Size = new System.Drawing.Size(64, 49);
-            this.hpTextBox.TabIndex = 1;
             // 
             // label1
             // 
@@ -259,6 +256,7 @@
             this.SaveBtn.Text = "Save-New";
             this.SaveBtn.UseVisualStyleBackColor = true;
             this.SaveBtn.Click += new System.EventHandler(this.SaveBtn_Click);
+            this.SaveBtn.MouseHover += new System.EventHandler(this.SaveBtn_MouseHover);
             // 
             // SpellFlow
             // 
@@ -729,6 +727,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.MainRadio);
             this.groupBox2.Controls.Add(this.TraitRadio);
             this.groupBox2.Controls.Add(this.SkillRadio);
             this.groupBox2.Controls.Add(this.ScoreRadio);
@@ -738,6 +737,17 @@
             this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "SwitchControl";
+            // 
+            // MainRadio
+            // 
+            this.MainRadio.AutoSize = true;
+            this.MainRadio.Location = new System.Drawing.Point(101, 20);
+            this.MainRadio.Name = "MainRadio";
+            this.MainRadio.Size = new System.Drawing.Size(72, 17);
+            this.MainRadio.TabIndex = 3;
+            this.MainRadio.Text = "Overhead";
+            this.MainRadio.UseVisualStyleBackColor = true;
+            this.MainRadio.CheckedChanged += new System.EventHandler(this.TraitRadio_CheckedChanged);
             // 
             // TraitRadio
             // 
@@ -806,7 +816,7 @@
             this.SkillsBox.Controls.Add(this.skillAdd);
             this.SkillsBox.Controls.Add(this.comboBox1);
             this.SkillsBox.Controls.Add(this.skillListBox);
-            this.SkillsBox.Location = new System.Drawing.Point(4, 193);
+            this.SkillsBox.Location = new System.Drawing.Point(3, 193);
             this.SkillsBox.Name = "SkillsBox";
             this.SkillsBox.Size = new System.Drawing.Size(194, 192);
             this.SkillsBox.TabIndex = 26;
@@ -967,16 +977,47 @@
             this.SaveUpdateBtn.UseVisualStyleBackColor = true;
             this.SaveUpdateBtn.Click += new System.EventHandler(this.SaveUpdateBtn_Click);
             // 
+            // hpTextBox
+            // 
+            this.hpTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.hpTextBox.Location = new System.Drawing.Point(29, 77);
+            this.hpTextBox.Name = "hpTextBox";
+            this.hpTextBox.Size = new System.Drawing.Size(64, 47);
+            this.hpTextBox.TabIndex = 31;
+            this.hpTextBox.ValueChanged += new System.EventHandler(this.HpMaxValueBox_ValueChanged);
+            // 
+            // HpMaxValueBox
+            // 
+            this.HpMaxValueBox.Location = new System.Drawing.Point(188, 78);
+            this.HpMaxValueBox.Name = "HpMaxValueBox";
+            this.HpMaxValueBox.Size = new System.Drawing.Size(69, 20);
+            this.HpMaxValueBox.TabIndex = 32;
+            this.HpMaxValueBox.Visible = false;
+            this.HpMaxValueBox.ValueChanged += new System.EventHandler(this.HpMaxValueBox_ValueChanged);
+            // 
+            // hpMaxLabel
+            // 
+            this.hpMaxLabel.AutoSize = true;
+            this.hpMaxLabel.Location = new System.Drawing.Point(135, 80);
+            this.hpMaxLabel.Name = "hpMaxLabel";
+            this.hpMaxLabel.Size = new System.Drawing.Size(47, 13);
+            this.hpMaxLabel.TabIndex = 33;
+            this.hpMaxLabel.Text = "Max Hp:";
+            this.hpMaxLabel.Visible = false;
+            // 
             // ProfileControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.hpMaxLabel);
+            this.Controls.Add(this.HpMaxValueBox);
+            this.Controls.Add(this.SkillsBox);
+            this.Controls.Add(this.hpTextBox);
             this.Controls.Add(this.SaveUpdateBtn);
             this.Controls.Add(this.XPText);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.SkillsBox);
             this.Controls.Add(this.TraitsBox);
             this.Controls.Add(this.ProName);
             this.Controls.Add(this.classComboBox);
@@ -1002,10 +1043,10 @@
             this.Controls.Add(this.hitdiceTextBox);
             this.Controls.Add(this.hpBar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.hpTextBox);
             this.Controls.Add(this.AblityScoresGroupBox);
             this.Name = "ProfileControl";
             this.Size = new System.Drawing.Size(771, 388);
+            this.Load += new System.EventHandler(this.ProfileControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).EndInit();
             this.AblityScoresGroupBox.ResumeLayout(false);
             this.AblityScoresGroupBox.PerformLayout();
@@ -1034,13 +1075,14 @@
             ((System.ComponentModel.ISupportInitialize)(this.skillModUpDown)).EndInit();
             this.TraitsBox.ResumeLayout(false);
             this.TraitsBox.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.hpTextBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.HpMaxValueBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.TextBox hpTextBox;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ProgressBar hpBar;
         private System.Windows.Forms.TextBox hitdiceTextBox;
@@ -1109,5 +1151,10 @@
         private System.Windows.Forms.TextBox ProName;
         public System.Windows.Forms.Button SaveUpdateBtn;
         public System.Windows.Forms.Button SaveBtn;
+        private System.Windows.Forms.RadioButton MainRadio;
+      
+        private System.Windows.Forms.NumericUpDown hpTextBox;
+        private System.Windows.Forms.NumericUpDown HpMaxValueBox;
+        private System.Windows.Forms.Label hpMaxLabel;
     }
 }
