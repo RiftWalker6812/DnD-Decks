@@ -39,6 +39,8 @@ namespace Rpg_Decks
         {
             //clears Profiles list
             GetFiles.ProfilesList.Clear();
+            GetFiles.IdPath.Clear();
+            GetFiles.IdCounter = 0;
             //registers profiles into list
             ProfileReg();
             //calls Spawner
@@ -67,7 +69,7 @@ namespace Rpg_Decks
         //onto FlowPanel as UserControls
         private void ProSpawn()
         {
-            //added clear because ummm couldnt use this method way to many times
+            //added clear because ummm use this method way to many times
             FlowLayout.Controls.Clear();
             int index = 0;
             foreach(RootProfile pro in GetFiles.ProfilesList)
@@ -91,12 +93,7 @@ namespace Rpg_Decks
             //also by stacking i mean for everytime i add a new profile to the list
             if(TabConMain.SelectedTab == tabPage1)
             {
-                FlowLayout.Controls.Clear();
-                ProControlU.SaveUpdateBtn.Enabled = false;
-                saveUpdateTool.Enabled = false;
-                ProControlU.SaveBtn.Enabled = false;
-                ProControlU.Enabled = false;
-                ProSpawn(); //this is the one causing me the issues isnt it?!
+                FormLoadingMethod();
             }
             else if(TabConMain.SelectedTab == tabPage2)
             {
@@ -108,6 +105,7 @@ namespace Rpg_Decks
             if (TabConMain.SelectedTab != tabPage2) { Console.WriteLine("HET"); }
             else
             {
+                 ProControlU.Enabled = true;
                 //re-Initializing
                 ProControlU.DataLoader(emptyProfile);
                 //get values from list
@@ -118,7 +116,7 @@ namespace Rpg_Decks
                 if (saveUpdateTool.Enabled != true) { saveUpdateTool.Enabled = true; }
                 ProControlU.SaveBtn.Enabled = true;
                 ProControlU.Refresh();
-                ProControlU.Enabled = true;
+               
                 SaveTool.Enabled = true;
             }
         }

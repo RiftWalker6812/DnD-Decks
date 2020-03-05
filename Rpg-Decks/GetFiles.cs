@@ -15,8 +15,8 @@ namespace Rpg_Decks
 
         public static string path = @"JSON\Profiles\";
 
-        public static Dictionary<int, string> IdPath;
-        private static int IdCounter = 0;
+        public static Dictionary<int, string> IdPath { get; set; }
+        public static int IdCounter { get; set; }
 
         public static RootProfile GetjsonData(string tempPath)
         {

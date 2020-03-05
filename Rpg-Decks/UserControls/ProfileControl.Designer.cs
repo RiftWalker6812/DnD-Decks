@@ -896,7 +896,6 @@
             this.skillListBox.Name = "skillListBox";
             this.skillListBox.Size = new System.Drawing.Size(184, 121);
             this.skillListBox.TabIndex = 0;
-      
             this.skillListBox.KeyDown += new System.Windows.Forms.KeyEventHandler(this.SkillListBox_KeyDown);
             // 
             // ProName
@@ -995,6 +994,11 @@
             // 
             this.hpTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.hpTextBox.Location = new System.Drawing.Point(29, 77);
+            this.hpTextBox.Minimum = new decimal(new int[] {
+            100,
+            0,
+            0,
+            -2147483648});
             this.hpTextBox.Name = "hpTextBox";
             this.hpTextBox.Size = new System.Drawing.Size(64, 47);
             this.hpTextBox.TabIndex = 31;
