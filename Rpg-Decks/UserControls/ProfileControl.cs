@@ -199,9 +199,16 @@ namespace Rpg_Decks.UserControls
                 }
             }
         }
-    }
-    public static class ClassRpgData
-    {
 
+        private void ProfileControl_Load(object sender, EventArgs e)
+        {
+            //experience to level
+            Dictionary<int, int> ExpDict = new Dictionary<int, int>();
+            //level to Bonus
+            Dictionary<int, int> LevelProficiency = new Dictionary<int, int>();
+
+           
+        }
     }
+    
 }
