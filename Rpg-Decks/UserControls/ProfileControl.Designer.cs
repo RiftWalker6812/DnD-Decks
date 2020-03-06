@@ -94,12 +94,11 @@
             this.TraitRichText = new System.Windows.Forms.RichTextBox();
             this.TraitName = new System.Windows.Forms.TextBox();
             this.TraitsListBox = new System.Windows.Forms.ListBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.XPText = new System.Windows.Forms.TextBox();
             this.SaveUpdateBtn = new System.Windows.Forms.Button();
             this.hpTextBox = new System.Windows.Forms.NumericUpDown();
             this.HpMaxValueBox = new System.Windows.Forms.NumericUpDown();
             this.hpMaxLabel = new System.Windows.Forms.Label();
+            this.XPText = new System.Windows.Forms.NumericUpDown();
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).BeginInit();
             this.AblityScoresGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).BeginInit();
@@ -126,6 +125,7 @@
             this.TraitsBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hpTextBox)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HpMaxValueBox)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.XPText)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -229,7 +229,7 @@
             this.xpDisplayLabel.AutoSize = true;
             this.xpDisplayLabel.BackColor = System.Drawing.Color.Transparent;
             this.xpDisplayLabel.ForeColor = System.Drawing.Color.Black;
-            this.xpDisplayLabel.Location = new System.Drawing.Point(561, 77);
+            this.xpDisplayLabel.Location = new System.Drawing.Point(562, 77);
             this.xpDisplayLabel.Name = "xpDisplayLabel";
             this.xpDisplayLabel.Size = new System.Drawing.Size(52, 13);
             this.xpDisplayLabel.TabIndex = 13;
@@ -966,20 +966,6 @@
             this.TraitsListBox.Size = new System.Drawing.Size(184, 108);
             this.TraitsListBox.TabIndex = 0;
             // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(637, 48);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // XPText
-            // 
-            this.XPText.Location = new System.Drawing.Point(637, 48);
-            this.XPText.Name = "XPText";
-            this.XPText.Size = new System.Drawing.Size(100, 20);
-            this.XPText.TabIndex = 28;
-            // 
             // SaveUpdateBtn
             // 
             this.SaveUpdateBtn.Location = new System.Drawing.Point(605, 352);
@@ -1023,19 +1009,36 @@
             this.hpMaxLabel.Text = "Max Hp:";
             this.hpMaxLabel.Visible = false;
             // 
+            // XPText
+            // 
+            this.XPText.Increment = new decimal(new int[] {
+            100,
+            0,
+            0,
+            0});
+            this.XPText.Location = new System.Drawing.Point(637, 49);
+            this.XPText.Maximum = new decimal(new int[] {
+            355000,
+            0,
+            0,
+            0});
+            this.XPText.Name = "XPText";
+            this.XPText.Size = new System.Drawing.Size(84, 20);
+            this.XPText.TabIndex = 34;
+            this.XPText.ValueChanged += new System.EventHandler(this.XPText_TextChanged);
+            // 
             // ProfileControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.XPText);
             this.Controls.Add(this.hpMaxLabel);
             this.Controls.Add(this.HpMaxValueBox);
             this.Controls.Add(this.SkillsBox);
             this.Controls.Add(this.hpTextBox);
             this.Controls.Add(this.SaveUpdateBtn);
-            this.Controls.Add(this.XPText);
-            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.TraitsBox);
             this.Controls.Add(this.ProName);
             this.Controls.Add(this.classComboBox);
@@ -1095,6 +1098,7 @@
             this.TraitsBox.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.hpTextBox)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.HpMaxValueBox)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.XPText)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -1163,8 +1167,6 @@
         private System.Windows.Forms.TextBox TraitName;
         private System.Windows.Forms.ListBox TraitsListBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox XPText;
         private System.Windows.Forms.TextBox ProName;
         public System.Windows.Forms.Button SaveUpdateBtn;
         public System.Windows.Forms.Button SaveBtn;
@@ -1174,5 +1176,6 @@
         private System.Windows.Forms.NumericUpDown HpMaxValueBox;
         private System.Windows.Forms.Label hpMaxLabel;
         public System.Windows.Forms.ComboBox classComboBox;
+        private System.Windows.Forms.NumericUpDown XPText;
     }
 }

@@ -4,7 +4,7 @@ using QuickType;
 using System.IO;
 using Rpg_Decks.JsonProfiling;
 using System.Windows.Forms;
-using CsvHelper;
+
 using System.Globalization;
 
 namespace Rpg_Decks
@@ -92,23 +92,7 @@ namespace Rpg_Decks
 
         }
 
-        public static List<int> Exp()
-        {
-
-            List<int> ExpList = new List<int>();
-
-            StreamReader sr = new StreamReader(@"Json\Defualts\Leveling.csv");
-            var csv = new CsvReader(sr, CultureInfo.InvariantCulture);
-            
-            csv.Configuration.PrepareHeaderForMatch = (string header, int index) => header.ToLower();
-         
-            
-
-            
-
-            return ExpList;
-        }
-        
+      
 
         //made and extension method for effieciency
         public static float ToFloat(this string str)

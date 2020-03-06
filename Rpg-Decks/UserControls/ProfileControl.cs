@@ -199,15 +199,56 @@ namespace Rpg_Decks.UserControls
                 }
             }
         }
-
+        public Dictionary<int, int> ExpDict;
         private void ProfileControl_Load(object sender, EventArgs e)
         {
             //experience to level
-            Dictionary<int, int> ExpDict = new Dictionary<int, int>();
-            //level to Bonus
-            Dictionary<int, int> LevelProficiency = new Dictionary<int, int>();
+            ExpDict = new Dictionary<int, int>();
+            {
+                
+                ExpDict.Add(0,1);
+                ExpDict.Add(300,2);
+                ExpDict.Add(900,3);
+                ExpDict.Add(2700,4);
+                ExpDict.Add(6500,5);
+                ExpDict.Add(1400,6);
+                ExpDict.Add(23000,7);
+                ExpDict.Add(34000,8);
+                ExpDict.Add(48000,9);
+                ExpDict.Add(64000,10);
+                ExpDict.Add(85000,11);
+                ExpDict.Add(100000,12);
+                ExpDict.Add(120000,13);
+                ExpDict.Add(140000,14);
+                ExpDict.Add(165000,15);
+                ExpDict.Add(195000,16);
+                ExpDict.Add(225000,17);
+                ExpDict.Add(265000,18);
+                ExpDict.Add(305000,19);
+                ExpDict.Add(355000,20);
+               
+            };
+        }
 
-           
+        private void XPText_TextChanged(object sender, EventArgs e)
+        {
+            int xp = (int)XPText.Value;
+
+            int level = 0;
+            int max = 0;
+            foreach(int key in ExpDict.Keys)
+            {
+                if(xp >= key) { level = ExpDict[key]; }
+                    
+                else { max = key; break; }
+            }
+            if(xp >= 355000) { max = 355000; xp = 355000; level = 20; }
+            levelUpDown.Value = level;
+            xpBar.Maximum = max;
+            xpBar.Value = xp;
+            xpBar.Minimum = 0;
+            xpDisplayLabel.Text = $"{xp}/{max}";
+            
         }
     }
     

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Rpg_Decks.JsonProfiling
 {
-    public partial class RootProfile
+    public partial class RootProfile : ProfileInterface
     {
         public int TempId { get; set; }
         public string ProfileName { get; set; }
