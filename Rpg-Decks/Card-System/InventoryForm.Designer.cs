@@ -69,6 +69,7 @@
             this.ExitBtn.TabIndex = 2;
             this.ExitBtn.Text = "Exit";
             this.ExitBtn.UseVisualStyleBackColor = false;
+            this.ExitBtn.Click += new System.EventHandler(this.ExitBtn_Click);
             // 
             // CardFlow
             // 
@@ -94,6 +95,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InventoryForm";
             this.Text = "InventoryForm";
+            this.Load += new System.EventHandler(this.InventoryForm_Load);
             this.ResumeLayout(false);
 
         }

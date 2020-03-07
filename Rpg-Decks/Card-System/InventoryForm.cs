@@ -16,5 +16,18 @@ namespace Rpg_Decks
         {
             InitializeComponent();
         }
+
+        private string labelName { get; set; }
+        
+
+        private void ExitBtn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void InventoryForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -58,6 +58,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card-System\AbstactCard.cs" />
+    <Compile Include="Card-System\Card.cs" />
+    <Compile Include="Card-System\GetCard.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -65,10 +68,10 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="GetFiles.cs" />
-    <Compile Include="InventoryForm.cs">
+    <Compile Include="Card-System\InventoryForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="InventoryForm.Designer.cs">
+    <Compile Include="Card-System\InventoryForm.Designer.cs">
       <DependentUpon>InventoryForm.cs</DependentUpon>
     </Compile>
     <Compile Include="JsonProfiling\JProfile.cs" />
@@ -97,7 +100,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="InventoryForm.resx">
+    <EmbeddedResource Include="Card-System\InventoryForm.resx">
       <DependentUpon>InventoryForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
