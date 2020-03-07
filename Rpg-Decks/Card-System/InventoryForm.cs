@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Rpg_Decks
 {
-    abstract public partial class InventoryForm : Form
+    public partial class InventoryForm : Form
     {
         public InventoryForm()
         {

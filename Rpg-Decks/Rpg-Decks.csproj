@@ -59,8 +59,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Card-System\AbstactCard.cs" />
-    <Compile Include="Card-System\Card.cs" />
+    <Compile Include="Card-System\SpellCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Card-System\SpellCard.Designer.cs">
+      <DependentUpon>SpellCard.cs</DependentUpon>
+    </Compile>
     <Compile Include="Card-System\GetCard.cs" />
+    <Compile Include="Card-System\Spell.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -97,6 +103,9 @@
     <Compile Include="UserControls\ProfileControl.Designer.cs">
       <DependentUpon>ProfileControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Card-System\SpellCard.resx">
+      <DependentUpon>SpellCard.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
