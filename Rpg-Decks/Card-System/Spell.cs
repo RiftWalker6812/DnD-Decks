@@ -12,7 +12,7 @@ namespace Rpg_Decks.Card_System
     public partial class Spell
     {
         [JsonProperty("Spell")]
-        public SpellClass SpellSpell { get; set; }
+        public SpellClass SpellClass { get; set; }
     }
 
     public partial class SpellClass

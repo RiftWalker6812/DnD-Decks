@@ -94,8 +94,11 @@
             this.Controls.Add(this.InvLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "InventoryForm";
+            this.Opacity = 0.98D;
             this.Text = "InventoryForm";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InventoryForm_FormClosing);
             this.Load += new System.EventHandler(this.InventoryForm_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.InventoryForm_MouseDown);
             this.ResumeLayout(false);
 
         }

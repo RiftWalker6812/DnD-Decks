@@ -250,6 +250,30 @@ namespace Rpg_Decks.UserControls
             xpDisplayLabel.Text = $"{xp}/{max}";
             
         }
+        
+        
+        //opens inventory form as spell form
+        private void SpellBtn_Click(object sender, EventArgs e)
+        {
+            bool IsOpen = false;
+            foreach(Form f in Application.OpenForms)
+            {
+                if(f.Name == "SpellForm")
+                {
+                    IsOpen = true;
+                    break;
+                }
+            }
+
+            if (IsOpen == false)
+            {
+                InventoryForm SpellForm = new InventoryForm();
+                SpellForm.Name = "SpellForm";
+                SpellForm.FormSelect(InventoryForm.option.Spells);
+                // SpellForm.MdiParent = Form1.ActiveForm; not needed
+                SpellForm.Show();
+            }
+        }
     }
     
 }

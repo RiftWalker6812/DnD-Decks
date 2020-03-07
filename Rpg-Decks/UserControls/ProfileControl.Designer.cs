@@ -292,6 +292,7 @@
             this.SpellBtn.TabIndex = 18;
             this.SpellBtn.Text = "Spell-Book";
             this.SpellBtn.UseVisualStyleBackColor = true;
+            this.SpellBtn.Click += new System.EventHandler(this.SpellBtn_Click);
             // 
             // ItemBtn
             // 
