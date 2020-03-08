@@ -37,7 +37,7 @@ namespace Rpg_Decks
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
-            GetCard.AllSpells();
+            
 
             FormLoadingMethod();
         }

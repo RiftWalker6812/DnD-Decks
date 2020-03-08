@@ -65,7 +65,6 @@
             this.PreLoadBar.TabIndex = 0;
             this.PreLoadBar.Text = "0%";
             this.PreLoadBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
-            this.PreLoadBar.Value = 50;
             // 
             // pictureBox1
             // 
@@ -98,6 +97,7 @@
             this.Name = "PreLoader";
             this.Text = "PreLoader";
             this.Load += new System.EventHandler(this.PreLoader_Load);
+            this.Shown += new System.EventHandler(this.PreLoader_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
