@@ -258,7 +258,7 @@ namespace Rpg_Decks.UserControls
             bool IsOpen = false;
             foreach(Form f in Application.OpenForms)
             {
-                if(f.Name == "SpellForm")
+                if(f.Name == "SpellsForm")
                 {
                     IsOpen = true;
                     break;
@@ -267,12 +267,12 @@ namespace Rpg_Decks.UserControls
 
             if (IsOpen == false)
             {
-              //  InventoryForm SpellForm = new InventoryForm();
-                //SpellForm.Name = "SpellForm";
+                SpellsForm SpellForm = new SpellsForm();
+                SpellForm.Name = "SpellsForm";
 
-             //   SpellForm.FormSelect(InventoryForm.option.Spells);
-           
-               // SpellForm.Show();
+                //SpellForm.FormSelect(SpellForm.option.Spells);
+
+                SpellForm.Show();
             }
         }
     }

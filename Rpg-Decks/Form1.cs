@@ -166,7 +166,7 @@ namespace Rpg_Decks
             bool IsOpen = false;
             foreach (Form f in Application.OpenForms)
             {
-                if (f.Name == "SpellForm")
+                if (f.Name == "SpellsForm")
                 {
                     IsOpen = true;
                     break;
@@ -176,7 +176,7 @@ namespace Rpg_Decks
             if (IsOpen == false)
             {
                 SpellsForm SpellForm = new SpellsForm();
-                SpellForm.Name = "SpellForm";
+                SpellForm.Name = "SpellsForm";
 
               //  SpellForm.FormSelect(InventoryForm.option.Spells);
                

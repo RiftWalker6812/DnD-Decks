@@ -1,0 +1,113 @@
+﻿namespace Rpg_Decks
+{
+    partial class PreLoader
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PreLoader));
+            this.PreLoadBar = new CircularProgressBar.CircularProgressBar();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.DataLabel = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // PreLoadBar
+            // 
+            this.PreLoadBar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.PreLoadBar.AnimationSpeed = 500;
+            this.PreLoadBar.BackColor = System.Drawing.Color.Transparent;
+            this.PreLoadBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PreLoadBar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.PreLoadBar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.PreLoadBar.InnerMargin = 2;
+            this.PreLoadBar.InnerWidth = -1;
+            this.PreLoadBar.Location = new System.Drawing.Point(148, 12);
+            this.PreLoadBar.MarqueeAnimationSpeed = 2000;
+            this.PreLoadBar.Name = "PreLoadBar";
+            this.PreLoadBar.OuterColor = System.Drawing.Color.Gray;
+            this.PreLoadBar.OuterMargin = -27;
+            this.PreLoadBar.OuterWidth = 40;
+            this.PreLoadBar.ProgressColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(171)))), ((int)(((byte)(192)))));
+            this.PreLoadBar.ProgressWidth = 27;
+            this.PreLoadBar.SecondaryFont = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PreLoadBar.Size = new System.Drawing.Size(320, 320);
+            this.PreLoadBar.StartAngle = 270;
+            this.PreLoadBar.SubscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.PreLoadBar.SubscriptMargin = new System.Windows.Forms.Padding(10, -35, 0, 0);
+            this.PreLoadBar.SubscriptText = "";
+            this.PreLoadBar.SuperscriptColor = System.Drawing.Color.FromArgb(((int)(((byte)(166)))), ((int)(((byte)(166)))), ((int)(((byte)(166)))));
+            this.PreLoadBar.SuperscriptMargin = new System.Windows.Forms.Padding(10, 35, 0, 0);
+            this.PreLoadBar.SuperscriptText = "";
+            this.PreLoadBar.TabIndex = 0;
+            this.PreLoadBar.Text = "0%";
+            this.PreLoadBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.PreLoadBar.Value = 50;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(474, 198);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(139, 154);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
+            // DataLabel
+            // 
+            this.DataLabel.AutoSize = true;
+            this.DataLabel.Location = new System.Drawing.Point(12, 339);
+            this.DataLabel.Name = "DataLabel";
+            this.DataLabel.Size = new System.Drawing.Size(35, 13);
+            this.DataLabel.TabIndex = 2;
+            this.DataLabel.Text = "label1";
+            // 
+            // PreLoader
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(615, 361);
+            this.Controls.Add(this.DataLabel);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PreLoadBar);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "PreLoader";
+            this.Text = "PreLoader";
+            this.Load += new System.EventHandler(this.PreLoader_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private CircularProgressBar.CircularProgressBar PreLoadBar;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Label DataLabel;
+    }
+}
