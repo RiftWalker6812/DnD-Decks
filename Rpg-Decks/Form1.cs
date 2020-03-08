@@ -160,6 +160,28 @@ namespace Rpg_Decks
             switchTab(tabPage1);
             FormLoadingMethod();
         }
+
+        private void toolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            bool IsOpen = false;
+            foreach (Form f in Application.OpenForms)
+            {
+                if (f.Name == "SpellForm")
+                {
+                    IsOpen = true;
+                    break;
+                }
+            }
+
+            if (IsOpen == false)
+            {
+                InventoryForm SpellForm = new InventoryForm();
+                SpellForm.Name = "SpellForm";
+                SpellForm.FormSelect(InventoryForm.option.Spells);
+                // SpellForm.MdiParent = Form1.ActiveForm; not needed
+                SpellForm.Show();
+            }
+        }
     }
 
     

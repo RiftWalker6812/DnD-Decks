@@ -46,7 +46,7 @@
             // 
             this.NameBox.BackColor = System.Drawing.Color.White;
             this.NameBox.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.NameBox.Font = new System.Drawing.Font("Comic Sans MS", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NameBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NameBox.Location = new System.Drawing.Point(12, 12);
             this.NameBox.Name = "NameBox";
             this.NameBox.Size = new System.Drawing.Size(177, 23);
@@ -68,22 +68,26 @@
             // CastingBox
             // 
             this.CastingBox.BackColor = System.Drawing.Color.White;
+            this.CastingBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CastingBox.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.CastingBox.Location = new System.Drawing.Point(13, 52);
             this.CastingBox.Name = "CastingBox";
             this.CastingBox.Size = new System.Drawing.Size(84, 29);
             this.CastingBox.TabIndex = 2;
             this.CastingBox.Text = "CastingLabel";
-            this.CastingBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.CastingBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // RangeBox
             // 
             this.RangeBox.BackColor = System.Drawing.Color.White;
+            this.RangeBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RangeBox.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.RangeBox.Location = new System.Drawing.Point(103, 52);
             this.RangeBox.Name = "RangeBox";
             this.RangeBox.Size = new System.Drawing.Size(86, 29);
             this.RangeBox.TabIndex = 3;
             this.RangeBox.Text = "RangeLabel";
-            this.RangeBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.RangeBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // labelHigher
             // 
@@ -99,6 +103,7 @@
             // HigherDescBox
             // 
             this.HigherDescBox.BackColor = System.Drawing.Color.White;
+            this.HigherDescBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.HigherDescBox.Location = new System.Drawing.Point(13, 226);
             this.HigherDescBox.Name = "HigherDescBox";
             this.HigherDescBox.Size = new System.Drawing.Size(176, 34);
@@ -109,22 +114,26 @@
             // DurationBox
             // 
             this.DurationBox.BackColor = System.Drawing.Color.White;
+            this.DurationBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DurationBox.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.DurationBox.Location = new System.Drawing.Point(103, 90);
             this.DurationBox.Name = "DurationBox";
             this.DurationBox.Size = new System.Drawing.Size(86, 29);
             this.DurationBox.TabIndex = 10;
             this.DurationBox.Text = "DurationLabel";
-            this.DurationBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.DurationBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // ComponentsBox
             // 
             this.ComponentsBox.BackColor = System.Drawing.Color.White;
+            this.ComponentsBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ComponentsBox.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.ComponentsBox.Location = new System.Drawing.Point(13, 90);
             this.ComponentsBox.Name = "ComponentsBox";
             this.ComponentsBox.Size = new System.Drawing.Size(84, 29);
             this.ComponentsBox.TabIndex = 9;
             this.ComponentsBox.Text = "CompLabel";
-            this.ComponentsBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ComponentsBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             // 
             // ClassBox
             // 
@@ -139,8 +148,9 @@
             // 
             // ConcenLabel
             // 
-            this.ConcenLabel.BackColor = System.Drawing.Color.White;
+            this.ConcenLabel.BackColor = System.Drawing.Color.Transparent;
             this.ConcenLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ConcenLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.ConcenLabel.Location = new System.Drawing.Point(179, 107);
             this.ConcenLabel.Name = "ConcenLabel";
             this.ConcenLabel.Size = new System.Drawing.Size(17, 17);
@@ -150,8 +160,9 @@
             // 
             // ritualLabel
             // 
-            this.ritualLabel.BackColor = System.Drawing.Color.White;
+            this.ritualLabel.BackColor = System.Drawing.Color.Transparent;
             this.ritualLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ritualLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.ritualLabel.Location = new System.Drawing.Point(3, 107);
             this.ritualLabel.Name = "ritualLabel";
             this.ritualLabel.Size = new System.Drawing.Size(17, 17);
@@ -164,6 +175,7 @@
             this.DescriptionBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.DescriptionBox.BackColor = System.Drawing.Color.White;
+            this.DescriptionBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DescriptionBox.Location = new System.Drawing.Point(14, 124);
             this.DescriptionBox.Name = "DescriptionBox";
             this.DescriptionBox.Size = new System.Drawing.Size(175, 85);
