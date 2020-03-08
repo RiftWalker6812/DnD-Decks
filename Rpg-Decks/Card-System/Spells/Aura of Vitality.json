@@ -1,0 +1,14 @@
+{
+  "CardName": "Aura of Vitality",
+  "Description": "<p>Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points.</p>",
+  "page": "phb 216",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Evocation",
+  "Catagory": "Paladin"
+}

@@ -1,0 +1,17 @@
+{
+  "CardName": "Beacon of Hope",
+  "Description": "<p>This spell bestows hope and vitality. Choose any number of creatures within Range. For the Duration, each target has advantage on wisdom saving throws and death saving throws, and regains the maximum number of hit points possible from any healing.</p>",
+  "page": "phb 217",
+  "Range": "30 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Paladin",
+  "archetype": "Paladin: Devotion",
+  "domains": "Life",
+  "oaths": "Devotion"
+}

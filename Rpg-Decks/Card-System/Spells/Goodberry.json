@@ -1,0 +1,15 @@
+{
+  "CardName": "Goodberry",
+  "Description": "<p>Up to ten berries appear in your hand and are infused with magic for the Duration. A creature can use its action to eat one berry. Eating a berry restores 1 hit point, and the berry provides enough nourishment to sustain a creature for a day.</p><p>The berries lose their potency if they have not been consumed within 24 hours of the casting of this spell.</p>",
+  "page": "phb 246",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A sprig of mistletoe.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Transmutation",
+  "Catagory": "Druid, Ranger"
+}

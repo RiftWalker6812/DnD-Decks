@@ -1,0 +1,15 @@
+{
+  "CardName": "Zone of Truth",
+  "Description": "<p>You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within Range. Until the spell ends, a creature that enters the spell’s area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can’t speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.</p><p>An affected creature is aware of the fate and can avoid answering questions she would normally have responded with a lie. Such a creature can remain evasive in his answers as they remain within the limits of truth.</p>",
+  "page": "phb 289",
+  "Range": "60 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "10 minutes",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Cleric, Paladin",
+  "oaths": "Devotion"
+}

@@ -1,0 +1,14 @@
+{
+  "CardName": "Crown of Madness",
+  "Description": "<p>One humanoid of your choice that you can see within Range must succeed on a wisdom saving throw or become charmed by you for the Duration. While the target is charmed in this way, a twisted crown of jagged iron appears on its head, and a madness glows in its eyes.</p><p>The charmed target must use its action before moving on each of its turns to make a melee attack against a creature other than itself that you mentally choose.</p><p>The target can act normally on its turn if you choose no creature or if none are within its reach.</p><p>On your subsequent turns, you must use your action to maintain control over the target, or the spell ends. Also, the target can make a wisdom saving throw at the end of each of its turns. On a success, the spell ends.</p>",
+  "page": "phb 229",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Sorcerer, Warlock, Wizard"
+}

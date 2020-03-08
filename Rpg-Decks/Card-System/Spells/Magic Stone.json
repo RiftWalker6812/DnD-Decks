@@ -1,0 +1,14 @@
+{
+  "CardName": "Magic Stone",
+  "Description": "<p>You touch one to three pebbles and imbue them with magic. You or someone else can make a Ranged spell attack with one of the pebbles by throwing it or hurling it with a sling. If thrown, it has a Range of 60 feet. If someone else attacks with the pebble, that attacker adds your spellcasting ability modifier, not the attacker's, to the attack roll. On a hit, the target takes bludgeoning damage equal to 1d6 + your spellcasting ability modifier. Hit or miss, the spell then ends on the stone.</p><p>If you cast this spell again, the spell ends early on any pebbles still affected by it.</p>",
+  "page": "ee pc 20",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 minute",
+  "Concentration": false,
+  "CastingTime": "1 bonus action",
+  "Level": "Cantrip",
+  "School": "Transmutation",
+  "Catagory": "Druid, Warlock"
+}

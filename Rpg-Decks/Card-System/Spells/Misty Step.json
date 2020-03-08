@@ -1,0 +1,17 @@
+{
+  "CardName": "Misty Step",
+  "Description": "<p>Briefly surrounded by silvery mist, you teleport up to 30 feet to an unoccupied space that you can see.</p>",
+  "page": "phb 260",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 bonus action",
+  "Level": "2nd-Level",
+  "School": "Conjuration",
+  "Catagory": "Druid, Paladin, Sorcerer, Warlock, Wizard",
+  "archetype": "Druid: Coast<br/> Paladin: Ancients, Vengeance",
+  "oaths": "Ancients, Vengeance",
+  "circles": "Coast"
+}

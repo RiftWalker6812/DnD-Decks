@@ -11,6 +11,7 @@ using System.Globalization;
 using System.Collections;
 using Rpg_Decks.UserControls;
 using Rpg_Decks.JsonProfiling;
+using Rpg_Decks.Card_System;
 
 namespace Rpg_Decks
 {
@@ -26,6 +27,9 @@ namespace Rpg_Decks
             //empty profile for clearing
             //adding empty
             emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");
+
+            //setup list of spells
+            GetCard.SpellList = new List<Spell>();
         }
  
         //On Load
@@ -33,6 +37,8 @@ namespace Rpg_Decks
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
+            GetCard.AllSpells();
+
             FormLoadingMethod();
         }
         private void FormLoadingMethod()

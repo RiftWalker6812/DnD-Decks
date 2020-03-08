@@ -1,0 +1,18 @@
+{
+  "CardName": "Bane",
+  "Description": "<p>Up to three creatures of your choice that you can see within Range must make charisma saving throws. Whenever a target that fails this saving throw makes an attack roll or a saving throw before the spell ends, the target must roll a d4 and subtract the number rolled from the attack roll or saving throw.</p>",
+  "page": "phb 216",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "A drop of blood.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Cleric, Paladin",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, you can target one additional creature for each slot Level above 1st.</p>",
+  "archetype": "Paladin: Vengeance",
+  "oaths": "Vengeance"
+}

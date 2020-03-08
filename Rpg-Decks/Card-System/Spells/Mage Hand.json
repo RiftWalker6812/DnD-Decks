@@ -1,0 +1,14 @@
+{
+  "CardName": "Mage Hand",
+  "Description": "<p>A spectral, floating hand appears at a point you choose within Range. The hand lasts for the Duration or until you dismiss it as an action. The hand vanishes if it is ever more than 30 feet away from you or if you cast this spell again.</p><p>You can use your action to control the hand. You can use the hand to manipulate an object, open an unlocked door or container, stow or retrieve an item from an open container, or pour the contents out of a vial. You can move the hand up to 30 feet each time you use it.</p><p>The hand can’t attack, activate magic items, or carry more than 10 pounds.</p>",
+  "page": "phb 256",
+  "Range": "30 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 minute",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Conjuration",
+  "Catagory": "Bard, Sorcerer, Warlock, Wizard"
+}

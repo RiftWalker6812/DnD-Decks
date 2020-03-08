@@ -1,0 +1,18 @@
+{
+  "CardName": "Command",
+  "Description": "<p>You speak a one-word command to a creature you can see within Range. The target must succeed on a wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn’t understand your language, or if your command is directly harmful to it.</p><p>Some typical commands and their effects follow. You might issue a command other than one Descriptionribed here. If you do so, the DM determines how the target behaves. If the target can’t follow your command, the spell ends.</p><p><b>Approach.</b> The target moves toward you by the shortest and most direct route, ending its turn if it moves within 5 feet of you.</p><p><b>Drop</b> The target drops whatever it is holding and then ends its turn.</p><p><b>Flee.</b> The target spends its turn moving away from you by the fastest available means.</p><p><b>Grovel.</b> The target falls prone and then ends its turn.</p><p><b>Halt.</b> The target doesn’t move and takes no actions. A flying creature stays aloft, provided that it is able to do so. If it must move to stay aloft, it flies the minimum distance needed to remain in the air.</p>",
+  "page": "phb 223",
+  "Range": "60 feet",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Enchantment",
+  "Catagory": "Cleric, Paladin, Warlock",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, you can affect one additional creature for each slot Level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+  "archetype": "Warlock: Fiend",
+  "domains": "Knowledge",
+  "patrons": "Fiend"
+}

@@ -1,0 +1,17 @@
+{
+  "CardName": "Fire Shield",
+  "Description": "<p>Thin and vaporous flame surround your body for the Duration of the spell, radiating a bright light bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell using an action to make it disappear.</p><p>The flames are around you a heat shield or cold, your choice. The heat shield gives you cold damage resistance and the cold resistance to fire damage.</p><p>In addition, whenever a creature within 5 feet of you hits you with a melee attack, flames spring from the shield. The attacker then suffers 2d8 points of fire damage or cold, depending on the model. </p>",
+  "page": "phb 242",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "A little phosphorus or a firefly.",
+  "Ritual": false,
+  "Duration": "10 minutes",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "4th-Level",
+  "School": "Evocation",
+  "Catagory": "Warlock, Wizard",
+  "archetype": "Warlock: Fiend",
+  "patrons": "Fiend"
+}

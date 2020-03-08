@@ -1,0 +1,14 @@
+{
+  "CardName": "Lightning Lure",
+  "Description": "<p>You create a lash of lightning energy that strikes at one creature of your choice that you can see within Range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.</p><p>This spell's damage increases by 1d8 when you reach 5th Level (2d8), 11th Level (3d8), and 17th Level (4d8).</p>",
+  "page": "scag 143",
+  "Range": "15 feet",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Warlock, Wizard"
+}

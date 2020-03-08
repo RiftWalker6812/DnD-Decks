@@ -1,0 +1,15 @@
+{
+  "CardName": "Tongues",
+  "Description": "<p>This spell grants the creature you touch the ability to understand any spoken language it hears. Moreover, when the target speaks, any creature that knows at least one language and can hear the target understands what it says.</p>",
+  "page": "phb 283",
+  "Range": "Touch",
+  "Components": "V, M",
+  "Materials": "A small clay model of a ziggurat.",
+  "Ritual": false,
+  "Duration": "1 hour",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Divination",
+  "Catagory": "Bard, Cleric, Sorcerer, Warlock, Wizard"
+}

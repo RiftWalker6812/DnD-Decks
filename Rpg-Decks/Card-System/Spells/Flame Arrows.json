@@ -1,0 +1,15 @@
+{
+  "CardName": "Flame Arrows",
+  "Description": "<p>You touch a quiver containing arrows or bolts. When a target is hit by a Ranged weapon attack using a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on the piece of ammunition when it hits or misses, and the spell ends when twelve pieces of ammunition have been drawn from the quiver.</p>",
+  "page": "ee pc 18",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Transmutation",
+  "Catagory": "Druid, Ranger, Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 4th Level or higher, the number of pieces of ammunition you can affect with this spell increases by two for each slot Level above 3rd.</p>"
+}

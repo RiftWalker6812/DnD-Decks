@@ -1,0 +1,15 @@
+{
+  "CardName": "Inflict Wounds",
+  "Description": "<p>Make a melee spell attack against a creature you can reach. On a hit, the target takes 3d10 necrotic damage.</p>",
+  "page": "phb 253",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Necromancy",
+  "Catagory": "Cleric",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the damage increases by 1d10 for each slot Level above 1st.</p>"
+}

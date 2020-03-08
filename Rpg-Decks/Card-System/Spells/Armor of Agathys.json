@@ -1,0 +1,16 @@
+{
+  "CardName": "Armor of Agathys",
+  "Description": "<p>A protective magical force surrounds you, manifesting as a spectral frost that covers you and your gear. You gain 5 temporary hit points for the Duration. If a creature hits you with a melee attack while you have these hit points, the creature takes 5 cold damage.</p>",
+  "page": "phb 215",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "A cup of water.",
+  "Ritual": false,
+  "Duration": "1 hour",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Abjuration",
+  "Catagory": "Warlock",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, both the temporary hit points and the cold damage increase by 5 for each slot Level above 1st.</p>"
+}

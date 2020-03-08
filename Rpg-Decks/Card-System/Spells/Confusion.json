@@ -1,0 +1,18 @@
+{
+  "CardName": "Confusion",
+  "Description": "<p>This spell assails and distorts the minds of creatures, generating illusions and causing uncontrolled actions. Each creature in a sphere of 10-foot-radius centered on a point chosen in the Range of the spell must make a wisdom saving throw otherwise it will be affected by the spell.</p><p>An affected target can react and it must start at the beginning of 1d10 each of his game rounds to determine its behavior for that round.</p><p>At the end of each turn, an affected creature can make a saving throw of Wisdom. If successful, the effect of the spell ends for this target.</p>",
+  "page": "phb 224",
+  "Range": "90 feet",
+  "Components": "V, S, M",
+  "Materials": "Three walnut shells.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "4th-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Cleric, Druid, Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a Level spell slot 5 or more, the radius of the sphere increases by 5 feet for each Level of higher spell slot to 4.</p>",
+  "archetype": "Cleric: Knowledge",
+  "domains": "Knowledge"
+}

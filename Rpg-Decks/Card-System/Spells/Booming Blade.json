@@ -1,0 +1,15 @@
+{
+  "CardName": "Booming Blade",
+  "Description": "<p>As part of the action used the cast this spell, you must make a melee attack with a weapon against one create within the spell's Range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.</p><p>This spell's damage increases when you reach higher Levels. At 5th Level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target take for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th Level and 17th Level.</p>",
+  "page": "scag 142",
+  "Range": "5 feet",
+  "Components": "V, M",
+  "Materials": "A weapon.",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Warlock, Wizard"
+}

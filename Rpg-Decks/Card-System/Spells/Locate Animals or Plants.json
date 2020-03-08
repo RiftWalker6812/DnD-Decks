@@ -1,0 +1,15 @@
+{
+  "CardName": "Locate Animals or Plants",
+  "Description": "<p>Descriptionribe or CardName a specific kind of beast or plant. Concentrating on the voice of nature in your surroundings, you learn the direction and distance to the closest creature or plant of that kind within 5 miles, if any are present.</p>",
+  "page": "phb 256",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "A bit of fur from a bloodhound.",
+  "Ritual": true,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Divination",
+  "Catagory": "Bard, Druid, Ranger, Ritual Caster"
+}

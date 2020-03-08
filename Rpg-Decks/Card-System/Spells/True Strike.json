@@ -1,0 +1,14 @@
+{
+  "CardName": "True Strike",
+  "Description": "<p>You extend your hand and point a finger at a target in Range. Your magic grants you a brief insight into the target’s defenses. On your next turn, you gain advantage on your first attack roll against the target, provided that this spell hasn’t ended.</p>",
+  "page": "phb 284",
+  "Range": "30 feet",
+  "Components": "S",
+  "Ritual": false,
+  "Duration": "Up to 1 round",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Divination",
+  "Catagory": "Bard, Sorcerer, Warlock, Wizard"
+}

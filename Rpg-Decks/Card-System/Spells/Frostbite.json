@@ -1,0 +1,14 @@
+{
+  "CardName": "Frostbite",
+  "Description": "<p>You cause numbing frost to form on one creature that you can see within Range. The target must make a Constitution saving throw. On a failed save, the target takes 1d6 cold damage, and it has disadvantage on the next weapon attack roll it makes before the end of its next turn.</p><p>The spell's damage increases by 1d6 when you reach 5th Level (2d6), 11th Level (3d6), and 17th Level (4d6).</p>",
+  "page": "ee pc 18",
+  "Range": "60 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Evocation",
+  "Catagory": "Druid, Sorcerer, Warlock, Wizard"
+}

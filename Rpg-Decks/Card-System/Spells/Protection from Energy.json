@@ -1,0 +1,17 @@
+{
+  "CardName": "Protection from Energy",
+  "Description": "<p>For the Duration, the willing creature you touch has resistance to one damage type of your choice: acid, cold, fire, lightning, or thunder.</p>",
+  "page": "phb 270",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+  "archetype": "Paladin: Ancients, Vengeance",
+  "oaths": "Ancients, Vengeance",
+  "circles": "Desert"
+}

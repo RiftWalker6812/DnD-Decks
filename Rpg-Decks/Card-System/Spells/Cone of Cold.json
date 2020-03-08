@@ -1,0 +1,18 @@
+{
+  "CardName": "Cone of Cold",
+  "Description": "<p>A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one.</p><p>A creature killed by this spell becomes a frozen statue until it thaws.</p>",
+  "page": "phb 224",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "A small crystal or glass cone.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "5th-Level",
+  "School": "Evocation",
+  "Catagory": "Druid, Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 6th Level or higher, the damage increases by 1d8 for each slot Level above 5th.</p>",
+  "archetype": "Druid: Arctic",
+  "circles": "Arctic"
+}

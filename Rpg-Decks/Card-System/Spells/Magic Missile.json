@@ -1,0 +1,15 @@
+{
+  "CardName": "Magic Missile",
+  "Description": "<p>You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within Range. A dart deals 1d4 + 1 force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.</p>",
+  "page": "phb 257",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the spell creates one more dart for each slot Level above 1st.</p>"
+}

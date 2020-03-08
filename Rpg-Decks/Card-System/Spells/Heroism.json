@@ -1,0 +1,14 @@
+{
+  "CardName": "Heroism",
+  "Description": "<p>A willing creature you touch is imbued with bravery. Until the spell ends, the creature is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns. When the spell ends, the target loses any remaining temporary hit points from this spell.</p>",
+  "page": "phb 250",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Paladin"
+}

@@ -1,0 +1,18 @@
+{
+  "CardName": "Scorching Ray",
+  "Description": "<p>You generate three rays of fire and will throw to targets in the Range of the spell. You can project them on one or more targets.</p><p>Perform a remote attack spell for each department. If it hits, the target takes 2d6 fire damage.</p>",
+  "page": "phb 273",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Evocation",
+  "Catagory": "Cleric, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a 3 or higher Level spell slot, you generate an additional radius for each Level of higher spell slot 2.</p>",
+  "archetype": "Cleric: Light<br/> Warlock: Fiend",
+  "domains": "Light",
+  "patrons": "Fiend"
+}

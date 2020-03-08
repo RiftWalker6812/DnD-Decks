@@ -1,0 +1,17 @@
+{
+  "CardName": "Blindness Deafness",
+  "Description": "<p>You can blind or deafen a foe. Choose one creature that you can see within Range to make a constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the Duration. At the end of each of its turns, the target can make a constitution saving throw. On a success, the spell ends.</p>",
+  "page": "phb 219",
+  "Range": "30 feet",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "1 minute",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Necromancy",
+  "Catagory": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 3rd Level or higher, you can target one additional creature for each slot Level above 2nd.</p>",
+  "archetype": "Warlock: Fiend",
+  "patrons": "Fiend"
+}

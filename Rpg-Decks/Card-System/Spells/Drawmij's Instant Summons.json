@@ -1,0 +1,15 @@
+{
+  "CardName": "Drawmij's Instant Summons",
+  "Description": "<p>You touch an object weighing 10 pounds or less whose longest dimension is 6 feet or less. The spell leaves an invisible mark on its surface and invisibly inscribes the CardName of the item on the sapphire you use as the Materials component. Each time you cast this spell, you must use a different sapphire.</p><p>At any time thereafter, you can use your action to speak the item’s CardName and crush the sapphire. The item instantly appears in your hand regardless of physical or planar distances, and the spell ends.</p><p>If another creature is holding or carrying the item, crushing the sapphire doesn’t transport the item to you, but instead you learn who the creature possessing the object is and roughly where that creature is located at that moment.</p><p>Dispel magic or a similar effect successfully applied to the sapphire ends this spell’s effect.</p>",
+  "page": "phb 235",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A sapphire worth 1,000 gp.",
+  "Ritual": true,
+  "Duration": "Until dispelled",
+  "Concentration": false,
+  "CastingTime": "1 minute",
+  "Level": "6th-Level",
+  "School": "Conjuration",
+  "Catagory": "Ritual Caster, Wizard"
+}

@@ -1,0 +1,14 @@
+{
+  "CardName": "Purify Food and Drink",
+  "Description": "<p>All nonmagical food and drink within a 5-foot radius sphere centered on a point of your choice within Range is purified and rendered free of poison and disease.</p>",
+  "page": "phb 270",
+  "Range": "10 feet",
+  "Components": "V, S",
+  "Ritual": true,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Transmutation",
+  "Catagory": "Cleric, Druid, Paladin, Ritual Caster"
+}

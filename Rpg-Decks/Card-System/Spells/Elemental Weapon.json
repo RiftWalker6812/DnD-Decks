@@ -1,0 +1,15 @@
+{
+  "CardName": "Elemental Weapon",
+  "Description": "<p>A nonmagical weapon you touch becomes a magic weapon. Choose one of the following damage types: acid, cold, fire, lightning, or thunder. For the Duration, the weapon has a +1 bonus to attack rolls and deals an extra 1d4 damage of the chosen type when it hits.</p>",
+  "page": "phb 237",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Transmutation",
+  "Catagory": "Paladin",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 5th or 6th Level, the bonus to attack rolls increases to +2 and the extra damage increases to 2d4. When you use a spell slot of 7th Level or higher, the bonus increases to +3 and the extra damage increases to 3d4.</p>"
+}

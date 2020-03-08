@@ -1,0 +1,18 @@
+{
+  "CardName": "Shatter",
+  "Description": "<p>A strong resonant sound painfully intense sounds of a desired point in the Range of the spell. Each creature has a sphere with a 10-foot-radius sphere centered on that point must make a constitution saving throw or it suffers 3d8 thunder damage. If successful, the damage is halved. A creature made of inorganic Materialss such as stone, crystal or metal, makes its saving throw with a disadvantage.</p><p>A non-magical item that is not worn or carried also suffers damage if it is in the area of ​​the spell.</p>",
+  "page": "phb 275",
+  "Range": "60 feet",
+  "Components": "V, S, M",
+  "Materials": "A burst of mica.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Evocation",
+  "Catagory": "Bard, Cleric, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a 3 or higher Level spell slot, the damage of the spell increases by 1d8 for each Level of higher spell slot 2.</p>",
+  "archetype": "Cleric: Tempest",
+  "domains": "Tempest"
+}

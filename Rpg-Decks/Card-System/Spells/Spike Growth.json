@@ -1,0 +1,18 @@
+{
+  "CardName": "Spike Growth",
+  "Description": "<p>The ground in a 20-foot radius centered on a point within Range twists and sprouts hard spikes and thorns. The area becomes difficult terrain for the Duration. When a creature moves into or within the area, it takes 2d4 piercing damage for every 5 feet it travels.</p><p>The development of land is camouflaged to look natural. Any creature that does not see the area when the spell is spell casts must make a Wisdom (Perception) opposite the DD backup your fate or it does not recognize the dangerous nature of the ground before entering.</p>",
+  "page": "phb 277",
+  "Range": "150 feet",
+  "Components": "V, S, M",
+  "Materials": "Seven sharp spines or seven twigs cut peak.",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Transmutation",
+  "Catagory": "Cleric, Druid, Ranger",
+  "archetype": "Cleric: Nature",
+  "domains": "Nature",
+  "circles": "Arctic, Mountain"
+}

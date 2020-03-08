@@ -1,0 +1,15 @@
+{
+  "CardName": "Vampiric Touch",
+  "Description": "<p>The touch of your shadow-wreathed hand can siphon life force from others to heal your wounds. Make a melee spell attack against a creature within your reach. On a hit, the target takes 3d6 necrotic damage, and you regain hit points equal to half the amount of necrotic damage dealt. Until the spell ends, you can make the attack again on each of your turns as an action.</p>",
+  "page": "phb 285",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Necromancy",
+  "Catagory": "Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 4th Level or higher, the damage increases by 1d6 for each slot Level above 3rd.</p>"
+}

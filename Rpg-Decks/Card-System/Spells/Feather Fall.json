@@ -1,0 +1,15 @@
+{
+  "CardName": "Feather Fall",
+  "Description": "<p>Choose up to five falling creatures within Range. A falling creature’s rate of Descriptionent slows to 60 feet per round until the spell ends. If the creature lands before the spell ends, it takes no falling damage and can land on its feet, and the spell ends for that creature.</p>",
+  "page": "phb 239",
+  "Range": "60 feet",
+  "Components": "V, M",
+  "Materials": "A small feather or a piece of down.",
+  "Ritual": false,
+  "Duration": "1 minute",
+  "Concentration": false,
+  "CastingTime": "1 reaction",
+  "Level": "1st-Level",
+  "School": "Transmutation",
+  "Catagory": "Bard, Sorcerer, Wizard"
+}

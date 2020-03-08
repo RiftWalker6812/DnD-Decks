@@ -1,0 +1,16 @@
+{
+  "CardName": "Lesser Restoration",
+  "Description": "<p>You touch a creature and can end either one disease or one condition afflicting it. The condition can be blinded, deafened, paralyzed, or poisoned.</p>",
+  "page": "phb 255",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Abjuration",
+  "Catagory": "Bard, Cleric, Druid, Paladin, Ranger",
+  "domains": "Life",
+  "oaths": "Devotion"
+}

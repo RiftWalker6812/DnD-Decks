@@ -1,0 +1,18 @@
+{
+  "CardName": "Flaming Sphere",
+  "Description": "<p>A 5-foot-diameter sphere of fire appears in an unoccupied space of your choice within Range and lasts for the Duration. Any creature that ends its turn within 5 feet of the sphere must make a dexterity saving throw. The creature takes 2d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>As a bonus action, you can move the sphere up to 30 feet. If you ram the sphere into a creature, that creature must make the saving throw against the sphere’s damage, and the sphere stops moving this turn.</p><p>When you move the sphere, you can direct it over barriers up to 5 feet tall and jump it across pits up to 10 feet wide. The sphere ignites flammable objects not being worn or carried, and it sheds bright light in a 20-foot radius and dim light for an additional 20 feet.</p>",
+  "page": "phb 242",
+  "Range": "60 feet",
+  "Components": "V, S, M",
+  "Materials": "A bit of tallow, a pinch of brimstone, and a dusting of powdered iron.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Conjuration",
+  "Catagory": "Cleric, Druid, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 3rd Level or higher, the damage increases by 1d6 for each slot Level above 2nd.</p>",
+  "archetype": "Cleric: Light",
+  "domains": "Light"
+}

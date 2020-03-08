@@ -1,0 +1,15 @@
+{
+  "CardName": "Phantasmal Killer",
+  "Description": "<p>You tap into the nightmares of a creature you can see within Range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a wisdom saving throw. On a failed save, the target becomes frightened for the Duration. At the start of each of the target’s turns before the spell ends, the target must succeed on a wisdom saving throw or take 4 d10 psychic damage. On a successful save, the spell ends.</p>",
+  "page": "phb 265",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "4th-Level",
+  "School": "Illusion",
+  "Catagory": "Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 5th Level or higher, the damage increases by 1dlO for each slot Level above 4th.</p>"
+}

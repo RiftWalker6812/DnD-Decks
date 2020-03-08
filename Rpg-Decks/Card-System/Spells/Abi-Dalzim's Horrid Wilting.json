@@ -1,0 +1,15 @@
+{
+  "CardName": "Abi-Dalzim's Horrid Wilting",
+  "Description": "<p>You draw the moisture from every creature in a 30-foot cube centered on a point you choose within Range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one.You hurl a bubble of acid. Choose one creature within Range, or choose two creatures within Range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.</p><p>This spells damage increases by 1d6 when you reach 5th Level (2d6), 11th Level (3d6) and 17th Level (4d6).</p>",
+  "page": "ee pc 15",
+  "Range": "150 feet",
+  "Components": "V, S, M",
+  "Materials": "A bit of sponge.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "8th-Level",
+  "School": "Necromancy",
+  "Catagory": "Sorcerer, Wizard"
+}

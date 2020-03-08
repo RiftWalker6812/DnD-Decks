@@ -1,0 +1,14 @@
+{
+  "CardName": "Poison Spray",
+  "Description": "<p>You extend your hand toward a creature you can see within Range and project a puff of noxious gas from your palm. The creature must succeed on a constitution saving throw or take 1d12 poison damage.</p><p>This spell’s damage increases by 1d12 when you reach 5th Level (2d12), 11th Level (3d12), and 17th Level (4d12).</p>",
+  "page": "phb 266",
+  "Range": "10 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Conjuration",
+  "Catagory": "Sorcerer, Warlock, Wizard"
+}

@@ -1,0 +1,14 @@
+{
+  "CardName": "Transport via Plants",
+  "Description": "<p>This spell creates a magical link between a Large or larger inanimate plant within Range and another plant, at any distance, on the same plane of existence. You must have seen or touched the destination plant at least once before. For the Duration, any creature can step into the target plant and exit from the destination plant by using 5 feet of movement.</p>",
+  "page": "phb 283",
+  "Range": "10 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "6th-Level",
+  "School": "Conjuration",
+  "Catagory": "Druid"
+}

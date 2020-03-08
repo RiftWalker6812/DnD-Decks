@@ -1,0 +1,16 @@
+{
+  "CardName": "Heat Metal",
+  "Description": "<p>Choose a manufactured metal object, such as a metal weapon or a suit of heavy or medium metal armor, that you can see within Range. You cause the object to glow red-hot. Any creature in physical contact with the object takes 2d8 fire damage when you cast the spell. Until the spell ends, you can use a bonus action on each of your subsequent turns to cause this damage again.</p><p>If a creature is holding or wearing the object and takes the damage from it, the creature must succeed on a constitution saving throw or drop the object if it can. If it doesn’t drop the object, it has disadvantage on attack rolls and ability checks until the start of your next turn.</p>",
+  "page": "phb 250",
+  "Range": "60 feet",
+  "Components": "V, S, M",
+  "Materials": "A piece of iron and a flame.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Transmutation",
+  "Catagory": "Bard, Druid",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 3rd Level or higher, the damage increases by 1d8 for each slot Level above 2nd.</p>"
+}

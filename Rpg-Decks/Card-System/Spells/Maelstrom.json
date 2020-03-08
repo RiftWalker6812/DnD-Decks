@@ -1,0 +1,15 @@
+{
+  "CardName": "Maelstrom",
+  "Description": "<p>A mass of 5-foot-deep water appears and swirls in a 30-foot radius centered on a point you can see within Range. The point must be on ground or in a body of water. Until the spell ends, that area is difficult terrain, and any creature that starts its turn there must succeed on a Strength saving throw or take 6d6 bludgeoning damage and be pulled 10 feet toward the center.</p>",
+  "page": "ee pc 20",
+  "Range": "120 feet",
+  "Components": "V, S, M",
+  "Materials": "Paper or leaf in the shape of a funnel.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "5th-Level",
+  "School": "Evocation",
+  "Catagory": "Druid"
+}

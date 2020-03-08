@@ -1,0 +1,15 @@
+{
+  "CardName": "Thorn Whip",
+  "Description": "<p>You create a long, vine-like whip covered in thorns that lashes out at your command toward a creature in Range. Make a melee spell attack against the target. If the attack hits, the creature takes 1d6 piercing damage, and if the creature is Large or smaller, you pull the creature up to 10 feet closer to you.</p><p>This spell’s damage increases by 1d6 when you reach 5th Level (2d6), 11th Level (3d6), and 17th Level (4d6).</p>",
+  "page": "phb 282",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "The stem of a plant with thorns.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Transmutation",
+  "Catagory": "Druid"
+}

@@ -1,0 +1,16 @@
+{
+  "CardName": "Ice Knife",
+  "Description": "<p>You create a shard of ice and fling it at one creature within Range. Make a Ranged spell attack against the target. On a hit, the target takes 1d10 piercing damage. Hit or miss, the shard then explodes. The target and each creature within 5 feet of the point where the ice exploded must succeed on a Dexterity saving throw or take 2d6 cold damage.</p>",
+  "page": "ee pc 19",
+  "Range": "60 feet",
+  "Components": "S, M",
+  "Materials": "A drop of water or piece of ice.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Conjuration",
+  "Catagory": "Druid, Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the cold damage increases by 1d6 for each slot Level above 1st.</p>"
+}

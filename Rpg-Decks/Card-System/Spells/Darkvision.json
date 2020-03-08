@@ -1,0 +1,15 @@
+{
+  "CardName": "Darkvision",
+  "Description": "<p>You touch a willing creature to grant it the ability to see in the dark. For the Duration, that creature has darkvision out to a Range of 60 feet.</p>",
+  "page": "phb 230",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "Either a pinch of dried carrot or an agate.",
+  "Ritual": false,
+  "Duration": "8 hours",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Transmutation",
+  "Catagory": "Druid, Ranger, Sorcerer, Wizard"
+}

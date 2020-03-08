@@ -1,0 +1,15 @@
+{
+  "CardName": "Ray of Sickness",
+  "Description": "<p>A ray of sickening greenish energy lashes out toward a creature within Range. Make a Ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.</p>",
+  "page": "phb 271",
+  "Range": "60 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Necromancy",
+  "Catagory": "Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the damage increases by 1d8 for each slot Level above 1st.</p>"
+}

@@ -1,0 +1,19 @@
+{
+  "CardName": "Hold Monster",
+  "Description": "<p>Choose a creature you can see and reach. The target must make a saving throw of Wisdom or be paralyzed for the Duration of the spell. This spell has no effect against the undead. At the end of each round, the target can make a new saving throw of Wisdom. If successful, the spell ends for the creature.</p>",
+  "page": "phb 251",
+  "Range": "90 feet",
+  "Components": "V, S, M",
+  "Materials": "A small piece of iron.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "5th-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Cleric, Paladin, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a Level 6 or higher location, you can target an additional creature for each Level of location beyond the fifth. The creatures must be within 30 feet o f each other when you target them.</p>",
+  "archetype": "Cleric: War<br/> Paladin: Vengeance",
+  "domains": "War",
+  "oaths": "Vengeance"
+}

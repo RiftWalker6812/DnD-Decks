@@ -1,0 +1,16 @@
+{
+  "CardName": "Create or Destroy Water",
+  "Description": "<p>You either create or destroy water.</p><p><b>Create Water.</b> You create up to 10 gallons of clean water within Range in an open container. Alternatively, the water falls as rain in a 30-foot cube within Range.</p><p><b>Destroy Water.</b> You destroy up to 10 gallons of water in an open container within Range. Alternatively, you destroy fog in a 30-foot cube within Range.</p>",
+  "page": "phb 229",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "A drop of water if creating water, or a few grains of sand if destroying it.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Transmutation",
+  "Catagory": "Cleric, Druid",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, you create or destroy 10 additional gallons of water, or the size of the cube increases by 5 feet, for each slot Level above 1st.</p>"
+}

@@ -1,0 +1,14 @@
+{
+  "CardName": "Glibness",
+  "Description": "<p>Until the spell ends, when you make a Charisma check, you can replace the number you roll with a 15. Additionally, no matter what you say, magic that would determine if you are telling the truth indicates that you are being truthful.</p>",
+  "page": "phb 245",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "1 hour",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "8th-Level",
+  "School": "Transmutation",
+  "Catagory": "Bard, Warlock"
+}

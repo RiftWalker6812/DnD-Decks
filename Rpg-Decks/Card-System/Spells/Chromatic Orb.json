@@ -1,0 +1,16 @@
+{
+  "CardName": "Chromatic Orb",
+  "Description": "<p>You hurl a 4-inch-diameter sphere of energy at a creature that you can see within Range. You choose acid, cold, fire, lightning, poison, or thunder for the type of orb you create, and then make a Ranged spell attack against the target. If the attack hits, the creature takes 3d8 of the type you chose.</p>",
+  "page": "phb 221",
+  "Range": "90 feet",
+  "Components": "V, S, M",
+  "Materials": "A diamond worth at least 50gp.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the damage increases by 1d8 for each slot Level above 1st.</p>"
+}

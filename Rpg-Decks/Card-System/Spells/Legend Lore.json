@@ -1,0 +1,16 @@
+{
+  "CardName": "Legend Lore",
+  "Description": "<p>CardName or Descriptionribe a person, place or object. The fate brings to mind a brief and summary information about the thing you CardNamed. Information can be presented as tales of forgotten history or even secret information that have never been revealed. If the thing you CardNamed is not legendary resonance, you get no information. More information you already have about the thing, more precise and detailed the information you will receive.</p><p>What you learn is accurate but can be hidden in figurative language. For example, if you have a mysterious magical ax in your hand, the spell can reveal this information: \"Woe to the wicked that affects his hands the ax because the handle decide those of malignant Only a true child of the stone magnet. and loved Moradin could awaken the true power of this ax, and only with the sacred Rudnogg word on the lips.\"</p>",
+  "page": "phb 254",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "Incense worth 250 inches that fate consumes and four sticks of ivory worth 50 gp each.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "10 minutes",
+  "Level": "5th-Level",
+  "School": "Divination",
+  "Catagory": "Bard, Cleric, Wizard",
+  "domains": "Knowledge"
+}

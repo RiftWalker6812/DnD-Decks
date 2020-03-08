@@ -1,0 +1,14 @@
+{
+  "CardName": "Fire Bolt",
+  "Description": "<p>You hurl a mote of fire at a creature or object within Range. Make a Ranged spell attack against the target. On a hit, the target takes 1d10 fire damage. A flammable object hit by this spell ignites if it isn’t being worn or carried.</p><p>This spell’s damage increases by 1d10 when you reach 5th Level (2d10), 11th Level (3d10), and 17th Level (4d10).</p>",
+  "page": "phb 242",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Wizard"
+}

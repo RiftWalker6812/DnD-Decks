@@ -1,0 +1,17 @@
+{
+  "CardName": "Cloudkill",
+  "Description": "<p>You create a 20-foot-radius sphere of poisonous, yellow-green fog centered on a point you choose within Range. The fog spreads around corners. It lasts for the Duration or until strong wind disperses the fog, ending the spell. Its area is heavily obscured.</p><p>When a creature enters the spell's area for the first time on a turn or starts its turn there, that creature must make a constitution saving throw. The creature takes 5d8 poison damage on a failed save, or half as much damage on a successful one. Creatures are affected even if they hold their breath or don't need to breathe.</p><p>The fog moves 10 feet away from you at the start of each of your turns, rolling along the surface of the ground. The vapors, being heavier than air, sink to the lowest Level of the land, even pouring down openings.</p>",
+  "page": "phb 222",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "5th-Level",
+  "School": "Conjuration",
+  "Catagory": "Druid, Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 6th Level or higher, the damage increases by 1d8 for each slot Level above 5th.</p>",
+  "archetype": "Druid: Underdark",
+  "circles": "Underdark"
+}

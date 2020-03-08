@@ -1,0 +1,17 @@
+{
+  "CardName": "Nondetection",
+  "Description": "<p>For the Duration, you hide a target that you touch from divination magic. The target can be a willing creature or a place or an object no larger than 10 feet in any dimension. The target can’t be targeted by any divination magic or perceived through magical scrying sensors.</p>",
+  "page": "phb 263",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A pinch of diamond dust worth 25 gp sprinkled over the target, which the spell consumes.",
+  "Ritual": false,
+  "Duration": "8 hours",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Abjuration",
+  "Catagory": "Bard, Cleric, Ranger, Wizard",
+  "archetype": "Cleric: Knowledge",
+  "domains": "Knowledge"
+}

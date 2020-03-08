@@ -1,0 +1,16 @@
+{
+  "CardName": "Silence",
+  "Description": "<p>For the Duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within Range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it.</p><p>Casting a spell that includes a verbal component is impossible there.</p>",
+  "page": "phb 275",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": true,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Illusion",
+  "Catagory": "Bard, Cleric, Druid, Ranger, Ritual Caster",
+  "archetype": "Druid: Desert",
+  "circles": "Desert"
+}

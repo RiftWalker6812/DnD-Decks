@@ -1,0 +1,16 @@
+{
+  "CardName": "Create Food and Water",
+  "Description": "<p>You create 45 pounds of food and 30 gallons of water on the ground or in containers within Range, enough to sustain up to fifteen humanoids or five steeds for 24 hours. The food is bland but nourishing, and spoils if uneaten after 24 hours. The water is clean and doesn’t go bad.</p>",
+  "page": "phb 229",
+  "Range": "30 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Conjuration",
+  "Catagory": "Cleric, Druid, Paladin",
+  "archetype": "Druid: Desert",
+  "circles": "Desert"
+}

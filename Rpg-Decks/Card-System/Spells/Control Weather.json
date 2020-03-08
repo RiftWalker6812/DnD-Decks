@@ -1,0 +1,17 @@
+{
+  "CardName": "Control Weather",
+  "Description": "<p>You take control of the weather within 5 miles of you for the Duration. You must be outdoors to cast this spell. Moving to a place where you don’t have a clear path to the sky ends the spell early.</p><p>When you cast the spell, you change the current weather conditions, which are determined by the DM based on the climate and season. You can change precipitation, temperature, and wind. It takes 1d4 x 10 minutes for the new conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.</p><p>When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.</p>",
+  "page": "phb 228",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "Burning incense and bits of earth and wood mixed in water.",
+  "Ritual": false,
+  "Duration": "Up to 8 hours",
+  "Concentration": true,
+  "CastingTime": "10 minutes",
+  "Level": "8th-Level",
+  "School": "Transmutation",
+  "Catagory": "Cleric, Druid, Wizard",
+  "domains": "Tempest",
+  "circles": "Coast"
+}

@@ -1,0 +1,17 @@
+{
+  "CardName": "Charm Person",
+  "Description": "<p>You attempt to charm a humanoid you can see within Range. It must make a wisdom saving throw, and does so with advantage if you or your companions are fighting it. If it fails the saving throw, it is charmed by you until the spell ends or until you or your companions do anything harmful to it. The charmed creature regards you as a friendly acquaintance. When the spell ends, the creature knows it was charmed by you.</p>",
+  "page": "phb 221",
+  "Range": "30 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 hour",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Cleric, Druid, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, you can target one additional creature for each slot Level above 1st. The creatures must be within 30 feet of each other when you target them.</p>",
+  "archetype": "Cleric: Trickery",
+  "domains": "Trickery"
+}

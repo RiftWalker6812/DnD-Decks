@@ -1,0 +1,17 @@
+{
+  "CardName": "Evard's Black Tentacles",
+  "Description": "<p>Dark writhing tentacles occupy the ground in a square of 90 feet ridge you can see the Range of the spell. For the Duration of the spell, the tentacles make the difficult terrain.</p><p>When a creature enters the affected area for the first time in a turn or where it begins its turn, it must make a dexterity saving throw or it suffers 3d6 bludgeoning damage and is hampered by tentacles until the end of the spell. A creature that starts its turn in the area and is already hampered by the tentacles suffers 3d6 bludgeoning damage.</p><p>A creature hampered by the tentacles can use his action to a test Strength or Dexterity (at its option) opposite to the SD backup of your fate. If successful, it is free.</p>",
+  "page": "phb 238",
+  "Range": "90 feet",
+  "Components": "V, S, M",
+  "Materials": "A piece of tentacle of an octopus or a giant squid.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "4th-Level",
+  "School": "Conjuration",
+  "Catagory": "Warlock, Wizard",
+  "archetype": "Warlock: Great Old One",
+  "patrons": "Great Old One"
+}

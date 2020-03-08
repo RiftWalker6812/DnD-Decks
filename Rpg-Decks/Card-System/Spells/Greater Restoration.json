@@ -1,0 +1,15 @@
+{
+  "CardName": "Greater Restoration",
+  "Description": "<p>You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target’s exhaustion Level by one, or end one of the following effects on the target:</p><p>- One effect that charmed or petrified the target</p><p>- One curse, including the target’s attunement to a cursed magic item</p><p>- Any reduction to one of the target’s ability scores</p><p>- One effect reducing the target’s hit point maximum</p>",
+  "page": "phb 246",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "Diamond dust worth at least 100gp, which the spell consumes.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "5th-Level",
+  "School": "Abjuration",
+  "Catagory": "Bard, Cleric, Druid"
+}

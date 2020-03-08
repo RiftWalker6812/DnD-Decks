@@ -1,0 +1,17 @@
+{
+  "CardName": "Greater Invisibility",
+  "Description": "<p>You or a creature you touch becomes invisible until the spell ends. Anything the target is wearing or carrying is invisible as long as it is on the target’s person.</p>",
+  "page": "phb 246",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "4th-Level",
+  "School": "Illusion",
+  "Catagory": "Bard, Druid, Sorcerer, Warlock, Wizard",
+  "archetype": "Druid: Underdark<br/> Warlock: Archfey",
+  "circles": "Underdark",
+  "patrons": "Archfey"
+}

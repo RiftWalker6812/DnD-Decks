@@ -1,0 +1,16 @@
+{
+  "CardName": "Planar Binding",
+  "Description": "<p>With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service. The creature must be within Range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted magic circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a charisma saving throw. On a failed save, it is bound to serve you for the Duration. If the creature was summoned or created by another spell, that spell’s Duration is extended to match the Duration of this spell.</p><p>A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.</p>",
+  "page": "phb 265",
+  "Range": "60 feet",
+  "Components": "V, S, M",
+  "Materials": "A jewel worth at least 1,000 gp, which the spell consumes.",
+  "Ritual": false,
+  "Duration": "24 hours",
+  "Concentration": false,
+  "CastingTime": "1 hour",
+  "Level": "5th-Level",
+  "School": "Abjuration",
+  "Catagory": "Bard, Cleric, Druid, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of a higher Level, the Duration increases to 10 days with a 6th-Level slot, to 30 days with a 7th-Level slot, to 180 days with an 8th-Level slot, and to a year and a day with a 9th-Level spell slot.</p>"
+}

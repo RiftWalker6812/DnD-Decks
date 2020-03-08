@@ -16,5 +16,30 @@ namespace Rpg_Decks.Card_System
         {
             InitializeComponent();
         }
+        public SpellCard(Spell spell)
+        {
+            InitializeComponent();
+
+            //CardControl Name
+            Name = spell.CardName;
+
+            NameBox.Text = spell.CardName;
+            LevelConjurBox.Text = spell.Level + " " + spell.School;
+            CastingBox.Text = spell.CastingTime;
+            RangeBox.Text = spell.Range;
+            ComponentsBox.Text = spell.Components;
+
+            string desc = string.Format("{0}    {1}", spell.Materials, spell.Description);
+
+            DescriptionBox.Text = desc;
+            
+            HigherDescBox.Text = spell.AtHigherLevels;
+
+            ClassBox.Text = spell.Catagory;
+
+            ConcenLabel.Visible = spell.Concentration;
+            ritualLabel.Visible = spell.Ritual;
+
+        }
     }
 }

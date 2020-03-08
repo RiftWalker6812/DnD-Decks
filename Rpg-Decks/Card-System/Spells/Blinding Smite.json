@@ -1,0 +1,14 @@
+{
+  "CardName": "Blinding Smite",
+  "Description": "<p>The next time you hit a creature with a melee weapon attack during this spell’s Duration, your weapon flares with bright light, and the attack deals an extra 3d8 radiant damage to the target. Additionally, the target must succeed on a constitution saving throw or be blinded until the spell ends.</p><p>A creature blinded by this spell makes another constitution saving throw at the end of each of its turns. On a successful save, it is no longer blinded.</p>",
+  "page": "phb 219",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 bonus action",
+  "Level": "3rd-Level",
+  "School": "Evocation",
+  "Catagory": "Paladin"
+}

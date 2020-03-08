@@ -1,0 +1,19 @@
+{
+  "CardName": "Fireball",
+  "Description": "<p>A bright streak flashes from your pointing finger to a point you choose within Range and then blossoms with a low roar into an explosion of flame. Each creature in a 20-foot-radius sphere centered on that point must make a dexterity saving throw. A target takes 8d6 fire damage on a failed save, or half as much damage on a successful one.</p><p>The fire spreads around corners. It ignites flammable objects in the area that aren’t being worn or carried.</p>",
+  "page": "phb 241",
+  "Range": "150 feet",
+  "Components": "V, S, M",
+  "Materials": "A tiny ball of bat guano and sulfur.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Evocation",
+  "Catagory": "Cleric, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 4th Level or higher, the damage increases by 1d6 for each slot Level above 3rd.</p>",
+  "archetype": "Cleric: Light<br/> Warlock: Fiend",
+  "domains": "Light",
+  "patrons": "Fiend"
+}

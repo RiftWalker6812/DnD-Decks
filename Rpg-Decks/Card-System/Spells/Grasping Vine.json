@@ -1,0 +1,16 @@
+{
+  "CardName": "Grasping Vine",
+  "Description": "<p>You conjure a vine that sprouts from the ground in an unoccupied space of your choice that you can see within Range. When you cast this spell, you can direct the vine to lash out at a creature within 30 feet of it that you can see. That creature must succeed on a dexterity saving throw or be pulled 20 feet directly toward the vine. </p><p>Until the spell ends, you can direct the vine to lash out at the same creature or another one as a bonus action on each of your turns.</p>",
+  "page": "phb 246",
+  "Range": "30 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 bonus action",
+  "Level": "4th-Level",
+  "School": "Conjuration",
+  "Catagory": "Cleric, Druid, Ranger",
+  "archetype": "Cleric: Nature",
+  "domains": "Nature"
+}

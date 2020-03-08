@@ -1,0 +1,18 @@
+{
+  "CardName": "Lightning Bolt",
+  "Description": "<p>A stroke of lightning forming a line 100 feet long and 5 feet wide blasts out from you in a direction you choose. Each creature in the line must make a dexterity saving throw. A creature takes 8d6 lightning damage on a failed save, or half as much damage on a successful one.</p><p>The lightning ignites flammable objects in the area that aren’t being worn or carried.</p>",
+  "page": "phb 255",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "A bit of fur and a rod of amber, crystal, or glass.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Evocation",
+  "Catagory": "Druid, Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 4th Level or higher, the damage increases by 1d6 for each slot Level above 3rd.</p>",
+  "archetype": "Druid: Mountain",
+  "circles": "Mountain"
+}

@@ -1,0 +1,16 @@
+{
+  "CardName": "Fly",
+  "Description": "<p>You touch a willing creature. The target gains a flying speed of 60 feet for the Duration. When the spell ends, the target falls if it is still aloft, unless it can stop the fall.</p>",
+  "page": "phb 243",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A wing feather from any bird.",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Transmutation",
+  "Catagory": "Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 4th Level or higher, you can target one additional creature for each slot Level above 3rd.</p>"
+}

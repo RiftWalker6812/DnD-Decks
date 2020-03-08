@@ -1,0 +1,16 @@
+{
+  "CardName": "Divine Favor",
+  "Description": "<p>Your prayer empowers you with divine radiance. Until the spell ends, your weapon attacks deal an extra 1d4 radiant damage on a hit.</p>",
+  "page": "phb 234",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 bonus action",
+  "Level": "1st-Level",
+  "School": "Evocation",
+  "Catagory": "Cleric, Paladin",
+  "archetype": "Cleric: War",
+  "domains": "War"
+}

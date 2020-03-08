@@ -1,0 +1,16 @@
+{
+  "CardName": "Longstrider",
+  "Description": "<p>You touch a creature. The target’s speed increases by 10 feet until the spell ends.</p>",
+  "page": "phb 256",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A pinch of dirt.",
+  "Ritual": false,
+  "Duration": "1 hour",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Transmutation",
+  "Catagory": "Bard, Druid, Ranger, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, you can target one additional creature for each spell slot above 1st.</p>"
+}

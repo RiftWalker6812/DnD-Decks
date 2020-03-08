@@ -1,0 +1,16 @@
+{
+  "CardName": "Shield of Faith",
+  "Description": "<p>A shimmering field appears and surrounds a creature of your choice within Range, granting it a +2 bonus to AC for the Duration.</p>",
+  "page": "phb 275",
+  "Range": "60 feet",
+  "Components": "V, S, M",
+  "Materials": "A small parchment with a bit of holy text written on it.",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 bonus action",
+  "Level": "1st-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Paladin",
+  "domains": "War"
+}

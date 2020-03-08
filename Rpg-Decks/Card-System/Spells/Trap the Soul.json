@@ -1,0 +1,14 @@
+{
+  "CardName": "Trap the Soul",
+  "Description": "<p>This spell CardName was added as an error and does not exist. Refer to the spell CardNamed \"imprisonment\" for information on what this spell was intended to be.</p>",
+  "page": "phb Error",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Ritual": false,
+  "Duration": "Until dispelled",
+  "Concentration": false,
+  "CastingTime": "1 minute",
+  "Level": "8th-Level",
+  "School": "Conjuration",
+  "Catagory": "Wizard"
+}

@@ -1,0 +1,18 @@
+{
+  "CardName": "Dispel Magic",
+  "Description": "<p>Choose one creature, object, or magical effect within Range. Any spell of 3rd Level or lower on the target ends. For each spell of 4th Level or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell’s Level. On a successful check, the spell ends.</p>",
+  "page": "phb 234",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Abjuration",
+  "Catagory": "Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 4th Level or higher, you automatically end the effects of a spell on the target if the spell’s Level is equal to or less than the Level of the spell slot you used.</p>",
+  "archetype": "Cleric: Trickery",
+  "domains": "Trickery",
+  "oaths": "Devotion"
+}

@@ -1,0 +1,19 @@
+{
+  "CardName": "Plant Growth",
+  "Description": "<p>This spell channels vitality into plants within a specific area. There are two possible uses for the spell, granting either immediate or long-term benefits.</p><p>If you cast this spell using 1 action, choose a point within Range. All normal plants in a 100-foot radius centered on that point become thick and overgrown. A creature moving through the area must spend 4 feet of movement for every 1 foot it moves.</p><p>You can exclude one or more areas of any size within the spell’s area from being affected.</p><p>If you cast this spell over 8 hours, you enrich the land. All plants in a half-mile radius centered on a point within Range become enriched for 1 year. The plants yield twice the normal amount of food when harvested.</p>",
+  "page": "phb 266",
+  "Range": "150 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Transmutation",
+  "Catagory": "Bard, Cleric, Druid, Paladin, Ranger, Warlock",
+  "archetype": "Cleric: Nature<br/> Paladin: Ancients<br/> Warlock: Archfey",
+  "domains": "Nature",
+  "oaths": "Ancients",
+  "circles": "Forest",
+  "patrons": "Archfey"
+}

@@ -1,0 +1,14 @@
+{
+  "CardName": "Warding Wind",
+  "Description": "<p>A strong wind (20 miles per hour) blows around you in a 10-foot radius and moves with you, remaining centered on you. The wind lasts for the spell's Duration. The wind has the following effects:</p><p>- It deafens you and other creatures in its area.</p><p>- It extinguishes unprotected flames in its area that are torch-sized or smaller.</p><p>- The area is difficult terrain for creatures other than you.</p><p>- The attack rolls of Ranged weapon attacks have disadvantage if they pass in or out of the wind.</p><p>- It hedges out vapor, gas, and fog that can be dispersed by strong wind.</p>",
+  "page": "ee pc 23",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Evocation",
+  "Catagory": "Bard, Druid, Sorcerer"
+}

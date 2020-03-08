@@ -1,0 +1,18 @@
+{
+  "CardName": "Pass without Trace",
+  "Description": "<p>A veil of shadows and silence radiates from you, masking you and your companions from detection. For the Duration, each creature you choose within 30 feet of you (including you) has a +10 bonus to Dexterity (Stealth) checks and can’t be tracked except by magical means. A creature that receives this bonus leaves behind no tracks or other traces of its passage.</p>",
+  "page": "phb 264",
+  "Range": "Self",
+  "Components": "V, S, M",
+  "Materials": "Ashes from a burned leaf of mistletoe and a sprig of spruce.",
+  "Ritual": false,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Druid, Ranger",
+  "archetype": "Cleric: Trickery",
+  "domains": "Trickery",
+  "circles": "Grassland"
+}

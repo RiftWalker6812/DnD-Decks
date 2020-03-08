@@ -1,0 +1,14 @@
+{
+  "CardName": "Power Word Heal",
+  "Description": "<p>A wave of healing energy washes over the creature you touch. The target regains all its hit points. If the creature is charmed, frightened, paralyzed, or stunned, the condition ends. If the creature is prone, it can use its reaction to stand up. This spell has no effect on undead or constructs.</p>",
+  "page": "phb 266",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "9th-Level",
+  "School": "Evocation",
+  "Catagory": "Bard"
+}

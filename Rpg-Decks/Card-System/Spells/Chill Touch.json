@@ -1,0 +1,14 @@
+{
+  "CardName": "Chill Touch",
+  "Description": "<p>You create a ghostly, skeletal hand in the space of a creature within Range. Make a Ranged spell attack against the creature to assail it with the chill of the grave. On a hit, the target takes 1d8 necrotic damage, and it can’t regain hit points until the start of your next turn. Until then, the hand clings to the target.</p><p>If you hit an undead target, it also has disadvantage on attack rolls against you until the end of your next turn.</p><p>This spell’s damage increases by 1d8 when you reach 5th Level (2d8), 11th Level (3d8), and 17th Level (4d8).</p>",
+  "page": "phb 221",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Necromancy",
+  "Catagory": "Sorcerer, Warlock, Wizard"
+}

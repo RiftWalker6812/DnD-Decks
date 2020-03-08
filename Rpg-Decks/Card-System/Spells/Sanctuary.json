@@ -1,0 +1,17 @@
+{
+  "CardName": "Sanctuary",
+  "Description": "<p>You ward a creature within Range against attack. Until the spell ends, any creature who targets the warded creature with an attack or a harmful spell must first make a wisdom saving throw. On a failed save, the creature must choose a new target or lose the attack or spell. This spell doesn’t protect the warded creature from area effects, such as the explosion of a fireball.</p><p>If the warded creature makes an attack or casts a spell that affects an enemy creature, this spell ends.</p>",
+  "page": "phb 272",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "A small silver mirror.",
+  "Ritual": false,
+  "Duration": "1 minute",
+  "Concentration": false,
+  "CastingTime": "1 bonus action",
+  "Level": "1st-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Paladin",
+  "archetype": "Paladin: Devotion",
+  "oaths": "Devotion"
+}

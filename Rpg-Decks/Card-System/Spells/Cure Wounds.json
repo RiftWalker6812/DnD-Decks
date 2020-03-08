@@ -1,0 +1,16 @@
+{
+  "CardName": "Cure Wounds",
+  "Description": "<p>A creature you touch regains a number of hit points equal to 1d8 + your spellcasting ability modifier. This spell has no effect on undead or constructs.</p>",
+  "page": "phb 230",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Evocation",
+  "Catagory": "Bard, Cleric, Druid, Paladin, Ranger",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the healing increases by 1d8 for each slot Level above 1st.</p>",
+  "domains": "Life"
+}

@@ -1,0 +1,16 @@
+{
+  "CardName": "Creation",
+  "Description": "<p>You pull wisps of shadow Materials from the Shadowfell to create a nonliving object of vegetable matter within 'Range': soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and Materials that you have seen before.</p><p>The Duration depends on the object’s Materials. If the object is composed of multiple Materialss, use the shortest Duration.</p><p><b>Vegetable matter</b> 1 day</p><p><b>Stone or crystal</b> 12 hours</p><p><b>Precious metals</b> 1 hour</p><p><b>Gems</b> 10 minutes</p><p><b>Adamantine or mithral</b> 1 minute</p><p>Using any Materials created by this spell as another spell’s Materials component causes that spell to fail.</p>",
+  "page": "phb 229",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "A tiny piece of matter of the same type of the item you plan to create.",
+  "Ritual": false,
+  "Duration": "Special",
+  "Concentration": false,
+  "CastingTime": "1 minute",
+  "Level": "5th-Level",
+  "School": "Illusion",
+  "Catagory": "Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 6th Level or higher, the cube increases by 5 feet for each slot Level above 5th.</p>"
+}

@@ -1,0 +1,17 @@
+{
+  "CardName": "Speak with Animals",
+  "Description": "<p>You gain the ability to comprehend and verbally communicate with beasts for the Duration. The knowledge and awareness of many beasts is limited by their intelligence, but at a minimum, beasts can give you information about nearby locations and monsters, including whatever they can perceive or have perceived within the past day. You might be able to persuade a beast to perform a small favor for you, at the DM’s discretion.</p>",
+  "page": "phb 277",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": true,
+  "Duration": "10 minutes",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Divination",
+  "Catagory": "Bard, Cleric, Druid, Paladin, Ranger, Ritual Caster",
+  "archetype": "Cleric: Nature<br/> Paladin: Ancients",
+  "domains": "Nature",
+  "oaths": "Ancients"
+}

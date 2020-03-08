@@ -1,0 +1,14 @@
+{
+  "CardName": "Maze",
+  "Description": "<p>You banish a creature that you can see within Range into a labyrinthine demiplane. The target remains there for the Duration or until it escapes the maze.</p><p>The target can use its action to attempt to escape. When it does so, it makes a DC 20 Intelligence check. If it succeeds, it escapes, and the spell ends (a minotaur or goristro demon automatically succeeds).</p><p>When the spell ends, the target reappears in the space it left or, if that space is occupied, in the nearest unoccupied space.</p>",
+  "page": "phb 258",
+  "Range": "60 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "8th-Level",
+  "School": "Conjuration",
+  "Catagory": "Wizard"
+}

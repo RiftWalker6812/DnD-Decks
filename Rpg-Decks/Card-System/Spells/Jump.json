@@ -1,0 +1,15 @@
+{
+  "CardName": "Jump",
+  "Description": "<p>You touch a creature. The creature’s jump distance is tripled until the spell ends.</p>",
+  "page": "phb 254",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A grasshopper’s hind leg.",
+  "Ritual": false,
+  "Duration": "1 minute",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Transmutation",
+  "Catagory": "Druid, Ranger, Sorcerer, Wizard"
+}

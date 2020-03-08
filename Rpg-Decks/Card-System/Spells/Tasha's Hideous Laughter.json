@@ -1,0 +1,17 @@
+{
+  "CardName": "Tasha's Hideous Laughter",
+  "Description": "<p>A creature of your choice that you can see within Range perceives everything as hilariously funny and falls into fits of laughter if this spell affects it. The target must succeed on a wisdom saving throw or fall prone, becoming incapacitated and unable to stand up for the Duration. A creature with an Intelligence score of 4 or less isn’t affected.</p><p>At the end of each of its turns, and each time it takes damage, the target can make another wisdom saving throw. The target had advantage on the saving throw if it’s triggered by damage. On a success, the spell ends.</p>",
+  "page": "phb 280",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "Tiny tarts and a feather that is waved in the air.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Warlock, Wizard",
+  "archetype": "Warlock: Great Old One",
+  "patrons": "Great Old One"
+}

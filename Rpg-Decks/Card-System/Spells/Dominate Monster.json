@@ -1,0 +1,15 @@
+{
+  "CardName": "Dominate Monster",
+  "Description": "<p>You attempt to beguile a creature that you can see within Range. It must succeed on a wisdom saving throw or be charmed by you for the Duration. If you or creatures that are friendly to you are fighting it, it has advantage on the saving throw.</p><p>While the creature is charmed, you have a telepathic link with it as long as the two of you are on the same plane of existence. You can use this telepathic link to issue commands to the creature while you are conscious (no action required), which it does its best to obey. You can specify a simple and general course of action, such as “Attack that creature,” “Run over there,” or “Fetch that object.” If the creature completes the order and doesn’t receive further direction from you, it defends and preserves itself to the best of its ability.</p><p>You can use your action to take total and precise control of the target. Until the end of your next turn, the creature takes only the actions you choose, and doesn’t do anything that you don’t allow it to do. During this time, you can also cause the creature to use a reaction, but this requires you to use your own reaction as well.</p><p>Each time the target takes damage, it makes a new wisdom saving throw against the spell. If the saving throw succeeds, the spell ends.</p>",
+  "page": "phb 235",
+  "Range": "60 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "8th-Level",
+  "School": "Enchantment",
+  "Catagory": "Bard, Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell with a 9th-Level spell slot, the Duration is Concentration, up to 8 hours.</p>"
+}

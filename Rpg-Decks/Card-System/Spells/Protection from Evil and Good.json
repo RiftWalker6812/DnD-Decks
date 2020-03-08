@@ -1,0 +1,16 @@
+{
+  "CardName": "Protection from Evil and Good",
+  "Description": "<p>Until the spell ends, one willing creature you touch is protected against certain types of creatures: aberrations, celestials, elementals, fey, fiends, and undead.</p><p>The protection grants several benefits. Creatures of those types have disadvantage on attack rolls against the target. The target also can’t be charmed, frightened, or possessed by them. If the target is already charmed, frightened, or possessed by such a creature, the target has advantage on any new saving throw against the relevant effect.</p>",
+  "page": "phb 270",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "Holy water or powdered silver and iron, which the spell consumes.",
+  "Ritual": false,
+  "Duration": "Up to 10 minutes",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Paladin, Warlock, Wizard",
+  "oaths": "Devotion"
+}

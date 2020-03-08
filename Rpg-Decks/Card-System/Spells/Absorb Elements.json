@@ -1,0 +1,15 @@
+{
+  "CardName": "Absorb Elements",
+  "Description": "<p>The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.</p>",
+  "page": "ee pc 15",
+  "Range": "Self",
+  "Components": "S",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Abjuration",
+  "Catagory": "Druid, Ranger, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the extra damage increases by 1d6 for each slot Level above 1st.</p>"
+}

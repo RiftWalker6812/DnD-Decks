@@ -1,0 +1,16 @@
+{
+  "CardName": "Circle of Death",
+  "Description": "<p>A sphere of negative energy ripples out in a 60-footradius sphere from a point within Range. Each creature in that area must make a constitution saving throw. A target takes 8d6 necrotic damage on a failed save, or half as much damage on a successful one.</p>",
+  "page": "phb 221",
+  "Range": "150 feet",
+  "Components": "V, S, M",
+  "Materials": "The powder of a crushed black pearl worth at least 500 gp.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "6th-Level",
+  "School": "Necromancy",
+  "Catagory": "Sorcerer, Warlock, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 7th Level or higher, the damage increases by 2d6 for each slot Level above 6th.</p>"
+}

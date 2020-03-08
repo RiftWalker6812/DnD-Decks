@@ -1,0 +1,15 @@
+{
+  "CardName": "Resistance",
+  "Description": "<p>You touch one willing creature. Once before the spell ends, the target can roll a d4 and add the number rolled to one saving throw of its choice. It can roll the die before or after making the saving throw. The spell then ends.</p>",
+  "page": "phb 272",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A miniature cloak.",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Druid"
+}

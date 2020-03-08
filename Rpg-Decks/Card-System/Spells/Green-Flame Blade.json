@@ -1,0 +1,15 @@
+{
+  "CardName": "Green-Flame Blade",
+  "Description": "<p>As part of the action used the cast this spell, you must make a melee attack with a weapon against one create within the spell's Range otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature take fire damage equal to your spellcasting modifier.</p><p>This spell's damage increases when you reach higher Levels. At 5th Level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 18d + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th Level and 17th Level.</p>",
+  "page": "scag 143",
+  "Range": "5 feet",
+  "Components": "V, M",
+  "Materials": "A weapon.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Warlock, Wizard"
+}

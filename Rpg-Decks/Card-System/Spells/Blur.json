@@ -1,0 +1,16 @@
+{
+  "CardName": "Blur",
+  "Description": "<p>Your body becomes blurred, shifting and wavering to all who can see you. For the Duration, any creature has disadvantage on attack rolls against you. An attacker is immune to this effect if it doesn’t rely on sight, as with blindsight, or can see through illusions, as with truesight.</p>",
+  "page": "phb 219",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Illusion",
+  "Catagory": "Druid, Sorcerer, Wizard",
+  "archetype": "Druid: Desert",
+  "circles": "Desert"
+}

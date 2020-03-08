@@ -1,0 +1,14 @@
+{
+  "CardName": "Primordial Ward",
+  "Description": "<p>You have resistance to acid, cold, fire, lightning, and thunder damage for the spell's Duration.</p><p>When you take damage of one of those types, you can use your reaction to gain immunity to that type of damage, including against the triggering damage. If you do so, the resistances end, and you have the immunity until the end of your next turn, at which time the spell ends.</p>",
+  "page": "ee pc 21",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "6th-Level",
+  "School": "Abjuration",
+  "Catagory": "Druid"
+}

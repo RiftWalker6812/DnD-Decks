@@ -1,0 +1,15 @@
+{
+  "CardName": "Guiding Bolt",
+  "Description": "<p>A flash of light streaks toward a creature of your choice within Range. Make a Ranged spell attack against the target. On a hit, the target takes 4d6 radiant damage, and the next attack roll made against this target before the end of your next turn has advantage, thanks to the mystical dim light glittering on the target until then.</p>",
+  "page": "phb 248",
+  "Range": "120 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "1st-Level",
+  "School": "Evocation",
+  "Catagory": "Cleric",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 2nd Level or higher, the damage increases by 1d6 for each slot Level above 1st.</p>"
+}

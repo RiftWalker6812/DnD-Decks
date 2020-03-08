@@ -1,0 +1,14 @@
+{
+  "CardName": "Vicious Mockery",
+  "Description": "<p>You unleash a string of insults laced with subtle enchantments at a creature you can see within Range. If the target can hear you (though it need not understand you), it must succeed on a wisdom saving throw or take 1d4 psychic damage and have disadvantage on the next attack roll it makes before the end of its next turn.</p><p>This spell’s damage increases by 1d4 when you reach 5th Level (2d4), 11th Level (3d4), and 17th Level (4d4).</p>",
+  "page": "phb 285",
+  "Range": "60 feet",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Enchantment",
+  "Catagory": "Bard"
+}

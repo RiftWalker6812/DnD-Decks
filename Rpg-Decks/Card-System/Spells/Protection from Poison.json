@@ -1,0 +1,14 @@
+{
+  "CardName": "Protection from Poison",
+  "Description": "<p>You touch a creature. If it is poisoned, you neutralize the poison. If more than one poison afflicts the target, you neutralize one poison that you know is present, or you neutralize one at random.</p><p>For the Duration, the target has advantage on saving throws against being poisoned, and it has resistance to poison damage.</p>",
+  "page": "phb 270",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 hour",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Druid, Paladin, Ranger"
+}

@@ -1,0 +1,17 @@
+{
+  "CardName": "Commune with Nature",
+  "Description": "<p>You briefly become one with nature and gain knowledge of the surrounding territory. In the outdoors, the spell gives you knowledge of the land within 3 miles of you. In caves and other natural underground settings, the radius is limited to 300 feet. The spell doesn’t function where nature has been replaced by construction, such as in dungeons and towns.</p><p> You instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area:</p><p>- terrain and bodies of water</p><p>- prevalent plants, minerals, animals, or peoples</p><p>- powerful celestials, fey, fiends, elementals, or undead</p><p>- influence from other planes of existence</p><p>- buildings</p><p>For example, you could determine the location of powerful undead in the area, the location of major sources of safe drinking water, and the location of any nearby towns.</p>",
+  "page": "phb 224",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": true,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 minute",
+  "Level": "5th-Level",
+  "School": "Divination",
+  "Catagory": "Druid, Paladin, Ranger, Ritual Caster",
+  "archetype": "Paladin: Ancients",
+  "oaths": "Ancients",
+  "circles": "Arctic, Forest"
+}

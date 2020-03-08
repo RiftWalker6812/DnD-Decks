@@ -1,0 +1,18 @@
+{
+  "CardName": "Melf's Acid Arrow",
+  "Description": "<p>A shimmering green arrow streaks toward a target within Range and bursts in a spray of acid. Make a Ranged spell attack against the target. On a hit, the target takes 4d4 acid damage immediately and 2d4 acid damage at the end of its next turn. On a miss, the arrow splashes the target with acid for half as much of the initial damage and no damage at the end of its next turn.</p>",
+  "page": "phb 259",
+  "Range": "90 feet",
+  "Components": "V, S, M",
+  "Materials": "Powdered rhubarb leaf and an adder’s stomach.",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Evocation",
+  "Catagory": "Druid, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 3rd Level or higher, the damage (both initial and later) increases by 1d4 for each slot Level above 2nd.</p>",
+  "archetype": "Druid: Swamp",
+  "circles": "Swamp"
+}

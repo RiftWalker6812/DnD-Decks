@@ -1,0 +1,14 @@
+{
+  "CardName": "Shield",
+  "Description": "<p>An invisible barrier of magical force appears and protects you. Until the start of your next turn, you have a +5 bonus to AC, including against the triggering attack, and you take no damage from magic missile.</p>",
+  "page": "phb 275",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "1 round",
+  "Concentration": false,
+  "CastingTime": "1 reaction",
+  "Level": "1st-Level",
+  "School": "Abjuration",
+  "Catagory": "Sorcerer, Wizard"
+}

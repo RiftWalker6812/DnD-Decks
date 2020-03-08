@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Rpg_Decks.UserControls;
+using Rpg_Decks.Card_System;
 
 namespace Rpg_Decks
 {
@@ -16,6 +17,7 @@ namespace Rpg_Decks
         public InventoryForm()
         {
             InitializeComponent();
+           
         }
 
         public void FormSelect(option option)
@@ -31,6 +33,7 @@ namespace Rpg_Decks
         private void ExitBtn_Click(object sender, EventArgs e)
         {
             this.Close();
+            //CardFlow.Dispose();
             this.Dispose(); //cleans it
         }
 
@@ -43,6 +46,11 @@ namespace Rpg_Decks
         private void SpellLoad()
         {
             
+            foreach(Spell spell in GetCard.SpellList)
+            {
+                SpellCard card = new SpellCard(spell);
+                CardFlow.Controls.Add(card);
+            }
         }
         private void ItemLoad()
         {

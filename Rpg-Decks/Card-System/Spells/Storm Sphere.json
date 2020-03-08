@@ -1,0 +1,15 @@
+{
+  "CardName": "Storm Sphere",
+  "Description": "<p>A 20-foot-radius sphere of whirling air springs into existence centered on a point you choose within Range. The sphere remains for the spell's Duration. Each creature in the sphere when it appears or that ends its turn there must succeed on a Strength saving throw or take 2d6 bludgeoning damage. The sphere's space is difficult terrain.</p><p>Until the spell ends, you can use a bonus action on each of your turns to cause a bolt of lightning to leap from the center of the sphere toward one creature you choose within 60 feet of the center. Make a Ranged spell attack. You have advantage on the attack roll if the target is in the sphere. On a hit, the target takes 4d6 lightning damage.</p><p>Creatures within 30 feet of the sphere have disadvantage on Wisdom (Perception) checks made to listen.</p>",
+  "page": "ee pc 22",
+  "Range": "150 feet",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "4th-Level",
+  "School": "Evocation",
+  "Catagory": "Sorcerer, Wizard",
+  "AtHigherLevels": "<p>When you cast this spell using a spell slot of 5th Level or higher, the damage increases for each of its effects by 1d6 for each slot Level above 4th.</p>"
+}

@@ -1,0 +1,14 @@
+{
+  "CardName": "Skywrite",
+  "Description": "<p>You cause up to ten words to form in a part of the sky you can see. The words appear to be made of cloud and remain in place for the spell's Duration. The words dissipate when the spell ends. A strong wind can disperse the clouds and end the spell early.</p>",
+  "page": "ee pc 22",
+  "Range": "Sight",
+  "Components": "V, S",
+  "Ritual": true,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Transmutation",
+  "Catagory": "Bard, Druid, Ritual Caster, Wizard"
+}

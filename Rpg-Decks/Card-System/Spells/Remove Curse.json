@@ -1,0 +1,14 @@
+{
+  "CardName": "Remove Curse",
+  "Description": "<p>At your touch, all curses affecting one creature or object end. If the object is a cursed magic item, its curse remains, but the spell breaks its owner’s attunement to the object so it can be removed or discarded.</p>",
+  "page": "phb 271",
+  "Range": "Touch",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "Instantaneous",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Abjuration",
+  "Catagory": "Cleric, Paladin, Warlock, Wizard"
+}

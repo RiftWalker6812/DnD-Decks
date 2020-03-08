@@ -1,0 +1,16 @@
+{
+  "CardName": "Crusader's Mantle",
+  "Description": "<p>Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack.</p>",
+  "page": "phb 230",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Evocation",
+  "Catagory": "Cleric, Paladin",
+  "archetype": "Cleric: War",
+  "domains": "War"
+}

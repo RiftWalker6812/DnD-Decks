@@ -1,0 +1,17 @@
+{
+  "CardName": "Ensnaring Strike",
+  "Description": "<p>The next time you hit a creature with a weapon attack before this spell ends, a writhing mass of thorny vines appears at the point of impact, and the target must succeed on a strength saving throw or be restrained by the magical vines until the spell ends. A Large or larger creature has advantage on this saving throw. If the target succeeds on the save, the vines shrivel away.</p><p>While restrained by this spell, the target takes 1d6 piercing damage at the start of each of its turns. A creature restrained by the vines or one that can touch a creature can use its action to make a Strength check against your spell save DC. On a success, the target is freed.</p>",
+  "page": "phb 237",
+  "Range": "Self",
+  "Components": "V",
+  "Ritual": false,
+  "Duration": "Up to 1 minute",
+  "Concentration": true,
+  "CastingTime": "1 bonus action",
+  "Level": "1st-Level",
+  "School": "Conjuration",
+  "Catagory": "Paladin, Ranger",
+  "AtHigherLevels": "<p>If you cast this spell using a spell slot of 2nd Level or higher, the damage increases by 1d6 for each slot Level above 1st.</p>",
+  "archetype": "Paladin: Ancients",
+  "oaths": "Ancients"
+}

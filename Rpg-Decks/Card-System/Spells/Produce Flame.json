@@ -1,0 +1,14 @@
+{
+  "CardName": "Produce Flame",
+  "Description": "<p>A flickering flame appears in your hand. The flame remains there for the Duration and harms neither you nor your equipment. The flame sheds bright light in a 10-foot radius and dim light for an additional 10 feet. The spell ends if you dismiss it as an action or if you cast it again.</p><p>You can also attack with the flame, although doing so ends the spell. When you cast this spell, or as an action on a later turn, you can hurl the flame at a creature within 30 feet of you. Make a Ranged spell attack. On a hit, the target takes 1d8 fire damage.</p><p>This spell’s damage increases by 1d8 when you reach 5th Level (2d8), 11th Level (3d8), and 17th Level (4d8).</p>",
+  "page": "phb 269",
+  "Range": "Self",
+  "Components": "V, S",
+  "Ritual": false,
+  "Duration": "10 minutes",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "Cantrip",
+  "School": "Conjuration",
+  "Catagory": "Druid"
+}

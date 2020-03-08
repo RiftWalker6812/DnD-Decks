@@ -1,0 +1,16 @@
+{
+  "CardName": "Water Breathing",
+  "Description": "<p>This spell gives a maximum of ten willing creatures within Range and you can see, the ability to breathe underwater until the end of its term. Affected creatures also retain their normal breathing pattern.</p>",
+  "page": "phb 287",
+  "Range": "30 feet",
+  "Components": "V, S, M",
+  "Materials": "A short piece of reed or straw.",
+  "Ritual": true,
+  "Duration": "24 hours",
+  "Concentration": false,
+  "CastingTime": "1 action",
+  "Level": "3rd-Level",
+  "School": "Transmutation",
+  "Catagory": "Druid, Ranger, Ritual Caster, Sorcerer, Wizard",
+  "circles": "Coast"
+}

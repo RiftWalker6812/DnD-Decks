@@ -1,0 +1,18 @@
+{
+  "CardName": "Barkskin",
+  "Description": "<p>You touch a willing creature. Until the spell ends, the target's skin has a rough, bark-like appearance, and the target's AC can't be less than 16, regardless of what kind of armor it is wearing.</p>",
+  "page": "phb 217",
+  "Range": "Touch",
+  "Components": "V, S, M",
+  "Materials": "A handful of oak bark.",
+  "Ritual": false,
+  "Duration": "Up to 1 hour",
+  "Concentration": true,
+  "CastingTime": "1 action",
+  "Level": "2nd-Level",
+  "School": "Transmutation",
+  "Catagory": "Cleric, Druid, Ranger",
+  "archetype": "Cleric: Nature",
+  "domains": "Nature",
+  "circles": "Forest"
+}
