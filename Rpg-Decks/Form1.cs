@@ -175,10 +175,11 @@ namespace Rpg_Decks
 
             if (IsOpen == false)
             {
-                InventoryForm SpellForm = new InventoryForm();
+                SpellsForm SpellForm = new SpellsForm();
                 SpellForm.Name = "SpellForm";
-                SpellForm.FormSelect(InventoryForm.option.Spells);
-                // SpellForm.MdiParent = Form1.ActiveForm; not needed
+
+              //  SpellForm.FormSelect(InventoryForm.option.Spells);
+               
                 SpellForm.Show();
             }
         }

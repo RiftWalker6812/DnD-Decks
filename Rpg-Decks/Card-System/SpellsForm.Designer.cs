@@ -1,6 +1,6 @@
 ﻿namespace Rpg_Decks
 {
-    partial class InventoryForm
+    partial class SpellsForm
     {
         /// <summary>
         /// Required designer variable.
@@ -44,7 +44,7 @@
             this.InvLabel.Name = "InvLabel";
             this.InvLabel.Size = new System.Drawing.Size(220, 42);
             this.InvLabel.TabIndex = 0;
-            this.InvLabel.Text = "label1";
+            this.InvLabel.Text = "Spells Form";
             this.InvLabel.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
             // AddNewBtn
@@ -96,9 +96,8 @@
             this.Name = "InventoryForm";
             this.Opacity = 0.98D;
             this.Text = "InventoryForm";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.InventoryForm_FormClosing);
-            this.Load += new System.EventHandler(this.InventoryForm_Load);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.InventoryForm_MouseDown);
+            
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SpellsForm_MouseDown);
             this.ResumeLayout(false);
 
         }
