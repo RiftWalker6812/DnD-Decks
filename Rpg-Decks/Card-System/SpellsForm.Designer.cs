@@ -59,10 +59,11 @@
             // 
             // ExitBtn
             // 
-            this.ExitBtn.BackColor = System.Drawing.Color.IndianRed;
+            this.ExitBtn.BackColor = System.Drawing.Color.Transparent;
             this.ExitBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.ExitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ExitBtn.ForeColor = System.Drawing.Color.Red;
             this.ExitBtn.Location = new System.Drawing.Point(616, 12);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(49, 31);

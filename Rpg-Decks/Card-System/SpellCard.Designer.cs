@@ -39,7 +39,11 @@
             this.ClassBox = new System.Windows.Forms.Label();
             this.ConcenLabel = new System.Windows.Forms.Label();
             this.ritualLabel = new System.Windows.Forms.Label();
-            this.DescriptionBox = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.DescriptionBox = new System.Windows.Forms.RichTextBox();
             this.SuspendLayout();
             // 
             // NameBox
@@ -151,7 +155,7 @@
             this.ConcenLabel.BackColor = System.Drawing.Color.Transparent;
             this.ConcenLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ConcenLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.ConcenLabel.Location = new System.Drawing.Point(179, 107);
+            this.ConcenLabel.Location = new System.Drawing.Point(179, 35);
             this.ConcenLabel.Name = "ConcenLabel";
             this.ConcenLabel.Size = new System.Drawing.Size(17, 17);
             this.ConcenLabel.TabIndex = 12;
@@ -163,25 +167,70 @@
             this.ritualLabel.BackColor = System.Drawing.Color.Transparent;
             this.ritualLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ritualLabel.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.ritualLabel.Location = new System.Drawing.Point(3, 107);
+            this.ritualLabel.Location = new System.Drawing.Point(3, 35);
             this.ritualLabel.Name = "ritualLabel";
             this.ritualLabel.Size = new System.Drawing.Size(17, 17);
             this.ritualLabel.TabIndex = 13;
             this.ritualLabel.Text = "R";
             this.ritualLabel.Visible = false;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.White;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(14, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(80, 13);
+            this.label1.TabIndex = 15;
+            this.label1.Text = "Casting Time";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.White;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(125, 52);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(44, 13);
+            this.label2.TabIndex = 16;
+            this.label2.Text = "Range";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.White;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(18, 90);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(76, 13);
+            this.label3.TabIndex = 17;
+            this.label3.Text = "Components";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.White;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(114, 90);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(55, 13);
+            this.label4.TabIndex = 18;
+            this.label4.Text = "Duration";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
             // DescriptionBox
             // 
-            this.DescriptionBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.DescriptionBox.BackColor = System.Drawing.Color.White;
+            this.DescriptionBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.DescriptionBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DescriptionBox.Location = new System.Drawing.Point(14, 124);
+            this.DescriptionBox.Location = new System.Drawing.Point(12, 122);
             this.DescriptionBox.Name = "DescriptionBox";
-            this.DescriptionBox.Size = new System.Drawing.Size(175, 85);
-            this.DescriptionBox.TabIndex = 14;
-            this.DescriptionBox.Text = "label1";
-            this.DescriptionBox.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.DescriptionBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;
+            this.DescriptionBox.Size = new System.Drawing.Size(177, 88);
+            this.DescriptionBox.TabIndex = 19;
+            this.DescriptionBox.Text = "";
             // 
             // SpellCard
             // 
@@ -190,6 +239,10 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(70)))), ((int)(((byte)(57)))), ((int)(((byte)(53)))));
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.DescriptionBox);
+            this.Controls.Add(this.label4);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.ritualLabel);
             this.Controls.Add(this.ConcenLabel);
             this.Controls.Add(this.ClassBox);
@@ -203,7 +256,9 @@
             this.Controls.Add(this.NameBox);
             this.Name = "SpellCard";
             this.Size = new System.Drawing.Size(199, 281);
+            this.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -220,6 +275,10 @@
         private System.Windows.Forms.Label ClassBox;
         private System.Windows.Forms.Label ConcenLabel;
         private System.Windows.Forms.Label ritualLabel;
-        private System.Windows.Forms.Label DescriptionBox;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.RichTextBox DescriptionBox;
     }
 }

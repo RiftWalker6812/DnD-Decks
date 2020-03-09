@@ -11,7 +11,7 @@ namespace Rpg_Decks.Card_System
     {
         public static List<Spell> SpellList { get; set; }
         public static SpellsForm spellsForm { get; set; }
-
+        public static Form1 Form1 { get; set; }
 
         //public static void AllSpells()
         //{

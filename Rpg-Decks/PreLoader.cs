@@ -66,8 +66,8 @@ namespace Rpg_Decks
                 Refresh();
             }
             GetCard.spellsForm = new SpellsForm();
-            Form1 form1 = new Form1();
-            form1.Show();
+            GetCard.Form1 = new Form1();
+            GetCard.Form1.Show();
             this.Visible = false;
         }
  

@@ -1,0 +1,51 @@
+{
+  "ProType": {
+
+    "ProfileName": "",
+    "HitDie": "",
+
+    "RpgClass": "",
+    "Level": 0,
+    "XpValue": 0,
+
+    "HpValue": 0,
+    "Proficiency": 0,
+    "AC": 0,
+
+    "Skills": [
+
+    ],
+
+    "Strength": {
+      "Score": 0,
+      "Bonus": 0,
+      "Saving": 0
+    },
+    "Dexterety": {
+      "Score": 0,
+      "Bonus": 0,
+      "Saving": 0
+    },
+    "Constitution": {
+      "Score": 0,
+      "Bonus": 0,
+      "Saving": 0
+    },
+    "Intelligince": {
+      "Score": 0,
+      "Bonus": 0,
+      "Saving": 0
+    },
+    "Wisdom": {
+      "Score": 0,
+      "Bonus": 0,
+      "Saving": 0
+    },
+    "Charisma": {
+      "Score": 0,
+      "Bonus": 0,
+      "Saving": 0
+    }
+  }
+
+}

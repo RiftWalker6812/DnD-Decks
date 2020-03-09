@@ -33,8 +33,9 @@ namespace Rpg_Decks
             foreach (Spell spell in GetCard.SpellList)
             {
                 SpellCard card = new SpellCard(spell);
-
+                
                 CardFlow.Controls.Add(card);
+              //  ControlExtension.Draggable(card, true);
             }
             Refresh();
         }

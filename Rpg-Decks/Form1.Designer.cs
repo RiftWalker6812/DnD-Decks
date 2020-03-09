@@ -41,6 +41,7 @@
             this.FlowLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ProControlU = new Rpg_Decks.UserControls.ProfileControl();
+            this.label1 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.TabConMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -58,17 +59,19 @@
             this.fileToolStripMenuItem,
             this.configToolStripMenuItem,
             this.windowsToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(9, 9);
+            this.menuStrip1.Location = new System.Drawing.Point(9, 19);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(219, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(235, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // fileToolStripMenuItem
             // 
+            this.fileToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.SaveTool,
             this.saveUpdateTool});
+            this.fileToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLight;
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -89,15 +92,18 @@
             // 
             // configToolStripMenuItem
             // 
+            this.configToolStripMenuItem.Enabled = false;
             this.configToolStripMenuItem.Name = "configToolStripMenuItem";
             this.configToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.configToolStripMenuItem.Text = "Config";
             // 
             // windowsToolStripMenuItem
             // 
+            this.windowsToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.windowsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem2});
+            this.windowsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
             this.windowsToolStripMenuItem.Text = "Windows";
@@ -119,12 +125,12 @@
             // 
             this.TabConMain.Controls.Add(this.tabPage1);
             this.TabConMain.Controls.Add(this.tabPage2);
-            this.TabConMain.Location = new System.Drawing.Point(5, 14);
+            this.TabConMain.Location = new System.Drawing.Point(5, 24);
             this.TabConMain.Name = "TabConMain";
             this.TabConMain.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TabConMain.RightToLeftLayout = true;
             this.TabConMain.SelectedIndex = 0;
-            this.TabConMain.Size = new System.Drawing.Size(793, 424);
+            this.TabConMain.Size = new System.Drawing.Size(817, 423);
             this.TabConMain.TabIndex = 1;
             this.TabConMain.SelectedIndexChanged += new System.EventHandler(this.TabControl_SelectedIndexChanged);
             // 
@@ -134,7 +140,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(785, 398);
+            this.tabPage1.Size = new System.Drawing.Size(809, 397);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Selection Tab";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -146,7 +152,7 @@
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
             this.FlowLayout.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.FlowLayout.Size = new System.Drawing.Size(779, 392);
+            this.FlowLayout.Size = new System.Drawing.Size(803, 391);
             this.FlowLayout.TabIndex = 0;
             // 
             // tabPage2
@@ -155,7 +161,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(785, 398);
+            this.tabPage2.Size = new System.Drawing.Size(809, 397);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Profile Tab";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -163,20 +169,36 @@
             // ProControlU
             // 
             this.ProControlU.AutoScroll = true;
+            this.ProControlU.BackColor = System.Drawing.SystemColors.Control;
             this.ProControlU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProControlU.Location = new System.Drawing.Point(0, 6);
             this.ProControlU.Name = "ProControlU";
             this.ProControlU.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ProControlU.Size = new System.Drawing.Size(775, 388);
+            this.ProControlU.Size = new System.Drawing.Size(804, 391);
             this.ProControlU.TabIndex = 0;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Red;
+            this.label1.Location = new System.Drawing.Point(794, -4);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(24, 25);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "x";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(810, 450);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.ClientSize = new System.Drawing.Size(826, 451);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.TabConMain);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.RightToLeftLayout = true;
@@ -184,12 +206,14 @@
             this.Text = "Form1";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Form1_FormClosed);
             this.Load += new System.EventHandler(this.Form1_Load);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.TabConMain.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -208,6 +232,7 @@
         public System.Windows.Forms.TabPage tabPage2;
         public UserControls.ProfileControl ProControlU;
         private System.Windows.Forms.ToolStripMenuItem saveUpdateTool;
+        private System.Windows.Forms.Label label1;
     }
 }
 

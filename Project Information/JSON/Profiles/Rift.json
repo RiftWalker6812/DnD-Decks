@@ -1,0 +1,53 @@
+{
+  "ProType": {
+
+    "ProfileName": "Rift",
+    "HitDie": "1d4",
+
+    "RpgClass": "Wizard",
+    "Level": 5,
+    "XpValue": 259.00,
+
+    "HpValue": 4,
+    "Proficiency": 3,
+    "AC": 13,
+
+    "Skills": [
+      "Survival",
+      "Stealth"
+
+    ],
+
+    "Strength": {
+      "Score": 14,
+      "Bonus": 3,
+      "Saving": 3
+    },
+    "Dexterety": {
+      "Score": 15,
+      "Bonus": 4,
+      "Saving": 3
+    },
+    "Constitution": {
+      "Score": 13,
+      "Bonus": 2,
+      "Saving": 2
+    },
+    "Intelligince": {
+      "Score": 13,
+      "Bonus": 0,
+      "Saving": 2
+    },
+    "Wisdom": {
+      "Score": 14,
+      "Bonus": 2,
+      "Saving": 2
+    },
+    "Charisma": {
+      "Score": 10,
+      "Bonus": 1,
+      "Saving": 1
+    }
+  }
+
+}

@@ -229,7 +229,7 @@
             this.xpDisplayLabel.AutoSize = true;
             this.xpDisplayLabel.BackColor = System.Drawing.Color.Transparent;
             this.xpDisplayLabel.ForeColor = System.Drawing.Color.Black;
-            this.xpDisplayLabel.Location = new System.Drawing.Point(562, 77);
+            this.xpDisplayLabel.Location = new System.Drawing.Point(685, 76);
             this.xpDisplayLabel.Name = "xpDisplayLabel";
             this.xpDisplayLabel.Size = new System.Drawing.Size(52, 13);
             this.xpDisplayLabel.TabIndex = 13;
@@ -249,7 +249,7 @@
             // SaveBtn
             // 
             this.SaveBtn.Enabled = false;
-            this.SaveBtn.Location = new System.Drawing.Point(696, 352);
+            this.SaveBtn.Location = new System.Drawing.Point(726, 352);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(73, 33);
             this.SaveBtn.TabIndex = 15;
@@ -266,9 +266,9 @@
             this.SpellFlow.AutoScroll = true;
             this.SpellFlow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.SpellFlow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SpellFlow.Location = new System.Drawing.Point(488, 152);
+            this.SpellFlow.Location = new System.Drawing.Point(413, 155);
             this.SpellFlow.Name = "SpellFlow";
-            this.SpellFlow.Size = new System.Drawing.Size(280, 196);
+            this.SpellFlow.Size = new System.Drawing.Size(387, 196);
             this.SpellFlow.TabIndex = 16;
             // 
             // InventoryFlow
@@ -279,14 +279,15 @@
             this.InventoryFlow.AutoScroll = true;
             this.InventoryFlow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.InventoryFlow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.InventoryFlow.Location = new System.Drawing.Point(204, 152);
+            this.InventoryFlow.Enabled = false;
+            this.InventoryFlow.Location = new System.Drawing.Point(3, 155);
             this.InventoryFlow.Name = "InventoryFlow";
-            this.InventoryFlow.Size = new System.Drawing.Size(278, 196);
+            this.InventoryFlow.Size = new System.Drawing.Size(401, 196);
             this.InventoryFlow.TabIndex = 17;
             // 
             // SpellBtn
             // 
-            this.SpellBtn.Location = new System.Drawing.Point(488, 352);
+            this.SpellBtn.Location = new System.Drawing.Point(413, 352);
             this.SpellBtn.Name = "SpellBtn";
             this.SpellBtn.Size = new System.Drawing.Size(100, 33);
             this.SpellBtn.TabIndex = 18;
@@ -296,7 +297,7 @@
             // 
             // ItemBtn
             // 
-            this.ItemBtn.Location = new System.Drawing.Point(204, 352);
+            this.ItemBtn.Location = new System.Drawing.Point(3, 352);
             this.ItemBtn.Name = "ItemBtn";
             this.ItemBtn.Size = new System.Drawing.Size(100, 33);
             this.ItemBtn.TabIndex = 19;
@@ -307,7 +308,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(200, 129);
+            this.label8.Location = new System.Drawing.Point(-1, 132);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(83, 20);
             this.label8.TabIndex = 20;
@@ -317,7 +318,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(484, 129);
+            this.label9.Location = new System.Drawing.Point(409, 132);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(58, 20);
             this.label9.TabIndex = 21;
@@ -350,12 +351,13 @@
             this.AblityScoresGroupBox.Controls.Add(this.StrBonus);
             this.AblityScoresGroupBox.Controls.Add(this.label11);
             this.AblityScoresGroupBox.Controls.Add(this.StrScore);
-            this.AblityScoresGroupBox.Location = new System.Drawing.Point(4, 193);
+            this.AblityScoresGroupBox.Location = new System.Drawing.Point(758, 19);
             this.AblityScoresGroupBox.Name = "AblityScoresGroupBox";
-            this.AblityScoresGroupBox.Size = new System.Drawing.Size(194, 192);
+            this.AblityScoresGroupBox.Size = new System.Drawing.Size(10, 10);
             this.AblityScoresGroupBox.TabIndex = 22;
             this.AblityScoresGroupBox.TabStop = false;
             this.AblityScoresGroupBox.Text = "AbilityScores";
+            this.AblityScoresGroupBox.Visible = false;
             // 
             // label17
             // 
@@ -732,12 +734,13 @@
             this.groupBox2.Controls.Add(this.TraitRadio);
             this.groupBox2.Controls.Add(this.SkillRadio);
             this.groupBox2.Controls.Add(this.ScoreRadio);
-            this.groupBox2.Location = new System.Drawing.Point(4, 129);
+            this.groupBox2.Location = new System.Drawing.Point(758, 3);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(194, 65);
+            this.groupBox2.Size = new System.Drawing.Size(10, 10);
             this.groupBox2.TabIndex = 23;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "SwitchControl";
+            this.groupBox2.Visible = false;
             // 
             // MainRadio
             // 
@@ -818,9 +821,9 @@
             this.SkillsBox.Controls.Add(this.skillAdd);
             this.SkillsBox.Controls.Add(this.comboBox1);
             this.SkillsBox.Controls.Add(this.skillListBox);
-            this.SkillsBox.Location = new System.Drawing.Point(3, 193);
+            this.SkillsBox.Location = new System.Drawing.Point(757, 19);
             this.SkillsBox.Name = "SkillsBox";
-            this.SkillsBox.Size = new System.Drawing.Size(194, 192);
+            this.SkillsBox.Size = new System.Drawing.Size(10, 10);
             this.SkillsBox.TabIndex = 26;
             this.SkillsBox.TabStop = false;
             this.SkillsBox.Text = "Skills";
@@ -916,9 +919,9 @@
             this.TraitsBox.Controls.Add(this.TraitRichText);
             this.TraitsBox.Controls.Add(this.TraitName);
             this.TraitsBox.Controls.Add(this.TraitsListBox);
-            this.TraitsBox.Location = new System.Drawing.Point(3, 193);
+            this.TraitsBox.Location = new System.Drawing.Point(757, 19);
             this.TraitsBox.Name = "TraitsBox";
-            this.TraitsBox.Size = new System.Drawing.Size(194, 192);
+            this.TraitsBox.Size = new System.Drawing.Size(10, 10);
             this.TraitsBox.TabIndex = 27;
             this.TraitsBox.TabStop = false;
             this.TraitsBox.Text = "Traits";
@@ -969,7 +972,7 @@
             // 
             // SaveUpdateBtn
             // 
-            this.SaveUpdateBtn.Location = new System.Drawing.Point(605, 352);
+            this.SaveUpdateBtn.Location = new System.Drawing.Point(636, 352);
             this.SaveUpdateBtn.Name = "SaveUpdateBtn";
             this.SaveUpdateBtn.Size = new System.Drawing.Size(85, 33);
             this.SaveUpdateBtn.TabIndex = 29;
@@ -993,22 +996,20 @@
             // 
             // HpMaxValueBox
             // 
-            this.HpMaxValueBox.Location = new System.Drawing.Point(188, 78);
+            this.HpMaxValueBox.Location = new System.Drawing.Point(353, 76);
             this.HpMaxValueBox.Name = "HpMaxValueBox";
-            this.HpMaxValueBox.Size = new System.Drawing.Size(69, 20);
+            this.HpMaxValueBox.Size = new System.Drawing.Size(51, 20);
             this.HpMaxValueBox.TabIndex = 32;
-            this.HpMaxValueBox.Visible = false;
             this.HpMaxValueBox.ValueChanged += new System.EventHandler(this.HpMaxValueBox_ValueChanged);
             // 
             // hpMaxLabel
             // 
             this.hpMaxLabel.AutoSize = true;
-            this.hpMaxLabel.Location = new System.Drawing.Point(135, 80);
+            this.hpMaxLabel.Location = new System.Drawing.Point(300, 78);
             this.hpMaxLabel.Name = "hpMaxLabel";
             this.hpMaxLabel.Size = new System.Drawing.Size(47, 13);
             this.hpMaxLabel.TabIndex = 33;
             this.hpMaxLabel.Text = "Max Hp:";
-            this.hpMaxLabel.Visible = false;
             // 
             // XPText
             // 
@@ -1033,6 +1034,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.Controls.Add(this.XPText);
             this.Controls.Add(this.hpMaxLabel);
@@ -1067,7 +1069,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AblityScoresGroupBox);
             this.Name = "ProfileControl";
-            this.Size = new System.Drawing.Size(771, 388);
+            this.Size = new System.Drawing.Size(802, 388);
             this.Load += new System.EventHandler(this.ProfileControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).EndInit();
             this.AblityScoresGroupBox.ResumeLayout(false);
@@ -1119,7 +1121,6 @@
         private System.Windows.Forms.TextBox acTextBox;
         private System.Windows.Forms.Label xpDisplayLabel;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.FlowLayoutPanel SpellFlow;
         private System.Windows.Forms.FlowLayoutPanel InventoryFlow;
         private System.Windows.Forms.Button SpellBtn;
         private System.Windows.Forms.Button ItemBtn;
@@ -1178,5 +1179,6 @@
         private System.Windows.Forms.Label hpMaxLabel;
         public System.Windows.Forms.ComboBox classComboBox;
         private System.Windows.Forms.NumericUpDown XPText;
+        public System.Windows.Forms.FlowLayoutPanel SpellFlow;
     }
 }
