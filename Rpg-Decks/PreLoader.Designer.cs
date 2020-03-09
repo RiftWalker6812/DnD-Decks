@@ -45,7 +45,7 @@
             this.PreLoadBar.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.PreLoadBar.InnerMargin = 2;
             this.PreLoadBar.InnerWidth = -1;
-            this.PreLoadBar.Location = new System.Drawing.Point(148, 12);
+            this.PreLoadBar.Location = new System.Drawing.Point(254, 32);
             this.PreLoadBar.MarqueeAnimationSpeed = 2000;
             this.PreLoadBar.Name = "PreLoadBar";
             this.PreLoadBar.OuterColor = System.Drawing.Color.Gray;
@@ -69,7 +69,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(474, 198);
+            this.pictureBox1.Location = new System.Drawing.Point(580, 198);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(139, 154);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -79,9 +79,10 @@
             // DataLabel
             // 
             this.DataLabel.AutoSize = true;
-            this.DataLabel.Location = new System.Drawing.Point(12, 339);
+            this.DataLabel.Font = new System.Drawing.Font("Irken", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataLabel.Location = new System.Drawing.Point(3, 9);
             this.DataLabel.Name = "DataLabel";
-            this.DataLabel.Size = new System.Drawing.Size(35, 13);
+            this.DataLabel.Size = new System.Drawing.Size(73, 20);
             this.DataLabel.TabIndex = 2;
             this.DataLabel.Text = "label1";
             // 
@@ -89,12 +90,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(615, 361);
-            this.Controls.Add(this.DataLabel);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
+            this.ClientSize = new System.Drawing.Size(731, 377);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PreLoadBar);
+            this.Controls.Add(this.DataLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PreLoader";
+            this.Opacity = 0.97D;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PreLoader";
             this.Load += new System.EventHandler(this.PreLoader_Load);
             this.Shown += new System.EventHandler(this.PreLoader_Shown);

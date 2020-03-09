@@ -17,7 +17,7 @@ namespace Rpg_Decks
         public SpellsForm()
         {
             InitializeComponent();
-           
+            SpellLoad();
         }
 
         
@@ -35,8 +35,10 @@ namespace Rpg_Decks
             foreach (Spell spell in GetCard.SpellList)
             {
                 SpellCard card = new SpellCard(spell);
+
                 CardFlow.Controls.Add(card);
             }
+            Refresh();
         }
 
 
@@ -62,6 +64,11 @@ namespace Rpg_Decks
         void SpellsForm_FormClosing(object sender, FormClosingEventArgs e)
         {
            
+            
+        }
+
+        private void SpellsForm_Load(object sender, EventArgs e)
+        {
             
         }
     }

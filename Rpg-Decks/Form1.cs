@@ -28,8 +28,7 @@ namespace Rpg_Decks
             //adding empty
             emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");
 
-            //setup list of spells
-            GetCard.SpellList = new List<Spell>();
+            
         }
  
         //On Load
@@ -182,6 +181,11 @@ namespace Rpg_Decks
                
                 SpellForm.Show();
             }
+        }
+
+        private void Form1_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Environment.Exit(-1);
         }
     }
 
