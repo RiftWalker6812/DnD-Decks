@@ -24,9 +24,7 @@ namespace Rpg_Decks
 
         private void ExitBtn_Click(object sender, EventArgs e)
         {
-            this.Close();
-            //CardFlow.Dispose();
-            this.Dispose(); //cleans it
+            GetCard.spellsForm.Visible = false;
         }
 
         private void SpellLoad()

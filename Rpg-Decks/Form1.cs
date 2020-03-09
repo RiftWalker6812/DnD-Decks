@@ -162,25 +162,27 @@ namespace Rpg_Decks
 
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            bool IsOpen = false;
-            foreach (Form f in Application.OpenForms)
-            {
-                if (f.Name == "SpellsForm")
-                {
-                    IsOpen = true;
-                    break;
-                }
-            }
+            //bool IsOpen = false;
+            //foreach (Form f in Application.OpenForms)
+            //{
+            //    if (f.Name == "SpellsForm")
+            //    {
+            //        IsOpen = true;
+            //        break;
+            //    }
+            //}
 
-            if (IsOpen == false)
-            {
-                SpellsForm SpellForm = new SpellsForm();
-                SpellForm.Name = "SpellsForm";
+            //if (IsOpen == false)
+            //{
+            //    SpellsForm SpellForm = new SpellsForm();
+            //    SpellForm.Name = "SpellsForm";
 
-              //  SpellForm.FormSelect(InventoryForm.option.Spells);
-               
-                SpellForm.Show();
-            }
+            //  //  SpellForm.FormSelect(InventoryForm.option.Spells);
+
+            //    SpellForm.Show();
+            //}
+
+            GetCard.spellsForm.Visible = true;
         }
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)

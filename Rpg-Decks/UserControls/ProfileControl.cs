@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Rpg_Decks.JsonProfiling;
 using Rpg_Decks;
+using Rpg_Decks.Card_System;
 
 namespace Rpg_Decks.UserControls
 {
@@ -255,25 +256,27 @@ namespace Rpg_Decks.UserControls
         //opens inventory form as spell form
         private void SpellBtn_Click(object sender, EventArgs e)
         {
-            bool IsOpen = false;
-            foreach(Form f in Application.OpenForms)
-            {
-                if(f.Name == "SpellsForm")
-                {
-                    IsOpen = true;
-                    break;
-                }
-            }
+            //bool IsOpen = false;
+            //foreach(Form f in Application.OpenForms)
+            //{
+            //    if(f.Name == "SpellsForm")
+            //    {
+            //        IsOpen = true;
+            //        break;
+            //    }
+            //}
 
-            if (IsOpen == false)
-            {
-                SpellsForm SpellForm = new SpellsForm();
-                SpellForm.Name = "SpellsForm";
+            //if (IsOpen == false)
+            //{
+            //    SpellsForm SpellForm = new SpellsForm();
+            //    SpellForm.Name = "SpellsForm";
 
-                //SpellForm.FormSelect(SpellForm.option.Spells);
+            //    //SpellForm.FormSelect(SpellForm.option.Spells);
 
-                SpellForm.Show();
-            }
+            //    SpellForm.Show();
+
+            GetCard.spellsForm.Visible = true;
+        
         }
     }
     

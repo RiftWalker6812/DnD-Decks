@@ -64,15 +64,17 @@ namespace Rpg_Decks
 
                 Thread.Sleep(10);
                 Refresh();
-            }      
+            }
+            GetCard.spellsForm = new SpellsForm();
             Form1 form1 = new Form1();
             form1.Show();
             this.Visible = false;
         }
-        
+ 
+
         private void PreLoader_Shown(object sender, EventArgs e)
         {
-            PreLoading();
+            PreLoading();          
         }
     }
 }

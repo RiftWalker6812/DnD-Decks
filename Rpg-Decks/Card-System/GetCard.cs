@@ -10,6 +10,8 @@ namespace Rpg_Decks.Card_System
     public static class GetCard
     {
         public static List<Spell> SpellList { get; set; }
+        public static SpellsForm spellsForm { get; set; }
+
 
         //public static void AllSpells()
         //{
