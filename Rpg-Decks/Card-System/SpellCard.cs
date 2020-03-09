@@ -17,6 +17,7 @@ namespace Rpg_Decks.Card_System
             InitializeComponent();
         }
         public Spell SpellVariable { get; set; }
+        public string SpellLevel { get; set; }
         public SpellCard(Spell spell)
         {
             InitializeComponent();
@@ -28,6 +29,9 @@ namespace Rpg_Decks.Card_System
 
             NameBox.Text = spell.CardName;
             LevelConjurBox.Text = spell.Level + " " + spell.School;
+
+            SpellLevel = spell.Level;
+
             CastingBox.Text = spell.CastingTime;
             RangeBox.Text = spell.Range;
             ComponentsBox.Text = spell.Components;

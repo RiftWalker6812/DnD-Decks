@@ -13,15 +13,15 @@ namespace Rpg_Decks.Card_System
         public static SpellsForm spellsForm { get; set; }
         public static Form1 Form1 { get; set; }
 
-        //public static void AllSpells()
-        //{
-        //    foreach(string filePath in Directory.GetFiles(@"JSON\Cards\Spells\", "*.json"))
-        //    {
-        //        StreamReader reader = new StreamReader(filePath);
+        public static void AllSpells()
+        {
+            foreach (string filePath in Directory.GetFiles(@"JSON\Cards\SpellsHB\", "*.json"))
+            {
+                StreamReader reader = new StreamReader(filePath);
 
-        //        Spell spell = Spell.FromJson(reader.ReadToEnd());
-        //        SpellList.Add(spell);
-        //    }
-        //}
+                Spell spell = Spell.FromJson(reader.ReadToEnd());
+                SpellList.Add(spell);
+            }
+        }
     }
 }

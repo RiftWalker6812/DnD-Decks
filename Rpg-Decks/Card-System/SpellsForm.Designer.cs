@@ -32,6 +32,8 @@
             this.AddNewBtn = new System.Windows.Forms.Button();
             this.ExitBtn = new System.Windows.Forms.Button();
             this.CardFlow = new System.Windows.Forms.FlowLayoutPanel();
+            this.LevelFilter = new System.Windows.Forms.ComboBox();
+            this.NameFilter = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // InvLabel
@@ -83,12 +85,40 @@
             this.CardFlow.Size = new System.Drawing.Size(653, 503);
             this.CardFlow.TabIndex = 3;
             // 
+            // LevelFilter
+            // 
+            this.LevelFilter.FormattingEnabled = true;
+            this.LevelFilter.Items.AddRange(new object[] {
+            "Cantrip",
+            "1st-Level",
+            "2nd-Level",
+            "3rd-Level",
+            "4th-Level",
+            "5th-Level",
+            "6th-Level"});
+            this.LevelFilter.Location = new System.Drawing.Point(430, 34);
+            this.LevelFilter.Name = "LevelFilter";
+            this.LevelFilter.Size = new System.Drawing.Size(131, 21);
+            this.LevelFilter.TabIndex = 4;
+            this.LevelFilter.TextUpdate += new System.EventHandler(this.LevelFilter_TextUpdate);
+            this.LevelFilter.TextChanged += new System.EventHandler(this.NameFilter_TextChanged);
+            // 
+            // NameFilter
+            // 
+            this.NameFilter.Location = new System.Drawing.Point(430, 12);
+            this.NameFilter.Name = "NameFilter";
+            this.NameFilter.Size = new System.Drawing.Size(131, 20);
+            this.NameFilter.TabIndex = 5;
+            this.NameFilter.TextChanged += new System.EventHandler(this.NameFilter_TextChanged);
+            // 
             // SpellsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(677, 584);
+            this.Controls.Add(this.NameFilter);
+            this.Controls.Add(this.LevelFilter);
             this.Controls.Add(this.CardFlow);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.AddNewBtn);
@@ -101,6 +131,7 @@
             this.Shown += new System.EventHandler(this.SpellsForm_Shown);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SpellsForm_MouseDown);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -110,5 +141,7 @@
         private System.Windows.Forms.Button AddNewBtn;
         private System.Windows.Forms.Button ExitBtn;
         private System.Windows.Forms.FlowLayoutPanel CardFlow;
+        private System.Windows.Forms.ComboBox LevelFilter;
+        private System.Windows.Forms.TextBox NameFilter;
     }
 }

@@ -80,5 +80,38 @@ namespace Rpg_Decks
 
             }
         }
+
+        private void NameFilter_TextChanged(object sender, EventArgs e)
+        {
+            foreach (SpellCard spellCard in CardFlow.Controls)
+            {
+                if (spellCard.SpellLevel == NameFilter.Text)
+                {
+                    spellCard.Visible = true;
+                }
+                else { spellCard.Visible = false; }
+                CardFlow.Refresh();
+            }
+
+        }
+
+        private void LevelFilter_TextUpdate(object sender, EventArgs e)
+        {
+            
+                foreach (SpellCard spellCard in CardFlow.Controls)
+                {
+                    if (spellCard.SpellLevel == LevelFilter.Text)
+                    {
+                        spellCard.Visible = true;
+                    }
+                    else { spellCard.Visible = false; }
+                     CardFlow.Refresh();
+                }
+            
+           
+            
+               
+           
+        }
     }
 }
