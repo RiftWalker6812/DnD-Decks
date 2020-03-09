@@ -187,6 +187,7 @@ namespace Rpg_Decks
 
         private void Form1_FormClosed(object sender, FormClosedEventArgs e)
         {
+            GetCard.spellsForm.Dispose();
             Environment.Exit(-1);
         }
 

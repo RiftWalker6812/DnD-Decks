@@ -61,7 +61,7 @@
             this.windowsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(9, 19);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(235, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(521, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -130,7 +130,7 @@
             this.TabConMain.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.TabConMain.RightToLeftLayout = true;
             this.TabConMain.SelectedIndex = 0;
-            this.TabConMain.Size = new System.Drawing.Size(817, 423);
+            this.TabConMain.Size = new System.Drawing.Size(1100, 629);
             this.TabConMain.TabIndex = 1;
             this.TabConMain.SelectedIndexChanged += new System.EventHandler(this.TabControl_SelectedIndexChanged);
             // 
@@ -140,7 +140,7 @@
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(809, 397);
+            this.tabPage1.Size = new System.Drawing.Size(1092, 603);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Selection Tab";
             this.tabPage1.UseVisualStyleBackColor = true;
@@ -152,7 +152,7 @@
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
             this.FlowLayout.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.FlowLayout.Size = new System.Drawing.Size(803, 391);
+            this.FlowLayout.Size = new System.Drawing.Size(1086, 597);
             this.FlowLayout.TabIndex = 0;
             // 
             // tabPage2
@@ -161,7 +161,7 @@
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(809, 397);
+            this.tabPage2.Size = new System.Drawing.Size(1092, 603);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Profile Tab";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -174,7 +174,7 @@
             this.ProControlU.Location = new System.Drawing.Point(0, 6);
             this.ProControlU.Name = "ProControlU";
             this.ProControlU.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.ProControlU.Size = new System.Drawing.Size(804, 391);
+            this.ProControlU.Size = new System.Drawing.Size(1086, 592);
             this.ProControlU.TabIndex = 0;
             // 
             // label1
@@ -182,7 +182,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(794, -4);
+            this.label1.Location = new System.Drawing.Point(1081, -4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(24, 25);
             this.label1.TabIndex = 2;
@@ -194,7 +194,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
-            this.ClientSize = new System.Drawing.Size(826, 451);
+            this.ClientSize = new System.Drawing.Size(1112, 656);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.TabConMain);

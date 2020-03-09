@@ -98,6 +98,7 @@
             this.Opacity = 0.98D;
             this.Text = "InventoryForm";
             this.Load += new System.EventHandler(this.SpellsForm_Load);
+            this.Shown += new System.EventHandler(this.SpellsForm_Shown);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.SpellsForm_MouseDown);
             this.ResumeLayout(false);
 

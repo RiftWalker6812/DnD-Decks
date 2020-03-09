@@ -224,7 +224,7 @@
             // DescriptionBox
             // 
             this.DescriptionBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.DescriptionBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DescriptionBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DescriptionBox.Location = new System.Drawing.Point(12, 122);
             this.DescriptionBox.Name = "DescriptionBox";
             this.DescriptionBox.ScrollBars = System.Windows.Forms.RichTextBoxScrollBars.Vertical;

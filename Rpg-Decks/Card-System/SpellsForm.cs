@@ -24,8 +24,12 @@ namespace Rpg_Decks
 
         private void ExitBtn_Click(object sender, EventArgs e)
         {
+            //CardFlow.Controls.Clear();
+            //CardFlow.Dispose();
             GetCard.spellsForm.Visible = false;
         }
+
+        List<SpellCard> listCards = new List<SpellCard>();
 
         private void SpellLoad()
         {
@@ -33,8 +37,11 @@ namespace Rpg_Decks
             foreach (Spell spell in GetCard.SpellList)
             {
                 SpellCard card = new SpellCard(spell);
-                
-                CardFlow.Controls.Add(card);
+
+               
+                listCards.Add(card);
+
+               // CardFlow.Controls.Add(card);
               //  ControlExtension.Draggable(card, true);
             }
             Refresh();
@@ -59,16 +66,19 @@ namespace Rpg_Decks
         }
         //===================================================================================
 
-       
-        void SpellsForm_FormClosing(object sender, FormClosingEventArgs e)
+        private void SpellsForm_Shown(object sender, EventArgs e)
         {
-           
-            
+            Refresh();
         }
 
         private void SpellsForm_Load(object sender, EventArgs e)
         {
-            
+            //loads all controls
+            foreach (SpellCard c in listCards)
+            {
+                CardFlow.Controls.Add(c);
+
+            }
         }
     }
 }

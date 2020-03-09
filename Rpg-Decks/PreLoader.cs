@@ -23,11 +23,6 @@ namespace Rpg_Decks
             InitializeComponent();
         }
 
-        private void PreLoader_Load(object sender, EventArgs e)
-        {
-          
-
-        }
         private void PreLoading()
         {
             //pre-loads 400 pieces of data SRD

@@ -249,7 +249,7 @@
             // SaveBtn
             // 
             this.SaveBtn.Enabled = false;
-            this.SaveBtn.Location = new System.Drawing.Point(726, 352);
+            this.SaveBtn.Location = new System.Drawing.Point(1007, 551);
             this.SaveBtn.Name = "SaveBtn";
             this.SaveBtn.Size = new System.Drawing.Size(73, 33);
             this.SaveBtn.TabIndex = 15;
@@ -266,9 +266,9 @@
             this.SpellFlow.AutoScroll = true;
             this.SpellFlow.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.SpellFlow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.SpellFlow.Location = new System.Drawing.Point(413, 155);
+            this.SpellFlow.Location = new System.Drawing.Point(537, 155);
             this.SpellFlow.Name = "SpellFlow";
-            this.SpellFlow.Size = new System.Drawing.Size(387, 196);
+            this.SpellFlow.Size = new System.Drawing.Size(543, 390);
             this.SpellFlow.TabIndex = 16;
             // 
             // InventoryFlow
@@ -282,12 +282,12 @@
             this.InventoryFlow.Enabled = false;
             this.InventoryFlow.Location = new System.Drawing.Point(3, 155);
             this.InventoryFlow.Name = "InventoryFlow";
-            this.InventoryFlow.Size = new System.Drawing.Size(401, 196);
+            this.InventoryFlow.Size = new System.Drawing.Size(529, 390);
             this.InventoryFlow.TabIndex = 17;
             // 
             // SpellBtn
             // 
-            this.SpellBtn.Location = new System.Drawing.Point(413, 352);
+            this.SpellBtn.Location = new System.Drawing.Point(537, 551);
             this.SpellBtn.Name = "SpellBtn";
             this.SpellBtn.Size = new System.Drawing.Size(100, 33);
             this.SpellBtn.TabIndex = 18;
@@ -297,7 +297,7 @@
             // 
             // ItemBtn
             // 
-            this.ItemBtn.Location = new System.Drawing.Point(3, 352);
+            this.ItemBtn.Location = new System.Drawing.Point(6, 551);
             this.ItemBtn.Name = "ItemBtn";
             this.ItemBtn.Size = new System.Drawing.Size(100, 33);
             this.ItemBtn.TabIndex = 19;
@@ -318,7 +318,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(409, 132);
+            this.label9.Location = new System.Drawing.Point(533, 132);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(58, 20);
             this.label9.TabIndex = 21;
@@ -972,7 +972,7 @@
             // 
             // SaveUpdateBtn
             // 
-            this.SaveUpdateBtn.Location = new System.Drawing.Point(636, 352);
+            this.SaveUpdateBtn.Location = new System.Drawing.Point(917, 551);
             this.SaveUpdateBtn.Name = "SaveUpdateBtn";
             this.SaveUpdateBtn.Size = new System.Drawing.Size(85, 33);
             this.SaveUpdateBtn.TabIndex = 29;
@@ -1069,7 +1069,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.AblityScoresGroupBox);
             this.Name = "ProfileControl";
-            this.Size = new System.Drawing.Size(802, 388);
+            this.Size = new System.Drawing.Size(1083, 587);
             this.Load += new System.EventHandler(this.ProfileControl_Load);
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).EndInit();
             this.AblityScoresGroupBox.ResumeLayout(false);
