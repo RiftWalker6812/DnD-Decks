@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Rpg_Decks.Card_System;
 
 namespace Rpg_Decks.JsonProfiling
 {
@@ -25,6 +26,7 @@ namespace Rpg_Decks.JsonProfiling
         public Ability Intelligince { get; set; }
         public Ability Wisdom { get; set; }
         public Ability Charisma { get; set; }
+        public List<Spell> SpellCardsV { get; set; }
     }
 
     public partial class Ability

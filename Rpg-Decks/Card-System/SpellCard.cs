@@ -16,9 +16,12 @@ namespace Rpg_Decks.Card_System
         {
             InitializeComponent();
         }
+        public Spell SpellVariable { get; set; }
         public SpellCard(Spell spell)
         {
             InitializeComponent();
+
+            SpellVariable = spell;
 
             //CardControl Name
             Name = spell.CardName;
@@ -35,11 +38,12 @@ namespace Rpg_Decks.Card_System
             HigherDescBox.Text = spell.AtHigherLevels;
             if (string.IsNullOrEmpty(spell.AtHigherLevels))
             {
-                DescriptionBox.Width = 177;
-                DescriptionBox.Height = 138;
+                DescriptionBox.Width = 191;
+                DescriptionBox.Height = 153;
             }
             ClassBox.Text = spell.Catagory;
 
+            DurationBox.Text = spell.Duration;
             ConcenLabel.Visible = spell.Concentration;
             ritualLabel.Visible = spell.Ritual;
 

@@ -83,6 +83,18 @@ namespace Rpg_Decks.UserControls
             ChaBonus.Value = TemporalData.Charisma.Bonus;
             ChaSaving.Value = TemporalData.Charisma.Saving;
 
+            //clears spells
+            SpellFlow.Controls.Clear();
+            if (TemporalData.SpellCardsV != null)
+            {
+                foreach (Spell card in TemporalData.SpellCardsV)
+                {
+                    SpellCard spellCard = new SpellCard(card);
+                    SpellFlow.Controls.Add(spellCard);
+                }
+            }
+            else { SpellFlow.Controls.Clear(); }
+
             HpBarCalculation();
         }
 
@@ -151,6 +163,13 @@ namespace Rpg_Decks.UserControls
             TemporalProfile.Charisma.Score = (int)ChaScore.Value;
             TemporalProfile.Charisma.Bonus = (int)ChaBonus.Value;
             TemporalProfile.Charisma.Saving = (int)ChaSaving.Value;
+
+            //retrieves spellscards
+            TemporalProfile.SpellCardsV = new List<Spell>();
+            foreach (SpellCard card in SpellFlow.Controls)
+            {
+                TemporalProfile.SpellCardsV.Add(card.SpellVariable);
+            }
 
             return TemporalProfile;
         }
