@@ -63,7 +63,7 @@
             this.ExitBtn.FlatAppearance.BorderColor = System.Drawing.Color.Black;
             this.ExitBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ExitBtn.Font = new System.Drawing.Font("Microsoft YaHei UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ExitBtn.Location = new System.Drawing.Point(542, 12);
+            this.ExitBtn.Location = new System.Drawing.Point(616, 12);
             this.ExitBtn.Name = "ExitBtn";
             this.ExitBtn.Size = new System.Drawing.Size(49, 31);
             this.ExitBtn.TabIndex = 2;
@@ -79,7 +79,7 @@
             this.CardFlow.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.CardFlow.Location = new System.Drawing.Point(12, 69);
             this.CardFlow.Name = "CardFlow";
-            this.CardFlow.Size = new System.Drawing.Size(579, 503);
+            this.CardFlow.Size = new System.Drawing.Size(653, 503);
             this.CardFlow.TabIndex = 3;
             // 
             // SpellsForm
@@ -87,7 +87,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.ClientSize = new System.Drawing.Size(603, 584);
+            this.ClientSize = new System.Drawing.Size(677, 584);
             this.Controls.Add(this.CardFlow);
             this.Controls.Add(this.ExitBtn);
             this.Controls.Add(this.AddNewBtn);
