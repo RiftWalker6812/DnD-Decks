@@ -25,7 +25,6 @@ namespace Rpg_Decks
             //Future Note: Add StringPath accessability so that class can be called with stringpath                      
             IdCounter++;
             StreamReader stream;
-
             
             stream = new StreamReader(tempPath);
             string result = stream.ReadToEnd();
