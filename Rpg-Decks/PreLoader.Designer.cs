@@ -33,7 +33,9 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.DataLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // PreLoadBar
@@ -66,6 +68,7 @@
             this.PreLoadBar.TabIndex = 0;
             this.PreLoadBar.Text = "0%";
             this.PreLoadBar.TextMargin = new System.Windows.Forms.Padding(8, 8, 0, 0);
+            this.PreLoadBar.Value = 68;
             // 
             // pictureBox1
             // 
@@ -96,7 +99,17 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 16);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Beta V0.204";
+            this.label1.Text = "Beta V0.228";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Rpg_Decks.Properties.Resources.DecksLogo;
+            this.pictureBox2.Location = new System.Drawing.Point(580, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(139, 163);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 4;
+            this.pictureBox2.TabStop = false;
             // 
             // PreLoader
             // 
@@ -104,6 +117,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(38)))), ((int)(((byte)(38)))));
             this.ClientSize = new System.Drawing.Size(731, 377);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.PreLoadBar);
@@ -113,9 +127,9 @@
             this.Opacity = 0.97D;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "PreLoader";
-           
             this.Shown += new System.EventHandler(this.PreLoader_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -127,5 +141,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label DataLabel;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }
