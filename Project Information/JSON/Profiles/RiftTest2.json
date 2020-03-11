@@ -1,0 +1,110 @@
+{
+  "ProType": {
+    "TempId": 2,
+    "ProfileName": "Ranger",
+    "HitDie": "1d4",
+    "RpgClass": "Wizard",
+    "Level": 1,
+    "XpValue": 259.0,
+    "HpValue": 4,
+    "HpMax": 0,
+    "Proficiency": 3,
+    "Ac": 13,
+    "Skills": [
+      "Survival",
+      "Stealth"
+    ],
+    "Strength": {
+      "Score": 14,
+      "Bonus": 3,
+      "Saving": 3
+    },
+    "Dexterety": {
+      "Score": 15,
+      "Bonus": 4,
+      "Saving": 3
+    },
+    "Constitution": {
+      "Score": 13,
+      "Bonus": 2,
+      "Saving": 2
+    },
+    "Intelligince": {
+      "Score": 13,
+      "Bonus": 0,
+      "Saving": 2
+    },
+    "Wisdom": {
+      "Score": 14,
+      "Bonus": 2,
+      "Saving": 2
+    },
+    "Charisma": {
+      "Score": 10,
+      "Bonus": 1,
+      "Saving": 1
+    },
+    "SpellCardsV": [
+      {
+        "CardName": "Absorb Elements",
+        "Level": "1st-Level",
+        "School": "Abjuration",
+        "CastingTime": "1 action",
+        "Range": "Self",
+        "Components": "S",
+        "Materials": null,
+        "Duration": "1 round",
+        "Description": "The spell captures some of the incoming energy, lessening its effect on you and storing it for your next melee attack. You have resistance to the triggering damage type until the start of your next turn. Also, the first time you hit with a melee attack on your next turn, the target takes an extra 1d6 damage of the triggering type, and the spell ends.",
+        "AtHigherLevels": "When you cast this spell using a spell slot of 2nd Level or higher, the extra damage increases by 1d6 for each slot Level above 1st.",
+        "Catagory": "Druid, Ranger, Wizard",
+        "Concentration": false,
+        "Ritual": false
+      },
+      {
+        "CardName": "Alarm",
+        "Level": "1st-Level",
+        "School": "Abjuration",
+        "CastingTime": "1 minute",
+        "Range": "30 feet",
+        "Components": "V, S, M",
+        "Materials": "A tiny bell and a piece of fine silver wire.",
+        "Duration": "8 hours",
+        "Description": "You set an alarm against unwanted intrusion. Choose a door, a window, or an area within Range that is no larger than a 20-foot cube. Until the spell ends, an alarm alerts you whenever a Tiny or larger creature touches or enters the warded area. When you cast the spell, you can designate creatures that won’t set off the alarm. You also choose whether the alarm is mental or audible.A mental alarm alerts you with a ping in your mind if you are within 1 mile of the warded area. This ping awakens you if you are sleeping.An audible alarm produces the sound of a hand bell for 10 seconds within 60 feet.",
+        "AtHigherLevels": null,
+        "Catagory": "Ranger, Ritual Caster, Wizard",
+        "Concentration": false,
+        "Ritual": true
+      },
+      {
+        "CardName": "Abi-Dalzim's Horrid Wilting",
+        "Level": "8th-Level",
+        "School": "Necromancy",
+        "CastingTime": "1 action",
+        "Range": "150 feet",
+        "Components": "V, S, M",
+        "Materials": "A bit of sponge.",
+        "Duration": "Instantaneous",
+        "Description": "You draw the moisture from every creature in a 30-foot cube centered on a point you choose within Range. Each creature in that area must make a Constitution saving throw. Constructs and undead aren't affected, and plants and water elementals make this saving throw with disadvantage. A creature takes 10d8 necrotic damage on a failed save, or half as much damage on a successful one.You hurl a bubble of acid. Choose one creature within Range, or choose two creatures within Range that are within 5 feet of each other. A target must succeed on a Dexterity saving throw or take 1d6 acid damage.This spells damage increases by 1d6 when you reach 5th Level (2d6), 11th Level (3d6) and 17th Level (4d6).",
+        "AtHigherLevels": null,
+        "Catagory": "Sorcerer, Wizard",
+        "Concentration": false,
+        "Ritual": false
+      },
+      {
+        "CardName": "Animate Objects",
+        "Level": "5th-Level",
+        "School": "Transmutation",
+        "CastingTime": "1 action",
+        "Range": "120 feet",
+        "Components": "V, S",
+        "Materials": null,
+        "Duration": "Up to 1 minute",
+        "Description": "Objects come to life at your command. Choose up to ten nonmagical objects within Range that are not being worn or carried. Medium targets count as two objects, Large targets count as four objects, Huge targets count as eight objects. You can’t animate any object larger than Huge. Each target animates and becomes a creature under your control until the spell ends or until reduced to 0 hit points.As a bonus action, you can mentally command any creature you made with this spell if the creature is within 500 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.An animated object is a construct with AC, hit points, attacks, Strength, and Dexterity determined by its size. Its Constitution is 10 and its Intelligence and Wisdom are 3, and its Charisma is 1. Its speed is 30 feet; if the object lacks legs or other appendages it can use for locomotion, it instead has a flying speed of 30 feet and can hover. If the object is securely attached to a surface or a larger object, such as a chain bolted to a wall, its speed is 0. It has blindsight with a radius of 30 feet and is blind beyond that distance. When the animated object drops to 0 hit points, it reverts to its original object form, and any remaining damage carries over to its original object form.If you command an object to attack, it can make a single melee attack against a creature within 5 feet of it. It makes a slam attack with an attack bonus and bludgeoning damage determined by its size. The DM might rule that a specific object inflicts slashing or piercing damage based on its form.",
+        "AtHigherLevels": "If you cast this spell using a spell slot of 6th Level or higher, you can animate two additional objects for each slot Level above 5th.",
+        "Catagory": "Bard, Sorcerer, Wizard",
+        "Concentration": true,
+        "Ritual": false
+      }
+    ]
+  }
+}

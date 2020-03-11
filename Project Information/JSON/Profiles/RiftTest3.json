@@ -1,23 +1,21 @@
 {
   "ProType": {
-
-    "ProfileName": "Rift",
+    "TempId": 3,
+    "ProfileName": "Paladin",
     "HitDie": "1d4",
-
     "RpgClass": "Wizard",
-    "Level": 5,
-    "XpValue": 259.00,
-
+    "Level": 1,
+    "XpValue": 259.0,
     "HpValue": 4,
+    "HpMax": 0,
     "Proficiency": 3,
-    "AC": 13,
-
+    "Ac": 13,
     "Skills": [
       "Survival",
+      "Stealth",
+      "Survival",
       "Stealth"
-
     ],
-
     "Strength": {
       "Score": 14,
       "Bonus": 3,
@@ -47,7 +45,7 @@
       "Score": 10,
       "Bonus": 1,
       "Saving": 1
-    }
+    },
+    "SpellCardsV": []
   }
-
 }

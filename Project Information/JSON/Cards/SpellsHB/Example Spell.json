@@ -1,0 +1,15 @@
+{
+      "CardName": "Example",
+      "Description": "for test",
+      "page": "phb 215",
+      "Range": "Self",
+      "Components": "V, S, M",
+      "Materials": "C# and JSON",
+      "Ritual": false,
+      "Duration": "Until dispelled",
+      "Concentration": false,
+      "CastingTime": "1 action",
+      "Level": "10th-Level",
+      "School": "Programming",
+      "Catagory": "Json.Net user"
+}
