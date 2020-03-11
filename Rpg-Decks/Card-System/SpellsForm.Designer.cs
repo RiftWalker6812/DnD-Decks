@@ -34,6 +34,7 @@
             this.CardFlow = new System.Windows.Forms.FlowLayoutPanel();
             this.LevelFilter = new System.Windows.Forms.ComboBox();
             this.NameFilter = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // InvLabel
@@ -95,12 +96,26 @@
             "3rd-Level",
             "4th-Level",
             "5th-Level",
-            "6th-Level"});
+            "6th-Level",
+            "7th-Level",
+            "8th-Level",
+            "9th-Level",
+            "10th-Level",
+            "11th-Level",
+            "12th-Level",
+            "13th-Level",
+            "14th-Level",
+            "15th-Level",
+            "16th-Level",
+            "17th-Level",
+            "18th-Level",
+            "19th-Level",
+            "20th-Level"});
             this.LevelFilter.Location = new System.Drawing.Point(430, 34);
             this.LevelFilter.Name = "LevelFilter";
             this.LevelFilter.Size = new System.Drawing.Size(131, 21);
             this.LevelFilter.TabIndex = 4;
-            this.LevelFilter.TextUpdate += new System.EventHandler(this.LevelFilter_TextUpdate);
+            this.LevelFilter.Text = "Cantrip";
             this.LevelFilter.DropDownClosed += new System.EventHandler(this.LevelFilter_DropDownClosed);
             this.LevelFilter.TextChanged += new System.EventHandler(this.NameFilter_TextChanged);
             // 
@@ -110,7 +125,20 @@
             this.NameFilter.Name = "NameFilter";
             this.NameFilter.Size = new System.Drawing.Size(131, 20);
             this.NameFilter.TabIndex = 5;
+            this.NameFilter.Visible = false;
             this.NameFilter.TextChanged += new System.EventHandler(this.NameFilter_TextChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label1.Location = new System.Drawing.Point(333, 35);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(91, 16);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "Spell-Level:";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // SpellsForm
             // 
@@ -118,6 +146,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(677, 584);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.NameFilter);
             this.Controls.Add(this.LevelFilter);
             this.Controls.Add(this.CardFlow);
@@ -144,5 +173,6 @@
         private System.Windows.Forms.FlowLayoutPanel CardFlow;
         private System.Windows.Forms.ComboBox LevelFilter;
         private System.Windows.Forms.TextBox NameFilter;
+        private System.Windows.Forms.Label label1;
     }
 }

@@ -31,7 +31,7 @@ namespace Rpg_Decks
         {
             //pre-loads 400 pieces of data SRD
             GetCard.SpellList = new List<Spell>();
-           
+            
             //string[] Files = Directory.GetFiles(@"JSON\Cards\Spells\", "*.json");
 
             StreamReader reader1 = new StreamReader(@"JSON\Defualts\spellsSRD.json");
@@ -64,6 +64,8 @@ namespace Rpg_Decks
                 Thread.Sleep(10);
                 Refresh();
             }
+
+            GetCard.AllSpells(); //homebrew collection
             GetCard.spellsForm = new SpellsForm();
             GetCard.Form1 = new Form1();
             GetCard.Form1.Show();
@@ -73,7 +75,8 @@ namespace Rpg_Decks
 
         private void PreLoader_Shown(object sender, EventArgs e)
         {
-            PreLoading();          
+            PreLoading();
+                     
         }
     }
 }

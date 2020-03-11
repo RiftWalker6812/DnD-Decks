@@ -40,7 +40,7 @@
             // 
             // PreLoadBar
             // 
-            this.PreLoadBar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            this.PreLoadBar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.CircularEaseIn;
             this.PreLoadBar.AnimationSpeed = 500;
             this.PreLoadBar.BackColor = System.Drawing.Color.Transparent;
             this.PreLoadBar.Font = new System.Drawing.Font("Microsoft Sans Serif", 48F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -99,7 +99,7 @@
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(90, 16);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Beta V0.228";
+            this.label1.Text = "Beta V0.248";
             // 
             // pictureBox2
             // 

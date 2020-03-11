@@ -18,9 +18,7 @@ namespace Rpg_Decks
         {
             InitializeComponent();
             SpellLoad();
-        }
-
-        
+        }   
 
         private void ExitBtn_Click(object sender, EventArgs e)
         {
@@ -37,7 +35,6 @@ namespace Rpg_Decks
             foreach (Spell spell in GetCard.SpellList)
             {
                 SpellCard card = new SpellCard(spell);
-
                
                 listCards.Add(card);
 
@@ -71,7 +68,9 @@ namespace Rpg_Decks
             Refresh();
         }
 
-        public List<SpellCard> Cantrip, Level1, Level2, Level3, Level4, Level5;
+        public List<SpellCard> Cantrip, Level1, Level2, Level3, Level4, Level5,
+            Level6, Level7, Level8, Level9, Level10, Level11, Level12, Level13,
+            Level14, Level15, Level16, Level17, Level18, Level19, Level20;
         private void SpellsForm_Load(object sender, EventArgs e)
         {
             //list data foreach level
@@ -80,6 +79,24 @@ namespace Rpg_Decks
             Level2 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "2nd-Level"; });
             Level3 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "3rd-Level"; });
             Level4 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "4th-Level"; });
+            Level5 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "5th-Level"; });
+            Level6 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "6th-Level"; });
+            Level7 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "7th-Level"; });
+            Level8 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "8th-Level"; });
+            Level9 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "9th-Level"; });
+            Level10 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "10th-Level"; });
+            Level11 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "11th-Level"; });
+            Level12 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "12th-Level"; });
+            Level13 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "13th-Level"; });
+            Level14 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "14th-Level"; });
+            Level15 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "15th-Level"; });
+            Level16 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "16th-Level"; });
+            Level17 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "17th-Level"; });
+            Level18 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "18th-Level"; });
+            Level19 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "19th-Level"; });
+            Level20 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "20th-Level"; });
+            //clears original list for resource managment
+            listCards.Clear();
             //loads all controls
             foreach (SpellCard c in Cantrip)
             {  
@@ -115,8 +132,65 @@ namespace Rpg_Decks
                 case "2nd-Level":
                     EachLevel(Level2);
                     break;
-                    //case null:
-                    //    break;
+                case "3rd-Level":
+                    EachLevel(Level3);
+                    break;
+                case "4th-Level":
+                    EachLevel(Level4);
+                    break;
+                case "5th-Level":
+                    EachLevel(Level5);
+                    break;
+                case "6th-Level":
+                    EachLevel(Level6);
+                    break;
+                case "7th-Level":
+                    EachLevel(Level7);
+                    break;
+                case "8th-Level":
+                    EachLevel(Level8);
+                    break;
+                case "9th-Level":
+                    EachLevel(Level9);
+                    break;
+                case "10th-Level":
+                    EachLevel(Level10);
+                    break;
+                case "11th-Level":
+                    EachLevel(Level11);
+                    break;
+                case "12th-Level":
+                    EachLevel(Level12);
+                    break;
+                case "13th-Level":
+                    EachLevel(Level13);
+                    break;
+                case "14th-Level":
+                    EachLevel(Level14);
+                    break;
+                case "15th-Level":
+                    EachLevel(Level15);
+                    break;
+                case "16th-Level":
+                    EachLevel(Level16);
+                    break;
+                case "17th-Level":
+                    EachLevel(Level17);
+                    break;
+                case "18th-Level":
+                    EachLevel(Level18);
+                    break;
+                case "19th-Level":
+                    EachLevel(Level19);
+                    break;
+                case "20th-Level":
+                    EachLevel(Level20);
+                    break;
+                default:
+                    Console.WriteLine("Heh HET!");
+                    break;
+                //case null:
+                //    break;
             }
             CardFlow.Refresh();
         }
