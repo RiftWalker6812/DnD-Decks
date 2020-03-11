@@ -83,10 +83,10 @@
             // DataLabel
             // 
             this.DataLabel.AutoSize = true;
-            this.DataLabel.Font = new System.Drawing.Font("Irken", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataLabel.Font = new System.Drawing.Font("Lucida Console", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DataLabel.Location = new System.Drawing.Point(3, 9);
             this.DataLabel.Name = "DataLabel";
-            this.DataLabel.Size = new System.Drawing.Size(73, 20);
+            this.DataLabel.Size = new System.Drawing.Size(81, 19);
             this.DataLabel.TabIndex = 2;
             this.DataLabel.Text = "label1";
             // 
