@@ -141,7 +141,7 @@
             // 
             // ClassBox
             // 
-            this.ClassBox.Font = new System.Drawing.Font("Comic Sans MS", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClassBox.Font = new System.Drawing.Font("Comic Sans MS", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClassBox.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClassBox.Location = new System.Drawing.Point(2, 260);
             this.ClassBox.Name = "ClassBox";

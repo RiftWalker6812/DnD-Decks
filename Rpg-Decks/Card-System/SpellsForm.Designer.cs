@@ -101,6 +101,7 @@
             this.LevelFilter.Size = new System.Drawing.Size(131, 21);
             this.LevelFilter.TabIndex = 4;
             this.LevelFilter.TextUpdate += new System.EventHandler(this.LevelFilter_TextUpdate);
+            this.LevelFilter.DropDownClosed += new System.EventHandler(this.LevelFilter_DropDownClosed);
             this.LevelFilter.TextChanged += new System.EventHandler(this.NameFilter_TextChanged);
             // 
             // NameFilter

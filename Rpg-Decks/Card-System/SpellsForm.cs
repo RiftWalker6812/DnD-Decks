@@ -71,47 +71,68 @@ namespace Rpg_Decks
             Refresh();
         }
 
+        public List<SpellCard> Cantrip, Level1, Level2, Level3, Level4, Level5;
         private void SpellsForm_Load(object sender, EventArgs e)
         {
+            //list data foreach level
+            Cantrip = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "Cantrip"; });
+            Level1 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "1st-Level"; });
+            Level2 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "2nd-Level"; });
+            Level3 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "3rd-Level"; });
+            Level4 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "4th-Level"; });
             //loads all controls
-            foreach (SpellCard c in listCards)
-            {
+            foreach (SpellCard c in Cantrip)
+            {  
                 CardFlow.Controls.Add(c);
-
             }
         }
 
         private void NameFilter_TextChanged(object sender, EventArgs e)
         {
-            foreach (SpellCard spellCard in CardFlow.Controls)
-            {
-                if (spellCard.SpellLevel == NameFilter.Text)
-                {
-                    spellCard.Visible = true;
-                }
-                else { spellCard.Visible = false; }
-                CardFlow.Refresh();
-            }
+            //foreach (SpellCard spellCard in CardFlow.Controls)
+            //{
+            //    if (spellCard.SpellLevel == NameFilter.Text)
+            //    {
+            //        spellCard.Visible = true;
+            //    }
+            //    else { spellCard.Visible = false; }
+            //    CardFlow.Refresh();
+            //}
+        }
 
+        private void LevelFilter_DropDownClosed(object sender, EventArgs e)
+        {
+            CardFlow.Controls.Clear();
+
+            switch (LevelFilter.SelectedItem.ToString())
+            {
+                case "Cantrip":
+                    EachLevel(Cantrip);
+                    break;
+                case "1st-Level":
+                    EachLevel(Level1);
+                    break;
+                case "2nd-Level":
+                    EachLevel(Level2);
+                    break;
+                    //case null:
+                    //    break;
+            }
+            CardFlow.Refresh();
         }
 
         private void LevelFilter_TextUpdate(object sender, EventArgs e)
         {
             
-                foreach (SpellCard spellCard in CardFlow.Controls)
-                {
-                    if (spellCard.SpellLevel == LevelFilter.Text)
-                    {
-                        spellCard.Visible = true;
-                    }
-                    else { spellCard.Visible = false; }
-                     CardFlow.Refresh();
-                }
+        }
+        private void EachLevel(List<SpellCard> level)
+        {
+            foreach(SpellCard card in level)
+            {
+                CardFlow.Controls.Add(card);
+            }
+            CardFlow.Refresh();
             
-           
-            
-               
-           
         }
     }
 }
