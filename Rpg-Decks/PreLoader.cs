@@ -21,6 +21,7 @@ namespace Rpg_Decks
     {
         public PreLoader()
         {
+            //adds custom font
             InitializeComponent();
             PrivateFontCollection pfc = new PrivateFontCollection();
             pfc.AddFontFile(@"JSON\Defualts\Irken-Like.ttf");
@@ -39,7 +40,7 @@ namespace Rpg_Decks
             var SpellsListed = SpellListed.FromJson(reader1.ReadToEnd());
 
             List<string> jList = new List<string>();
-            foreach(Json j in SpellsListed.Json)
+            foreach(Json j in SpellsListed.Json)//conversions
             {
                 if (j != null)
                 {
@@ -50,19 +51,20 @@ namespace Rpg_Decks
             int count = 0;
             int countMax = jList.Count;
             PreLoadBar.Maximum = countMax;
-            foreach (string str in jList)
+            foreach (string str in jList)//conversions
             {
                 Spell spell = Spell.FromJson(str);
                 GetCard.SpellList.Add(spell);
 
                 count++;
                 PreLoadBar.Value = count;
+                //basic math for calculation percentage
                 string PreString = (((float)PreLoadBar.Value / PreLoadBar.Maximum) * 100).ToString("f2");
                 PreLoadBar.Text = PreString + "%";
                 DataLabel.Text = str;
 
-                Thread.Sleep(10);
-                Refresh();
+                Thread.Sleep(10); //wait for 0.0010 seconds
+                Refresh(); //loading bar smoothness
             }
 
             GetCard.AllSpells(); //homebrew collection

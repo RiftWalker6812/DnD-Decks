@@ -16,8 +16,11 @@ namespace Rpg_Decks.Card_System
         {
             InitializeComponent();
         }
+        //specal varialbes for easy spellcard usage
         public Spell SpellVariable { get; set; }
         public string SpellLevel { get; set; }
+
+        //Control formatting and setup for the card
         public SpellCard(Spell spell)
         {
             InitializeComponent();
@@ -55,9 +58,15 @@ namespace Rpg_Decks.Card_System
 
         private void SpellCard_DoubleClick(object sender, EventArgs e)
         {
+            //adds
             if (GetCard.Form1.ProControlU.SpellFlow.Controls.Contains(this) != true)
             {
                 GetCard.Form1.ProControlU.SpellFlow.Controls.Add(this);
+            }
+            //removes
+            else if(GetCard.Form1.ProControlU.SpellFlow.Controls.Contains(this) == true)
+            {
+                GetCard.Form1.ProControlU.SpellFlow.Controls.Remove(this);
             }
         }
     }
