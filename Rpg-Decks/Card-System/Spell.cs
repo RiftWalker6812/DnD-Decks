@@ -9,8 +9,6 @@ using System.Globalization;
 
 namespace Rpg_Decks.Card_System
 {
-    
-
     public partial class Spell
     {
         [JsonProperty("CardName")]
@@ -57,13 +55,10 @@ namespace Rpg_Decks.Card_System
         public static Spell FromJson(string json) => JsonConvert.DeserializeObject<Spell>(json, Converter.Settings);
     }
     
-
     public static class Serialize
     {
         public static string ToJson(this Spell self) => JsonConvert.SerializeObject(self, Formatting.Indented, Converter.Settings);
     }
-   
-    
 
     internal static class Converter
     {

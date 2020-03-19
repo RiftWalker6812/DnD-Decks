@@ -26,9 +26,7 @@ namespace Rpg_Decks
             GetFiles.IdPath = new Dictionary<int, string>();
             //empty profile for clearing
             //adding empty
-            emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");
-
-            
+            emptyProfile = GetFiles.GetjsonData(@"JSON\Defualts\DefPro.json");        
         }
  
         //On Load
@@ -36,11 +34,10 @@ namespace Rpg_Decks
         //  - call on Profile Spawner
         private void Form1_Load(object sender, EventArgs e)
         {
-            
-
             FormLoadingMethod();
         }
-        private void FormLoadingMethod()
+
+        public void FormLoadingMethod()
         {
             //clears Profiles list
             GetFiles.ProfilesList.Clear();
@@ -54,8 +51,7 @@ namespace Rpg_Decks
             ProControlU.SaveUpdateBtn.Enabled = false;
             saveUpdateTool.Enabled = false;
             SaveTool.Enabled = false;
-            ProControlU.Enabled = false;
-
+            //ProControlU.Enabled = false;
         }
 
         private void ProfileReg()
@@ -102,11 +98,21 @@ namespace Rpg_Decks
             }
             else if(TabConMain.SelectedTab == tabPage2)
             {
-                
+                if (DefaultProBool)
+                {
+                    ProControlU.SaveUpdateBtn.Enabled = true;
+                    saveUpdateTool.Enabled = true;
+                    SaveTool.Enabled = true;
+                }
             }
         }
+        //boolean profile booling
+        private bool DefaultProBool;
+
         public void LoadFunction(int id)
         {
+            ProControlU.DPbtn.Enabled = true;
+            DefaultProBool = false;
             if (TabConMain.SelectedTab != tabPage2) { Console.WriteLine("HET"); }
             else
             {
@@ -126,7 +132,9 @@ namespace Rpg_Decks
             }
         }
         public void LoadFunction()
-        {           
+        {
+            ProControlU.DPbtn.Enabled = false;
+            DefaultProBool = true;
             //Initializing
             ProControlU.DataLoader(emptyProfile);
             //switch tab

@@ -32,7 +32,10 @@ namespace Rpg_Decks.UserControls
             if(MainRadio.Checked == true) { hpMaxLabel.Visible = true; }
             else { hpMaxLabel.Visible = false; }
         }
+        
+        //temporal id variable profile location
         public int temporalId;
+
         public void DataLoader(RootProfile TemporalData)
         {
             //id for later
@@ -117,7 +120,7 @@ namespace Rpg_Decks.UserControls
             TemporalProfile.ProfileName = ProName.Text;
             TemporalProfile.HitDie = hitdiceTextBox.Text;
 
-            TemporalProfile.RpgClass = classComboBox.SelectedItem.ToString();
+            //TemporalProfile.RpgClass = classComboBox.SelectedItem.ToString();
             TemporalProfile.Level = (int)levelUpDown.Value;
             TemporalProfile.XpValue = XPText.Text.ToFloat();
             TemporalProfile.HpValue = (int)hpTextBox.Value;
@@ -296,6 +299,32 @@ namespace Rpg_Decks.UserControls
 
             GetCard.spellsForm.Visible = true;
         
+        }
+
+        //deletes profile
+        private void DPbtn_Click(object sender, EventArgs e)
+        {
+            //are you sure box
+            DialogResult dialog = MessageBox.Show("Are you sure you want to delete this profile!", "Delete Profile", MessageBoxButtons.YesNo);
+            if(dialog == DialogResult.Yes)
+            {
+                //deletion sequence
+                int deletionNum = temporalId;
+                string deletionStr = GetFiles.IdPath[deletionNum];
+                if(GetFiles.FileFind(deletionStr))
+                {
+                    deletionStr.DeletePath();
+                }
+                MessageBox.Show($"Deleted file in path {deletionStr}");
+                GetCard.Form1.TabConMain.SelectedIndex = 0;
+                GetCard.Form1.FormLoadingMethod();
+                GetCard.Form1.ProControlU.DPbtn.Enabled = false;
+            }
+            else if(dialog == DialogResult.No)
+            {
+                
+            }
+            
         }
     }
     

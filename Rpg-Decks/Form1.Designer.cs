@@ -148,6 +148,7 @@
             // FlowLayout
             // 
             this.FlowLayout.AutoScroll = true;
+            this.FlowLayout.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.FlowLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
@@ -169,6 +170,7 @@
             // ProControlU
             // 
             this.ProControlU.AutoScroll = true;
+            this.ProControlU.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ProControlU.BackColor = System.Drawing.SystemColors.Control;
             this.ProControlU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProControlU.Location = new System.Drawing.Point(0, 6);

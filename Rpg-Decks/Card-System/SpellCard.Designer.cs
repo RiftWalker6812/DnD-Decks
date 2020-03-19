@@ -57,6 +57,7 @@
             this.NameBox.TabIndex = 0;
             this.NameBox.Text = "NameLabel";
             this.NameBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.NameBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // LevelConjurBox
             // 
@@ -68,6 +69,7 @@
             this.LevelConjurBox.TabIndex = 1;
             this.LevelConjurBox.Text = "levelConLabel";
             this.LevelConjurBox.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LevelConjurBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // CastingBox
             // 
@@ -80,6 +82,7 @@
             this.CastingBox.TabIndex = 2;
             this.CastingBox.Text = "CastingLabel";
             this.CastingBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.CastingBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // RangeBox
             // 
@@ -92,6 +95,7 @@
             this.RangeBox.TabIndex = 3;
             this.RangeBox.Text = "RangeLabel";
             this.RangeBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.RangeBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // labelHigher
             // 
@@ -103,6 +107,7 @@
             this.labelHigher.TabIndex = 7;
             this.labelHigher.Text = "At Higher Levels";
             this.labelHigher.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.labelHigher.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // HigherDescBox
             // 
@@ -114,6 +119,7 @@
             this.HigherDescBox.TabIndex = 8;
             this.HigherDescBox.Text = "HigherLabel";
             this.HigherDescBox.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.HigherDescBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // DurationBox
             // 
@@ -126,6 +132,7 @@
             this.DurationBox.TabIndex = 10;
             this.DurationBox.Text = "DurationLabel";
             this.DurationBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.DurationBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // ComponentsBox
             // 
@@ -138,6 +145,7 @@
             this.ComponentsBox.TabIndex = 9;
             this.ComponentsBox.Text = "CompLabel";
             this.ComponentsBox.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.ComponentsBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // ClassBox
             // 
@@ -149,6 +157,7 @@
             this.ClassBox.TabIndex = 11;
             this.ClassBox.Text = "Class";
             this.ClassBox.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.ClassBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // ConcenLabel
             // 
@@ -161,6 +170,7 @@
             this.ConcenLabel.TabIndex = 12;
             this.ConcenLabel.Text = "C";
             this.ConcenLabel.Visible = false;
+            this.ConcenLabel.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // ritualLabel
             // 
@@ -173,6 +183,7 @@
             this.ritualLabel.TabIndex = 13;
             this.ritualLabel.Text = "R";
             this.ritualLabel.Visible = false;
+            this.ritualLabel.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // label1
             // 
@@ -184,6 +195,7 @@
             this.label1.Size = new System.Drawing.Size(80, 13);
             this.label1.TabIndex = 15;
             this.label1.Text = "Casting Time";
+            this.label1.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // label2
             // 
@@ -196,6 +208,7 @@
             this.label2.TabIndex = 16;
             this.label2.Text = "Range";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label2.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // label3
             // 
@@ -208,6 +221,7 @@
             this.label3.TabIndex = 17;
             this.label3.Text = "Components";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label3.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // label4
             // 
@@ -220,6 +234,7 @@
             this.label4.TabIndex = 18;
             this.label4.Text = "Duration";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label4.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // DescriptionBox
             // 
@@ -231,6 +246,7 @@
             this.DescriptionBox.Size = new System.Drawing.Size(191, 88);
             this.DescriptionBox.TabIndex = 19;
             this.DescriptionBox.Text = "";
+            this.DescriptionBox.DoubleClick += new System.EventHandler(this.SpellCard_DoubleClick);
             // 
             // SpellCard
             // 

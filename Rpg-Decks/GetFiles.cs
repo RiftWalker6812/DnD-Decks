@@ -17,6 +17,7 @@ namespace Rpg_Decks
 
         public static string path = @"JSON\Profiles\";
 
+        //paths
         public static Dictionary<int, string> IdPath { get; set; }
         public static int IdCounter { get; set; }
 
@@ -91,6 +92,11 @@ namespace Rpg_Decks
 
         }
 
+        //deletion extension
+        public static void DeletePath(this string path)
+        {
+            File.Delete(path);
+        }
       
 
         //made and extension method for effieciency

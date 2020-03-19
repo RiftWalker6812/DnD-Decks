@@ -99,6 +99,7 @@
             this.HpMaxValueBox = new System.Windows.Forms.NumericUpDown();
             this.hpMaxLabel = new System.Windows.Forms.Label();
             this.XPText = new System.Windows.Forms.NumericUpDown();
+            this.DPbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.levelUpDown)).BeginInit();
             this.AblityScoresGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ChaSaving)).BeginInit();
@@ -351,7 +352,7 @@
             this.AblityScoresGroupBox.Controls.Add(this.StrBonus);
             this.AblityScoresGroupBox.Controls.Add(this.label11);
             this.AblityScoresGroupBox.Controls.Add(this.StrScore);
-            this.AblityScoresGroupBox.Location = new System.Drawing.Point(758, 19);
+            this.AblityScoresGroupBox.Location = new System.Drawing.Point(1071, 82);
             this.AblityScoresGroupBox.Name = "AblityScoresGroupBox";
             this.AblityScoresGroupBox.Size = new System.Drawing.Size(10, 10);
             this.AblityScoresGroupBox.TabIndex = 22;
@@ -734,7 +735,7 @@
             this.groupBox2.Controls.Add(this.TraitRadio);
             this.groupBox2.Controls.Add(this.SkillRadio);
             this.groupBox2.Controls.Add(this.ScoreRadio);
-            this.groupBox2.Location = new System.Drawing.Point(758, 3);
+            this.groupBox2.Location = new System.Drawing.Point(1071, 66);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(10, 10);
             this.groupBox2.TabIndex = 23;
@@ -821,7 +822,7 @@
             this.SkillsBox.Controls.Add(this.skillAdd);
             this.SkillsBox.Controls.Add(this.comboBox1);
             this.SkillsBox.Controls.Add(this.skillListBox);
-            this.SkillsBox.Location = new System.Drawing.Point(757, 19);
+            this.SkillsBox.Location = new System.Drawing.Point(1070, 82);
             this.SkillsBox.Name = "SkillsBox";
             this.SkillsBox.Size = new System.Drawing.Size(10, 10);
             this.SkillsBox.TabIndex = 26;
@@ -919,7 +920,7 @@
             this.TraitsBox.Controls.Add(this.TraitRichText);
             this.TraitsBox.Controls.Add(this.TraitName);
             this.TraitsBox.Controls.Add(this.TraitsListBox);
-            this.TraitsBox.Location = new System.Drawing.Point(757, 19);
+            this.TraitsBox.Location = new System.Drawing.Point(1070, 82);
             this.TraitsBox.Name = "TraitsBox";
             this.TraitsBox.Size = new System.Drawing.Size(10, 10);
             this.TraitsBox.TabIndex = 27;
@@ -1029,13 +1030,26 @@
             this.XPText.TabIndex = 34;
             this.XPText.ValueChanged += new System.EventHandler(this.XPText_TextChanged);
             // 
+            // DPbtn
+            // 
+            this.DPbtn.Enabled = false;
+            this.DPbtn.Location = new System.Drawing.Point(1029, 3);
+            this.DPbtn.Name = "DPbtn";
+            this.DPbtn.Size = new System.Drawing.Size(51, 41);
+            this.DPbtn.TabIndex = 35;
+            this.DPbtn.Text = "Delete Profile";
+            this.DPbtn.UseVisualStyleBackColor = true;
+            this.DPbtn.Click += new System.EventHandler(this.DPbtn_Click);
+            // 
             // ProfileControl
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Controls.Add(this.DPbtn);
             this.Controls.Add(this.XPText);
             this.Controls.Add(this.hpMaxLabel);
             this.Controls.Add(this.HpMaxValueBox);
@@ -1180,5 +1194,7 @@
         public System.Windows.Forms.ComboBox classComboBox;
         private System.Windows.Forms.NumericUpDown XPText;
         public System.Windows.Forms.FlowLayoutPanel SpellFlow;
+        private System.Windows.Forms.Button DeleteProfileBtn;
+        public System.Windows.Forms.Button DPbtn;
     }
 }

@@ -53,7 +53,6 @@ namespace Rpg_Decks.Card_System
             DurationBox.Text = spell.Duration;
             ConcenLabel.Visible = spell.Concentration;
             ritualLabel.Visible = spell.Ritual;
-
         }
 
         private void SpellCard_DoubleClick(object sender, EventArgs e)
