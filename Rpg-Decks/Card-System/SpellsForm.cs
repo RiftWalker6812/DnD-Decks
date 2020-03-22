@@ -71,6 +71,13 @@ namespace Rpg_Decks
         public List<SpellCard> Cantrip, Level1, Level2, Level3, Level4, Level5,
             Level6, Level7, Level8, Level9, Level10, Level11, Level12, Level13,
             Level14, Level15, Level16, Level17, Level18, Level19, Level20;
+
+        private void AddNewBtn_Click(object sender, EventArgs e)
+        {
+            NewCardForm form = new NewCardForm();
+            form.ShowDialog();
+        }
+
         private void SpellsForm_Load(object sender, EventArgs e)
         {
             //list data foreach level
@@ -95,6 +102,7 @@ namespace Rpg_Decks
             Level18 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "18th-Level"; });
             Level19 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "19th-Level"; });
             Level20 = listCards.FindAll(delegate (SpellCard s) { return s.SpellLevel == "20th-Level"; });
+            
             //clears original list for resource managment
             listCards.Clear();
             //loads all controls
@@ -116,7 +124,7 @@ namespace Rpg_Decks
             //    CardFlow.Refresh();
             //}
         }
-
+        
         private void LevelFilter_DropDownClosed(object sender, EventArgs e)
         {
             CardFlow.Controls.Clear();
@@ -186,6 +194,9 @@ namespace Rpg_Decks
                 case "20th-Level":
                     EachLevel(Level20);
                     break;
+                //case "HomeBrew":
+                //    EachLevel(HomeBrew);
+                //    break;
                 default:
                     Console.WriteLine("Heh HET!");
                     break;

@@ -59,6 +59,7 @@
             this.AddNewBtn.TabIndex = 1;
             this.AddNewBtn.Text = "Add New Card";
             this.AddNewBtn.UseVisualStyleBackColor = true;
+            this.AddNewBtn.Click += new System.EventHandler(this.AddNewBtn_Click);
             // 
             // ExitBtn
             // 
