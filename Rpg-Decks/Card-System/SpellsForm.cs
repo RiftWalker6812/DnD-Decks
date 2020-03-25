@@ -72,6 +72,33 @@ namespace Rpg_Decks
             Level6, Level7, Level8, Level9, Level10, Level11, Level12, Level13,
             Level14, Level15, Level16, Level17, Level18, Level19, Level20;
 
+        private void ClassFiltering_TextChanged(object sender, EventArgs e)
+        {
+            if (!string.IsNullOrEmpty(ClassFiltering.Text))
+            {
+                foreach (SpellCard con in CardFlow.Controls)
+                {
+                    if (con.ClassBox.Text.Contains(ClassFiltering.Text) || con.ClassBox.Text.Contains(ClassFiltering.Text + ","))
+                    {
+                        con.Visible = true;
+                        
+                    }
+                    else
+                    {
+                        con.Visible = false;
+                    }
+                }
+            }
+            else
+            {
+                foreach(SpellCard card in CardFlow.Controls)
+                {
+                    card.Visible = true;
+                }
+            }
+            Refresh();
+        }
+
         private void AddNewBtn_Click(object sender, EventArgs e)
         {
             NewCardForm form = new NewCardForm();

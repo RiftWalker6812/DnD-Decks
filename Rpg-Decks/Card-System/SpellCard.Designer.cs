@@ -288,7 +288,6 @@
         private System.Windows.Forms.Label HigherDescBox;
         private System.Windows.Forms.Label DurationBox;
         private System.Windows.Forms.Label ComponentsBox;
-        private System.Windows.Forms.Label ClassBox;
         private System.Windows.Forms.Label ConcenLabel;
         private System.Windows.Forms.Label ritualLabel;
         private System.Windows.Forms.Label label1;
@@ -296,5 +295,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.RichTextBox DescriptionBox;
+        public System.Windows.Forms.Label ClassBox;
     }
 }

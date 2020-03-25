@@ -36,6 +36,7 @@
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.newSpellCardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TabConMain = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.FlowLayout = new System.Windows.Forms.FlowLayoutPanel();
@@ -102,7 +103,8 @@
             this.windowsToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.windowsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.toolStripMenuItem2});
+            this.toolStripMenuItem2,
+            this.newSpellCardToolStripMenuItem});
             this.windowsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
@@ -121,6 +123,13 @@
             this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
             this.toolStripMenuItem2.Text = "toolStripMenuItem2";
             // 
+            // newSpellCardToolStripMenuItem
+            // 
+            this.newSpellCardToolStripMenuItem.Name = "newSpellCardToolStripMenuItem";
+            this.newSpellCardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newSpellCardToolStripMenuItem.Text = "New SpellCard";
+            this.newSpellCardToolStripMenuItem.Click += new System.EventHandler(this.newSpellCardToolStripMenuItem_Click);
+            // 
             // TabConMain
             // 
             this.TabConMain.Controls.Add(this.tabPage1);
@@ -136,6 +145,7 @@
             // 
             // tabPage1
             // 
+            this.tabPage1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.tabPage1.Controls.Add(this.FlowLayout);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
@@ -143,12 +153,12 @@
             this.tabPage1.Size = new System.Drawing.Size(1092, 603);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Selection Tab";
-            this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // FlowLayout
             // 
             this.FlowLayout.AutoScroll = true;
             this.FlowLayout.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.FlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.FlowLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
@@ -158,6 +168,7 @@
             // 
             // tabPage2
             // 
+            this.tabPage2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.tabPage2.Controls.Add(this.ProControlU);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
@@ -165,13 +176,12 @@
             this.tabPage2.Size = new System.Drawing.Size(1092, 603);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Profile Tab";
-            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // ProControlU
             // 
             this.ProControlU.AutoScroll = true;
             this.ProControlU.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.ProControlU.BackColor = System.Drawing.SystemColors.Control;
+            this.ProControlU.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.ProControlU.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.ProControlU.Location = new System.Drawing.Point(0, 6);
             this.ProControlU.Name = "ProControlU";
@@ -235,6 +245,7 @@
         public UserControls.ProfileControl ProControlU;
         private System.Windows.Forms.ToolStripMenuItem saveUpdateTool;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ToolStripMenuItem newSpellCardToolStripMenuItem;
     }
 }
 

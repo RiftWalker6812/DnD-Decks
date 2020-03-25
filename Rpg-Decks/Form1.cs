@@ -221,6 +221,12 @@ namespace Rpg_Decks
                 SendMessage(Handle, WM_NCLBUTTONDOWN, HT_CAPTION, 0);
             }
         }
+
+        private void newSpellCardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewCardForm form = new NewCardForm();
+            form.ShowDialog();
+        }
     }
 
     

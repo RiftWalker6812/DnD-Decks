@@ -82,6 +82,12 @@
     <Compile Include="Card-System\GetCard.cs" />
     <Compile Include="Card-System\Spell.cs" />
     <Compile Include="Card-System\SpellListed.cs" />
+    <Compile Include="DiceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DiceForm.Designer.cs">
+      <DependentUpon>DiceForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Card-System\SpellCard.resx">
       <DependentUpon>SpellCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DiceForm.resx">
+      <DependentUpon>DiceForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

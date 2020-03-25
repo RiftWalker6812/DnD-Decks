@@ -75,6 +75,7 @@
             this.AddLevel = new System.Windows.Forms.ComboBox();
             this.AddMaterials = new System.Windows.Forms.RichTextBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.label19 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -656,12 +657,24 @@
             this.label16.TabIndex = 58;
             this.label16.Text = "Materials";
             // 
+            // label19
+            // 
+            this.label19.AutoSize = true;
+            this.label19.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.label19.Location = new System.Drawing.Point(342, 414);
+            this.label19.Name = "label19";
+            this.label19.Size = new System.Drawing.Size(389, 13);
+            this.label19.TabIndex = 59;
+            this.label19.Text = "Please note that to delete a card you will have to do it manually in the file exp" +
+    "lorer";
+            // 
             // NewCardForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
             this.ClientSize = new System.Drawing.Size(797, 436);
+            this.Controls.Add(this.label19);
             this.Controls.Add(this.label16);
             this.Controls.Add(this.AddMaterials);
             this.Controls.Add(this.AddLevel);
@@ -753,5 +766,6 @@
         private System.Windows.Forms.ComboBox AddLevel;
         private System.Windows.Forms.RichTextBox AddMaterials;
         private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label19;
     }
 }

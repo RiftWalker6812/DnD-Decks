@@ -61,7 +61,7 @@ namespace Rpg_Decks.Card_System
                     GetCard.spellsForm.Level6.Add(card);
                     break;
                 case "7th-Level":
-                    GetCard.spellsForm.Level7.Add(card);
+                    GetCard.spellsForm.Level7.Add(card); //error detected
                     break;
                 case "8th-Level":
                     GetCard.spellsForm.Level8.Add(card);
