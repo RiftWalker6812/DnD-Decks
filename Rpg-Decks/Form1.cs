@@ -227,6 +227,12 @@ namespace Rpg_Decks
             NewCardForm form = new NewCardForm();
             form.ShowDialog();
         }
+
+        private DiceForm DiceForm = new DiceForm();
+        private void diceFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            DiceForm.Visible =! DiceForm.Visible;
+        }
     }
 
     

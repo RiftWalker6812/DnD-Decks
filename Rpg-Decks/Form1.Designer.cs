@@ -43,6 +43,7 @@
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ProControlU = new Rpg_Decks.UserControls.ProfileControl();
             this.label1 = new System.Windows.Forms.Label();
+            this.diceFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.TabConMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -104,7 +105,8 @@
             this.windowsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
             this.toolStripMenuItem2,
-            this.newSpellCardToolStripMenuItem});
+            this.newSpellCardToolStripMenuItem,
+            this.diceFormToolStripMenuItem});
             this.windowsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
             this.windowsToolStripMenuItem.Size = new System.Drawing.Size(68, 20);
@@ -201,6 +203,13 @@
             this.label1.Text = "x";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // diceFormToolStripMenuItem
+            // 
+            this.diceFormToolStripMenuItem.Name = "diceFormToolStripMenuItem";
+            this.diceFormToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diceFormToolStripMenuItem.Text = "Dice Form";
+            this.diceFormToolStripMenuItem.Click += new System.EventHandler(this.diceFormToolStripMenuItem_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -246,6 +255,7 @@
         private System.Windows.Forms.ToolStripMenuItem saveUpdateTool;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem newSpellCardToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem diceFormToolStripMenuItem;
     }
 }
 
