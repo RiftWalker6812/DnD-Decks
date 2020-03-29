@@ -67,11 +67,30 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card-System\Item.cs" />
+    <Compile Include="Card-System\ItemCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Card-System\ItemCard.Designer.cs">
+      <DependentUpon>ItemCard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Card-System\ItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Card-System\ItemsForm.Designer.cs">
+      <DependentUpon>ItemsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Card-System\NewCardForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Card-System\NewCardForm.Designer.cs">
       <DependentUpon>NewCardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Card-System\NewItemForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Card-System\NewItemForm.Designer.cs">
+      <DependentUpon>NewItemForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Card-System\SpellCard.cs">
       <SubType>UserControl</SubType>
@@ -136,8 +155,17 @@
     <Compile Include="UserControls\ProfileControl.Designer.cs">
       <DependentUpon>ProfileControl.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Card-System\ItemCard.resx">
+      <DependentUpon>ItemCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Card-System\ItemsForm.resx">
+      <DependentUpon>ItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Card-System\NewCardForm.resx">
       <DependentUpon>NewCardForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Card-System\NewItemForm.resx">
+      <DependentUpon>NewItemForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Card-System\SpellCard.resx">
       <DependentUpon>SpellCard.cs</DependentUpon>

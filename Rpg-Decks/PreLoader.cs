@@ -69,6 +69,7 @@ namespace Rpg_Decks
 
             GetCard.AllSpells(); //homebrew collection
             GetCard.spellsForm = new SpellsForm();
+            GetCard.ItemsForm = new ItemsForm();
             GetCard.Form1 = new Form1();
             GetCard.Form1.Show();
             this.Visible = false;

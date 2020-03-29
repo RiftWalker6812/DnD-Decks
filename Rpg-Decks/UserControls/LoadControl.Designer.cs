@@ -36,6 +36,7 @@
             // 
             this.nameL.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.nameL.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nameL.ForeColor = System.Drawing.SystemColors.Control;
             this.nameL.Location = new System.Drawing.Point(13, 30);
             this.nameL.Name = "nameL";
             this.nameL.Size = new System.Drawing.Size(117, 53);

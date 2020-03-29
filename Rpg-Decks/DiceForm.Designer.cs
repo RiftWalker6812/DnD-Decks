@@ -61,7 +61,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe Script", 20.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label7.Location = new System.Drawing.Point(113, 10);
+            this.label7.Location = new System.Drawing.Point(115, 26);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(200, 44);
             this.label7.TabIndex = 42;
@@ -100,6 +100,7 @@
             this.Half.TabIndex = 48;
             this.Half.Text = "Half";
             this.Half.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.Half.Visible = false;
             this.Half.Click += new System.EventHandler(this.Half_Click);
             // 
             // Dsix
@@ -177,7 +178,7 @@
             this.Calculate.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.Calculate.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Calculate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Calculate.Location = new System.Drawing.Point(377, 268);
+            this.Calculate.Location = new System.Drawing.Point(377, 238);
             this.Calculate.Name = "Calculate";
             this.Calculate.Size = new System.Drawing.Size(63, 39);
             this.Calculate.TabIndex = 68;
@@ -204,7 +205,7 @@
             this.ClearBtn.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.ClearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ClearBtn.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClearBtn.Location = new System.Drawing.Point(377, 167);
+            this.ClearBtn.Location = new System.Drawing.Point(377, 187);
             this.ClearBtn.Name = "ClearBtn";
             this.ClearBtn.Size = new System.Drawing.Size(63, 38);
             this.ClearBtn.TabIndex = 69;

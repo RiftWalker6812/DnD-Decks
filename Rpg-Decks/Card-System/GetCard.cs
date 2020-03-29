@@ -11,7 +11,9 @@ namespace Rpg_Decks.Card_System
     public static class GetCard
     {
         public static List<Spell> SpellList { get; set; }
+        public static List<Item> ItemList { get; set; }
         public static SpellsForm spellsForm { get; set; }
+        public static ItemsForm ItemsForm { get; set; }
         public static Form1 Form1 { get; set; }
         public static List<Spell> HomeBrewList { get; set; }
 

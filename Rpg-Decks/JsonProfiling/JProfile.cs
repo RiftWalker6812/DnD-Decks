@@ -44,50 +44,17 @@ namespace QuickType
         public int HpValue { get; set; }
 
         [JsonProperty("Proficiency")]
-        public int Proficiency { get; set; }
-
-        [JsonProperty("AC", NullValueHandling = NullValueHandling.Ignore)]
-        public int Ac { get; set; }
-
-        [JsonProperty("Skills", NullValueHandling = NullValueHandling.Ignore)]
-        public List<string> Skills { get; set; }
-
-        [JsonProperty("Strength", NullValueHandling = NullValueHandling.Ignore)]
-        public Ability Strength { get; set; }
-
-        [JsonProperty("Dexterety", NullValueHandling = NullValueHandling.Ignore)]
-        public Ability Dexterety { get; set; }
-
-        [JsonProperty("Constitution", NullValueHandling = NullValueHandling.Ignore)]
-        public Ability Constitution { get; set; }
-
-        [JsonProperty("Intelligince", NullValueHandling = NullValueHandling.Ignore)]
-        public Ability Intelligince { get; set; }
-
-        [JsonProperty("Wisdom", NullValueHandling = NullValueHandling.Ignore)]
-        public Ability Wisdom { get; set; }
-
-        [JsonProperty("Charisma", NullValueHandling = NullValueHandling.Ignore)]
-        public Ability Charisma { get; set; }
+        public int Proficiency { get; set; }      
 
         [JsonProperty("HpMax", NullValueHandling = NullValueHandling.Ignore)]
         public int HpMax { get; set; }
 
         [JsonProperty("SpellCardsV", NullValueHandling = NullValueHandling.Ignore)]
         public List<Spell> SpellCardsV { get; set; }
-    }
 
-    public partial class Ability
-    {
-        [JsonProperty("Score")]
-        public int Score { get; set; }
-
-        [JsonProperty("Bonus")]
-        public int Bonus { get; set; }
-
-        [JsonProperty("Saving")]
-        public int Saving { get; set; }
-    }
+        [JsonProperty("ItemCardsV", NullValueHandling = NullValueHandling.Ignore)]
+        public List<Item> ItemCardsV { get; set; }
+    }  
 
     public partial class JProfile
     {

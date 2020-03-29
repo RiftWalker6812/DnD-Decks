@@ -35,15 +35,16 @@
             this.configToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.windowsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItemsBook = new System.Windows.Forms.ToolStripMenuItem();
             this.newSpellCardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.diceFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TabConMain = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.FlowLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.ProControlU = new Rpg_Decks.UserControls.ProfileControl();
             this.label1 = new System.Windows.Forms.Label();
-            this.diceFormToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newItemCardToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.TabConMain.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -81,14 +82,14 @@
             // SaveTool
             // 
             this.SaveTool.Name = "SaveTool";
-            this.SaveTool.Size = new System.Drawing.Size(141, 22);
+            this.SaveTool.Size = new System.Drawing.Size(180, 22);
             this.SaveTool.Text = "Save";
             this.SaveTool.Click += new System.EventHandler(this.SaveTool_Click);
             // 
             // saveUpdateTool
             // 
             this.saveUpdateTool.Name = "saveUpdateTool";
-            this.saveUpdateTool.Size = new System.Drawing.Size(141, 22);
+            this.saveUpdateTool.Size = new System.Drawing.Size(180, 22);
             this.saveUpdateTool.Text = "Save-Update";
             this.saveUpdateTool.Click += new System.EventHandler(this.SaveUpdateTool_Click);
             // 
@@ -104,8 +105,9 @@
             this.windowsToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
             this.windowsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuItem1,
-            this.toolStripMenuItem2,
+            this.toolStripMenuItemsBook,
             this.newSpellCardToolStripMenuItem,
+            this.newItemCardToolStripMenuItem,
             this.diceFormToolStripMenuItem});
             this.windowsToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.windowsToolStripMenuItem.Name = "windowsToolStripMenuItem";
@@ -119,11 +121,12 @@
             this.toolStripMenuItem1.Text = "SpellBook";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolStripMenuItem1_Click);
             // 
-            // toolStripMenuItem2
+            // toolStripMenuItemsBook
             // 
-            this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.toolStripMenuItem2.Text = "toolStripMenuItem2";
+            this.toolStripMenuItemsBook.Name = "toolStripMenuItemsBook";
+            this.toolStripMenuItemsBook.Size = new System.Drawing.Size(180, 22);
+            this.toolStripMenuItemsBook.Text = "ItemsBook";
+            this.toolStripMenuItemsBook.Click += new System.EventHandler(this.toolStripMenuItemsBook_Click);
             // 
             // newSpellCardToolStripMenuItem
             // 
@@ -131,6 +134,13 @@
             this.newSpellCardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.newSpellCardToolStripMenuItem.Text = "New SpellCard";
             this.newSpellCardToolStripMenuItem.Click += new System.EventHandler(this.newSpellCardToolStripMenuItem_Click);
+            // 
+            // diceFormToolStripMenuItem
+            // 
+            this.diceFormToolStripMenuItem.Name = "diceFormToolStripMenuItem";
+            this.diceFormToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.diceFormToolStripMenuItem.Text = "Dice Form";
+            this.diceFormToolStripMenuItem.Click += new System.EventHandler(this.diceFormToolStripMenuItem_Click);
             // 
             // TabConMain
             // 
@@ -160,7 +170,7 @@
             // 
             this.FlowLayout.AutoScroll = true;
             this.FlowLayout.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.FlowLayout.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(24)))), ((int)(((byte)(24)))));
+            this.FlowLayout.BackColor = System.Drawing.Color.Transparent;
             this.FlowLayout.Dock = System.Windows.Forms.DockStyle.Fill;
             this.FlowLayout.Location = new System.Drawing.Point(3, 3);
             this.FlowLayout.Name = "FlowLayout";
@@ -203,12 +213,12 @@
             this.label1.Text = "x";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // diceFormToolStripMenuItem
+            // newItemCardToolStripMenuItem
             // 
-            this.diceFormToolStripMenuItem.Name = "diceFormToolStripMenuItem";
-            this.diceFormToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.diceFormToolStripMenuItem.Text = "Dice Form";
-            this.diceFormToolStripMenuItem.Click += new System.EventHandler(this.diceFormToolStripMenuItem_Click);
+            this.newItemCardToolStripMenuItem.Name = "newItemCardToolStripMenuItem";
+            this.newItemCardToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.newItemCardToolStripMenuItem.Text = "New ItemCard";
+            this.newItemCardToolStripMenuItem.Click += new System.EventHandler(this.newItemCardToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -245,7 +255,7 @@
         private System.Windows.Forms.ToolStripMenuItem configToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem windowsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem2;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemsBook;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.FlowLayoutPanel FlowLayout;
         private System.Windows.Forms.ToolStripMenuItem SaveTool;
@@ -256,6 +266,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.ToolStripMenuItem newSpellCardToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem diceFormToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newItemCardToolStripMenuItem;
     }
 }
 

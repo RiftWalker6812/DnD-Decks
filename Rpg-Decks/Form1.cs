@@ -233,6 +233,17 @@ namespace Rpg_Decks
         {
             DiceForm.Visible =! DiceForm.Visible;
         }
+       // private ItemsForm ItemsForm = new ItemsForm();
+        private void toolStripMenuItemsBook_Click(object sender, EventArgs e)
+        {
+            GetCard.ItemsForm.Visible = !GetCard.ItemsForm.Visible;
+        }
+
+        private void newItemCardToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            NewItemForm newItem = new NewItemForm();
+            newItem.ShowDialog();
+        }
     }
 
     
